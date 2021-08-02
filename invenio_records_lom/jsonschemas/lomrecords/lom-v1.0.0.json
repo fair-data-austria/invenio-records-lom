@@ -1,27 +1,214 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://localhost/schemas/lomrecords/lom-v1.0.0.json",
-  "additionalProperties": false,
-  "title": "invenio-records-lom v1.0.0",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "http://localhost/schemas/records/lom-v1.0.0.json#",
+  "title": "LOM Schema v1.0.0",
   "type": "object",
+  "additionalProperties": false,
 
-  "properties": {
-    "$schema": {
-      "description": "This record's jsonschema.",
+  "definitions": {
+    "characterstring": {
       "type": "string"
     },
-    "id": {
-      "description": "Invenio record identifier (integer).",
+
+    "langstring": {
       "type": "string"
     },
-    "name": {
-      "description": "Author name.",
+
+    "state": {
       "type": "string"
     },
-    "organization": {
-      "description": "Organization the author belongs to.",
-      "type": "string"
+
+    "enumerated": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10
+    },
+
+    "0_to_infinity_characterstring": {
+      "type": "array",
+      "minItems": 0,
+      "uniqueItems": true,
+      "items": {"$ref": "#/definitions/characterstring"}
+    },
+
+    "0_to_infinity_langstring": {
+      "type": "array",
+      "minItems": 0,
+      "uniqueItems": true,
+      "items": {"$ref": "#/definitions/langstring"}
+    },
+
+    "arrayOfStrings": {
+      "type": "array",
+      "minItems": 0,
+      "uniqueItems": true,
+      "items": {"type": "string"}
+    },
+
+    "contribute": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "role": {"type": "string"},
+        "entity": {"$ref": "#/definitions/arrayOfStrings"},
+        "date": {"type": "string", "format": "date"}
+      }
+    },
+
+    "identifier": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "catalog": {"$ref": "#/definitions/langstring"},
+        "entry": {"$ref": "#/definitions/langstring"}
+      }
+    },
+
+    "orComposite": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {"type": "string"},
+        "name": {"type": "string"},
+        "minimumVersion": {"type": "string"},
+        "maximumVersion": {"type": "string"}
+      }
+    },
+
+    "requirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "orComposite": {"$ref": "#/definitions/orComposite"}
+      }
+    },
+
+    "taxonPath": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string"},
+        "entry": {"type": "string"}
+      }
+    },
+
+    "general": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": {"$ref": "#/definitions/langstring"},
+        "languages": {"$ref": "#/definitions/0_to_infinity_characterstring"},
+        "descriptions": {"$ref": "#/definitions/0_to_infinity_langstring"},
+        "keywords": {"$ref": "#/definitions/0_to_infinity_langstring"},
+        "coverages": {"$ref": "#/definitions/0_to_infinity_langstring"},
+        "structure": {"$ref": "#/definitions/state"},
+        "aggregationLevel": {"$ref": "#/definitions/enumerated"}
+      },
+      "required": ["structure", "aggregationLevel"]
+    },
+
+    "lifecycle": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "version": {"type": "string"},
+        "status": {"type": "string"},
+        "contribute": {"$ref": "#/definitions/contribute"}
+      }
+    },
+
+    "metaMetadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "metadataSchema": {"$ref": "#/definitions/arrayOfStrings"},
+        "identifier": {"$ref": "#/definitions/identifier"},
+        "contribute": {"$ref": "#/definitions/contribute"}
+      }
+    },
+
+    "technical": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "format": {"$ref": "#/definitions/arrayOfStrings"},
+        "size": {"type": "string"},
+        "location": {"$ref": "#/definitions/arrayOfStrings"},
+        "installationRemarks": {"$ref": "#/definitions/arrayOfStrings"},
+        "otherPlattformRequirements": {"$ref": "#/definitions/arrayOfStrings"},
+        "duration": {"type": "string"},
+        "requirement": {"$ref": "#/definitions/requirement"}
+      }
+    },
+
+    "educational": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "interactivityType": {"type": "string"},
+        "learningResourceType": {"$ref": "#/definitions/arrayOfStrings"},
+        "interactivityLevel": {"type": "number", "minimum": 0, "exclusiveMaximum": 11},
+        "semanticDensity": {"type": "number", "minimum": 0, "exclusiveMaximum": 11},
+        "intendedEndUserRole": {"$ref": "#/definitions/arrayOfStrings"},
+        "context": {"$ref": "#/definitions/arrayOfStrings"},
+        "typicalAgeRange": {"$ref": "#/definitions/arrayOfStrings"},
+        "semanticDensity": {"type": "number", "minimum": 0, "exclusiveMaximum": 11},
+        "typicalLearningTime": {"type": "string"},
+        "description": {"$ref": "#/definitions/arrayOfStrings"},
+        "language": {"$ref": "#/definitions/arrayOfStrings"}
+      }
+    },
+
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "cost": {"type": "string"},
+        "copyrightAndOtherRestrictions": {"type": "string"},
+        "description": {"$ref": "#/definitions/arrayOfStrings"}
+      }
+    },
+
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "kind": {"type": "string"},
+        "resource": {"$ref": "#/definitions/identifier"}
+      }
+    },
+
+    "annotation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "entity": {"type": "string"},
+        "date": {"type": "string", "format": "date"},
+        "description": {"type": "string"}
+      }
+    },
+
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "purpose": {"type": "string"},
+        "description": {"type": "string"},
+        "keyword": {"$ref": "#/definitions/arrayOfStrings"},
+        "taxonPath": {"$ref": "#/definitions/taxonPath"}
+      }
     }
   },
-  "required": ["id", "name", "$schema"]
+
+  "properties": {
+    "general": {"$ref": "#/definitions/general"},
+    "lifecycle": {"$ref": "#/definitions/lifecycle"},
+    "metaMetadata": {"$ref": "#/definitions/metaMetadata"},
+    "technical": {"$ref": "#/definitions/technical"},
+    "educational": {"$ref": "#/definitions/educational"},
+    "rights": {"$ref": "#/definitions/rights"},
+    "relation": {"$ref": "#/definitions/relation"},
+    "annotation": {"$ref": "#/definitions/annotation"},
+    "classification": {"$ref": "#/definitions/classification"}
+  }
 }
