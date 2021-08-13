@@ -12,4 +12,8 @@ from invenio_pidstore.fetchers import FetchedPID
 
 def lom_pid_fetcher(record_uuid, data):
     """Fetch lomrecord's identifier(PID)."""
-    return FetchedPID(provider=None, pid_type="lomid", pid_value=data['id'].lower())
+    return FetchedPID(
+        provider=None,
+        pid_type="lomid",
+        pid_value=data["id"].lower(),
+    )

@@ -51,15 +51,15 @@ LOM_REST_ENDPOINTS = {
 LOM_REST_SORT_OPTIONS = dict(
     lomrecords=dict(
         bestmatch=dict(
-            title=_('Best match'),
-            fields=['_score'],
-            default_order='desc',
+            title=_("Best match"),
+            fields=["_score"],
+            default_order="desc",
             order=1,
         ),
         mostrecent=dict(
-            title=_('Most recent'),
-            fields=['-_created'],
-            default_order='asc',
+            title=_("Most recent"),
+            fields=["-_created"],
+            default_order="asc",
             order=2,
         ),
     )
@@ -69,8 +69,8 @@ LOM_REST_SORT_OPTIONS = dict(
 
 LOM_REST_DEFAULT_SORT = dict(
     lomrecords=dict(
-        query='bestmatch',
-        noquery='mostrecent',
+        query="bestmatch",
+        noquery="mostrecent",
     )
 )
 """Set default sorting options."""
@@ -85,11 +85,11 @@ LOM_REST_DEFAULT_SORT = dict(
 LOM_REST_FACETS = dict(
     lomrecords=dict(
         aggs=dict(
-            organization=dict(terms=dict(field='organization'))
+            organization=dict(terms=dict(field="organization")),
         ),
         post_filters=dict(
-            organization=terms_filter('organization'),
-        )
+            organization=terms_filter("organization"),
+        ),
     )
 )
 """Introduce searching facets."""

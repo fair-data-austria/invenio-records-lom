@@ -45,7 +45,7 @@ def app(request):
         # SERVER_NAME='localhost:5000',
     )
 
-    app.url_map.converters['pid'] = PIDConverter
+    app.url_map.converters["pid"] = PIDConverter
 
     InvenioDB(app)
     InvenioPIDStore(app)

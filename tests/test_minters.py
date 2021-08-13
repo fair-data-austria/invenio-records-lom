@@ -25,5 +25,5 @@ def test_lom_pid_minter(app):
         pid = lom_pid_minter(rec_uuid, data)
 
         assert pid
-        assert pid.object_type == 'rec'
+        assert pid.object_type == "rec"
         assert pid.object_uuid == rec_uuid

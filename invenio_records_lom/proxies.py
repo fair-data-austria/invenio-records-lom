@@ -13,9 +13,11 @@ from flask import current_app
 from werkzeug.local import LocalProxy
 
 current_lomrecord = LocalProxy(
-    lambda: current_app.extensions["invenio-records-lom"])
+    lambda: current_app.extensions["invenio-records-lom"],
+)
 """Proxy to the extension."""
 
 Lom = LocalProxy(
-    lambda: current_app.extensions["invenio-records-lom"].lom_cls)
+    lambda: current_app.extensions["invenio-records-lom"].lom_cls,
+)
 """Proxy for current lom class."""

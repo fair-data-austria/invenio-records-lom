@@ -13,4 +13,4 @@ from blinker import Namespace
 
 _signals = Namespace()
 
-lomrecord_created = _signals.signal('lomrecord_created')
+lomrecord_created = _signals.signal("lomrecord_created")

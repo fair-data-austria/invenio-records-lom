@@ -24,10 +24,6 @@ from .signals import lomrecord_created
 # from invenio_records_lom.models import LomMetadata
 
 
-class LomRecordBase(Record):
-    """Lom record class."""
-
-
 # TODO: Move somewhere appropriate (`invenio-records-pidstore`)
 class PIDRecordMixin:
     """Persistent identifier mixin for records."""
@@ -41,7 +37,7 @@ class PIDRecordMixin:
         return PersistentIdentifier.query.filter_by(
             object_uuid=self.id,
             object_type=self.object_type,
-            pid_type=self.pid_type
+            pid_type=self.pid_type,
         ).one()
 
     @classmethod
@@ -50,7 +46,7 @@ class PIDRecordMixin:
         return Resolver(
             pid_type=cls.pid_type,
             object_type=cls.object_type,
-            getter=cls.get_record
+            getter=cls.get_record,
         ).resolve(pid_value)
 
     # TODO: See if needed or if it should be customizable
@@ -66,8 +62,8 @@ class PIDRecordMixin:
 class LomRecordBase(Record, PIDRecordMixin):
     """Define API for Lom creation and manipulation."""
 
-    object_type = 'lom'
-    pid_type = 'lomid'
+    object_type = "lom"
+    pid_type = "lomid"
 
     # TODO: Lom model doesn't have versioninig, some methods from
     # "invenio_records.api.RecordBase" have to be overridden/removed
@@ -76,15 +72,17 @@ class LomRecordBase(Record, PIDRecordMixin):
     # model_cls = LomMetadata
     model_cls = RecordMetadata
 
-    schema = LocalProxy(lambda: current_jsonschemas.path_to_url(
-        current_app.config.get(
-            'LOM_SCHEMA', 'lomrecords/lom-v1.0.0.json')))
+    schema = LocalProxy(
+        lambda: current_jsonschemas.path_to_url(
+            current_app.config.get("LOM_SCHEMA", "lomrecords/lom-v1.0.0.json")
+        )
+    )
 
     @classmethod
     def create(cls, data, id_=None, **kwargs):
         """Create a new Lom instance and store it in the database."""
         with db.session.begin_nested():
-            data['$schema'] = str(cls.schema)
+            data["$schema"] = str(cls.schema)
             lom = cls(data)
             lom.validate(**kwargs)
             lom.model = cls.model_cls(id=id_, json=lom)
@@ -94,14 +92,14 @@ class LomRecordBase(Record, PIDRecordMixin):
 
     def clear(self):
         """Clear but preserve the schema field."""
-        schema = self['$schema']
+        schema = self["$schema"]
         # TODO: since this is a "system" field, in the future it should be
         # auto-preserved
-        collections = self.get('_collections')
+        collections = self.get("_collections")
         super(LomRecordBase, self).clear()
-        self['$schema'] = schema
+        self["$schema"] = schema
         if collections:
-            self['_collections'] = collections
+            self["_collections"] = collections
 
     def delete(self, force=False):
         """Delete a lom."""

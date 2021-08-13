@@ -21,4 +21,4 @@ def test_lom_pid_fetcher(app):
         minted_pid = lom_pid_minter(rec_uuid, data)
         fetched_pid = lom_pid_fetcher(rec_uuid, data)
         assert minted_pid.pid_value == fetched_pid.pid_value
-        assert fetched_pid.pid_type == 'lomid'
+        assert fetched_pid.pid_type == "lomid"
