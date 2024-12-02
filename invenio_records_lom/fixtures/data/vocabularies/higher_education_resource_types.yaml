@@ -1,0 +1,104 @@
+- id: https://w3id.org/kim/hcrt/application
+  title:
+    de: Softwareanwendung
+    en: Software Application
+- id: https://w3id.org/kim/hcrt/assessment
+  title:
+    de: Lernkontrolle
+    en: Assessment
+- id: https://w3id.org/kim/hcrt/audio
+  title:
+    de: Audio
+    en: Audio Recording
+- id: https://w3id.org/kim/hcrt/case_study
+  title:
+    de: Fallstudie
+    en: Case Study
+- id: https://w3id.org/kim/hcrt/course
+  title:
+    de: Kurs
+    en: Course
+- id: https://w3id.org/kim/hcrt/data
+  title:
+    de: Daten
+    en: Data
+- id: https://w3id.org/kim/hcrt/diagram
+  title:
+    de: Diagramm
+    en: Diagram
+- id: https://w3id.org/kim/hcrt/drill_and_practice
+  title:
+    de: Übung
+    en: Drill and Practice
+- id: https://w3id.org/kim/hcrt/educational_game
+  title:
+    de: Lernspiel
+    en: Game
+- id: https://w3id.org/kim/hcrt/experiment
+  title:
+    de: Experiment
+    en: Experiment
+- id: https://w3id.org/kim/hcrt/image
+  title:
+    de: Abbildung
+    en: Image
+- id: https://w3id.org/kim/hcrt/index
+  title:
+    de: Nachschlagewerk
+    en: Reference Work
+- id: https://w3id.org/kim/hcrt/lesson_plan
+  title:
+    de: Unterrichtsplanung
+    en: Lesson Plan
+- id: https://w3id.org/kim/hcrt/map
+  title:
+    de: Karte
+    en: Map
+- id: https://w3id.org/kim/hcrt/portal
+  title:
+    de: Portal
+    en: Web Portal
+- id: https://w3id.org/kim/hcrt/questionnaire
+  title:
+    de: Fragebogen
+    en: Questionnaire
+- id: https://w3id.org/kim/hcrt/script
+  title:
+    de: Skript
+    en: Script
+- id: https://w3id.org/kim/hcrt/sheet_music
+  title:
+    de: Musiknoten
+    en: Sheet Music
+- id: https://w3id.org/kim/hcrt/simulation
+  title:
+    de: Simulation
+    en: Simulation
+- id: https://w3id.org/kim/hcrt/slide
+  title:
+    de: Präsentation
+    en: Presentation
+- id: https://w3id.org/kim/hcrt/text
+  title:
+    de: Textdokument
+    en: Text
+- id: https://w3id.org/kim/hcrt/textbook
+  title:
+    de: Lehrbuch
+    en: Textbook
+- id: https://w3id.org/kim/hcrt/video
+  title:
+    de: Video
+    en: Video
+- id: https://w3id.org/kim/hcrt/web_page
+  title:
+    de: Webseite
+    en: Web Page
+- id: https://w3id.org/kim/hcrt/worksheet
+  title:
+    de: Arbeitsmaterial
+    en: Worksheet
+- id: https://w3id.org/kim/hcrt/other
+  title:
+    de: Sonstiges
+    en: Other

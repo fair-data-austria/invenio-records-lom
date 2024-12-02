@@ -1,0 +1,8 @@
+- id: de
+  title:
+    de: Deutsch
+    en: german
+- id: en
+  title:
+    de: Englisch
+    en: english

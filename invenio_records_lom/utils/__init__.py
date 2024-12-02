@@ -19,6 +19,7 @@ from .util import (
     update_record,
 )
 from .vcard import make_lom_vcard
+from .vocabularies import expand_vocabulary
 
 __all__ = (
     "DotAccessWrapper",
@@ -29,6 +30,7 @@ __all__ = (
     "build_record_unique_id",
     "check_about_duplicate",
     "create_record",
+    "expand_vocabulary",
     "get_learningresourcetypedict",
     "get_oefosdict",
     "make_lom_vcard",

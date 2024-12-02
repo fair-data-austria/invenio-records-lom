@@ -10,6 +10,8 @@
 from invenio_i18n import gettext as _
 from invenio_records_resources.services.records.facets import TermsFacet
 
+from ..utils.vocabularies import read_vocabulary
+
 
 def license_labels(keys: list) -> dict:
     """Label licenses.
@@ -20,13 +22,8 @@ def license_labels(keys: list) -> dict:
 
     """
     license_mapping = {
-        "https://creativecommons.org/publicdomain/zero/1.0/": _("CC0 1.0"),
-        "https://creativecommons.org/licenses/by/4.0/": _("CC BY 4.0"),
-        "https://creativecommons.org/licenses/by-sa/4.0/": _("CC BY-SA 4.0"),
-        "https://creativecommons.org/licenses/by-nd/4.0/": _("CC BY-ND 4.0"),
-        "https://creativecommons.org/licenses/by-nc/4.0/": _("CC BY-NC 4.0"),
-        "https://creativecommons.org/licenses/by-nc-sa/4.0/": _("CC BY-NC-SA 4.0"),
-        "https://creativecommons.org/licenses/by-nc-nd/4.0/": _("CC BY-NC-ND 4.0"),
+        entry.id: entry.props.get("short_name", "N/A")
+        for entry in read_vocabulary("oerlicenses")
     }
     out = {}
     for key in keys:

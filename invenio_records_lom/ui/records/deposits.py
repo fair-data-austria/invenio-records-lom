@@ -15,7 +15,7 @@ from invenio_records_resources.services.records.results import RecordItem
 from invenio_users_resources.proxies import current_user_resources
 
 from ...proxies import current_records_lom
-from ...utils import DotAccessWrapper, LOMRecordData, get_oefosdict
+from ...utils import DotAccessWrapper, LOMRecordData, expand_vocabulary
 from .decorators import (
     pass_draft,
     pass_draft_files,
@@ -30,115 +30,52 @@ def get_deposit_template_context(**extra_form_config_kwargs: dict) -> dict:
     locale = str(current_i18n.locale)
     locale = locale if locale in ["de", "en"] else "en"
 
-    oefos_dict = get_oefosdict("en")
-    oefos_vocabulary = {
-        num: {"name": f"{num} - {name}", "value": name}
-        for num, name in oefos_dict.items()
-    }
-    # TODO: dont hardcode vocabularies here...
-    license_vocabulary = {
-        "https://creativecommons.org/publicdomain/zero/1.0/": {
-            "name": "CC0 1.0 - Creative Commons CC0 1.0 Universal",
-        },
-        "https://creativecommons.org/licenses/by/4.0/": {
-            "name": "CC BY 4.0 - Creative Commons Attribution 4.0 International",
-        },
-        "https://creativecommons.org/licenses/by-nc/4.0/": {
-            "name": "CC BY-NC 4.0 - Creative Commons Attribution Non-Commercial 4.0 International",
-        },
-        "https://creativecommons.org/licenses/by-nc-nd/4.0/": {
-            "name": "CC BY-NC-ND 4.0 - Creative Commons Attribution Non-Commercial No-Derivatives 4.0 International",
-        },
-        "https://creativecommons.org/licenses/by-nc-sa/4.0/": {
-            "name": "CC BY-NC-SA 4.0 - Creative Commons Attribution Non-Commercial Share-Alike 4.0 International",
-        },
-        "https://creativecommons.org/licenses/by-nd/4.0/": {
-            "name": "CC BY-ND 4.0 - Creative Commons Attribution No-Derivatives 4.0 International",
-        },
-        "https://creativecommons.org/licenses/by-sa/4.0/": {
-            "name": "CC BY-SA 4.0 - Creative Commons Attribution Share-Alike 4.0 International",
-        },
-    }
-    contributor_vocabulary = {
-        "Author": {"name": "Author"},
-        "Publisher": {"name": "Publisher"},
-    }
-    format_vocabulary = {
-        "application/epub+zip": {
-            "name": "application/epub+zip - Electronic Publication (.epub)",
-        },
-        "application/gzip": {
-            "name": "application/gzip - GZip Compressed Archive (.gz)",
-        },
-        "application/json": {"name": "application/json - JSON format (.json)"},
-        "application/msword": {"name": "application/msword - Microsoft Word (.doc)"},
-        "application/octet-stream": {
-            "name": "application/octet-stream - Other Binary Documents",
-        },
-        "application/pdf": {
-            "name": "application/pdf - Adobe Portable Document Format (.pdf)",
-        },
-        "application/vnd.ms-excel": {
-            "name": "application/vnd.ms-excel - Microsoft Excel (.xls)",
-        },
-        "application/vnd.ms-powerpoint": {
-            "name": "application/vnd.ms-powerpoint - Microsoft PowerPoint (.ppt)",
-        },
-        "application/xml": {"name": "application/xml - XML (.xml)"},
-        "application/zip": {"name": "application/zip - ZIP Archive (.zip)"},
-        "audio/aac": {"name": "audio/aac - AAC Audio (.aac)"},
-        "audio/midi": {
-            "name": "audio/midi - Musical Instrument Digital Interface (.midi, .mid)",
-        },
-        "audio/mpeg": {"name": "audio/mpeg - MP3 Audio (.mp3)"},
-        "audio/wav": {"name": "audio/wav - Waveform Audio Format (.wav)"},
-        "image/bmp": {"name": "image/bmp - Windows OS/2 Bitmap Graphics (.bmp)"},
-        "image/gif": {"name": "image/gif - Graphics Interchange Format (.gif)"},
-        "image/jpeg": {"name": "image/jpeg - JPEG images (.jpg, .jpeg)"},
-        "image/png": {"name": "image/png - Portable Network Graphics (.png)"},
-        "image/svg+xml": {"name": "image/svg+xml - Scalable Vector Graphics (.svg)"},
-        "image/tiff": {"name": "image/tiff - Tagged Image File Format (.tif, .tiff)"},
-        "image/webp": {"name": "image/webp - WEBP Image (.webp)"},
-        "text/css": {"name": "text/css - Cascading Style Sheets (.css)"},
-        "text/csv": {"name": "text/csv - Comma-separated values (.csv)"},
-        "text/html": {"name": "text/html - HyperText Markup Language (.html)"},
-        "text/plain": {"name": "text/plain - Other Text, ASCII (.txt, …)"},
-        "video/mp4": {"name": "video/mp4 - MP4 Video (.mp4)"},
-        "video/x-msvideo": {"name": "video/x-msvideo - Audio Video Interleave (.avi)"},
+    # we'll use %-formatting to format format-strings
+    # ruff: noqa: UP031  # actually turns off for whole file, but only relevant in here
+    vocabularies = {}
+    vocabularies["oefos"] = expand_vocabulary(
+        "oefos",
+        name="{{id}} - {{title.%s or title.en}}" % locale,
+        value="{{title.%s or title.en}}" % locale,
+    )
+
+    vocabularies["license"] = expand_vocabulary(
+        "oerlicenses",
+        name="{{props.short_name}} - {{title.%s or title.en}}" % locale,
+    )
+
+    vocabularies["contributor"] = expand_vocabulary(
+        "lomroles",
+        name="{{title.%s or title.en}}" % locale,
+    )
+
+    vocabularies["format"] = expand_vocabulary(
+        "mimetype",
+        name=(
+            "{{id}} - {{title.%s or title.en}}" % locale
+            + " ({{props.common_file_extensions_str}})"
+        ),
+    )
+
+    # TODO: reconsider language-field:
+    # - wouldn't multiple languages be possible (e.g. language-courses)?
+    #   currently, frontend only allows one entry
+    # - are other languages really impossible?
+    #   - e.g. ancient language studies
+    #   - e.g. language-courses
+    #   - e.g. collaborations with organisation that have to translate to their language
+    # - can we reuse invenio's language-vocabulary?
+    #   or is that too expansive in its included languages?
+    # language-field quite possibly needs more work due to the above,
+    # so I'll leave this one hard-coded for now
+    vocabularies["language"] = {
+        "de": {"name": "Deutsch"},
+        "en": {"name": "English"},
     }
 
-    language_vocabulary = {"de": {"name": "Deutsch"}, "en": {"name": "English"}}
-    resourcetype_vocabulary = {
-        "https://w3id.org/kim/hcrt/application": {"name": "Software Application"},
-        "https://w3id.org/kim/hcrt/assessment": {"name": "Assessment"},
-        "https://w3id.org/kim/hcrt/audio": {"name": "Audio Recording"},
-        "https://w3id.org/kim/hcrt/case_study": {"name": "Case Study"},
-        "https://w3id.org/kim/hcrt/course": {"name": "Course"},
-        "https://w3id.org/kim/hcrt/data": {"name": "Data"},
-        "https://w3id.org/kim/hcrt/diagram": {"name": "Diagram"},
-        "https://w3id.org/kim/hcrt/drill_and_practice": {"name": "Drill and Practice"},
-        "https://w3id.org/kim/hcrt/educational_game": {"name": "Game"},
-        "https://w3id.org/kim/hcrt/experiment": {"name": "Experiment"},
-        "https://w3id.org/kim/hcrt/image": {"name": "Image"},
-        "https://w3id.org/kim/hcrt/index": {"name": "Reference Work"},
-        "https://w3id.org/kim/hcrt/lesson_plan": {"name": "Lesson Plan"},
-        "https://w3id.org/kim/hcrt/map": {"name": "Map"},
-        "https://w3id.org/kim/hcrt/portal": {"name": "Web Portal"},
-        "https://w3id.org/kim/hcrt/questionnaire": {"name": "Questionnaire"},
-        "https://w3id.org/kim/hcrt/script": {"name": "Script"},
-        "https://w3id.org/kim/hcrt/sheet_music": {"name": "Sheet Music"},
-        "https://w3id.org/kim/hcrt/simulation": {"name": "Simulation"},
-        "https://w3id.org/kim/hcrt/slide": {"name": "Presentation"},
-        "https://w3id.org/kim/hcrt/text": {"name": "Text"},
-        "https://w3id.org/kim/hcrt/textbook": {"name": "Textbook"},
-        "https://w3id.org/kim/hcrt/video": {"name": "Video"},
-        "https://w3id.org/kim/hcrt/web_page": {"name": "Web Page"},
-        "https://w3id.org/kim/hcrt/worksheet": {"name": "Worksheet"},
-        "https://w3id.org/kim/hcrt/other": {"name": "Other"},
-    }
-    # sort `resourcetype_vocabulary` by name
-    resourcetype_vocabulary = dict(
-        sorted(resourcetype_vocabulary.items(), key=lambda item: item[1]["name"]),
+    vocabularies["resourcetype"] = expand_vocabulary(
+        "highereducationresourcetypes",
+        name="{{title.%s or title.en}}" % locale,
     )
 
     return {
@@ -154,14 +91,7 @@ def get_deposit_template_context(**extra_form_config_kwargs: dict) -> dict:
             "links": {},
             "pids": [],
             "quota": app_config.get("APP_RDM_DEPOSIT_FORM_QUOTA"),
-            "vocabularies": {
-                "contributor": contributor_vocabulary,
-                "format": format_vocabulary,
-                "language": language_vocabulary,
-                "license": license_vocabulary,
-                "oefos": oefos_vocabulary,
-                "resourcetype": resourcetype_vocabulary,
-            },
+            "vocabularies": vocabularies,
             **extra_form_config_kwargs,
         },
         # can't get the following from `app_config`, as that ignores blueprint-prefix...

@@ -1,0 +1,4463 @@
+- id: '1'
+  props: {layer: '1'}
+  title: {de: NATURWISSENSCHAFTEN, en: NATURAL SCIENCES}
+- id: '101'
+  props: {layer: '2'}
+  title: {de: Mathematik, en: Mathematics}
+- id: '1010'
+  props: {layer: '3'}
+  title: {de: Mathematik, en: Mathematics}
+- id: '101001'
+  props: {layer: '4'}
+  title: {de: Algebra, en: Algebra}
+- id: '101002'
+  props: {layer: '4'}
+  title: {de: Analysis, en: Analysis}
+- id: '101003'
+  props: {layer: '4'}
+  title: {de: Angewandte Geometrie, en: Applied geometry}
+- id: '101004'
+  props: {layer: '4'}
+  title: {de: Biomathematik, en: Biomathematics}
+- id: '101005'
+  props: {layer: '4'}
+  title: {de: Computeralgebra, en: Computer algebra}
+- id: '101006'
+  props: {layer: '4'}
+  title: {de: Differentialgeometrie, en: Differential geometry}
+- id: '101007'
+  props: {layer: '4'}
+  title: {de: Finanzmathematik, en: Financial mathematics}
+- id: '101008'
+  props: {layer: '4'}
+  title: {de: Funktionentheorie, en: Complex analysis}
+- id: '101009'
+  props: {layer: '4'}
+  title: {de: Geometrie, en: Geometry}
+- id: '101010'
+  props: {layer: '4'}
+  title: {de: Geschichte der Mathematik, en: History of mathematics}
+- id: '101011'
+  props: {layer: '4'}
+  title: {de: Graphentheorie, en: Graph theory}
+- id: '101012'
+  props: {layer: '4'}
+  title: {de: Kombinatorik, en: Combinatorics}
+- id: '101013'
+  props: {layer: '4'}
+  title: {de: Mathematische Logik, en: Mathematical logic}
+- id: '101014'
+  props: {layer: '4'}
+  title: {de: Numerische Mathematik, en: Numerical mathematics}
+- id: '101015'
+  props: {layer: '4'}
+  title: {de: Operations Research, en: Operations research}
+- id: '101016'
+  props: {layer: '4'}
+  title: {de: Optimierung, en: Optimisation}
+- id: '101017'
+  props: {layer: '4'}
+  title: {de: Spieltheorie, en: Game theory}
+- id: '101018'
+  props: {layer: '4'}
+  title: {de: Statistik, en: Statistics}
+- id: '101019'
+  props: {layer: '4'}
+  title: {de: Stochastik, en: Stochastics}
+- id: '101020'
+  props: {layer: '4'}
+  title: {de: Technische Mathematik, en: Technical mathematics}
+- id: '101021'
+  props: {layer: '4'}
+  title: {de: Theoretische Kybernetik, en: Theoretical cybernetics}
+- id: '101022'
+  props: {layer: '4'}
+  title: {de: Topologie, en: Topology}
+- id: '101023'
+  props: {layer: '4'}
+  title: {de: Versicherungsmathematik, en: Actuarial mathematics}
+- id: '101024'
+  props: {layer: '4'}
+  title: {de: Wahrscheinlichkeitstheorie, en: Probability theory}
+- id: '101025'
+  props: {layer: '4'}
+  title: {de: Zahlentheorie, en: Number theory}
+- id: '101026'
+  props: {layer: '4'}
+  title: {de: Zeitreihenanalyse, en: Time series analysis}
+- id: '101027'
+  props: {layer: '4'}
+  title: {de: Dynamische Systeme, en: Dynamical systems}
+- id: '101028'
+  props: {layer: '4'}
+  title: {de: Mathematische Modellierung, en: Mathematical modelling}
+- id: '101029'
+  props: {layer: '4'}
+  title: {de: Mathematische Statistik, en: Mathematical statistics}
+- id: '101030'
+  props: {layer: '4'}
+  title: {de: Zuverlässigkeitstheorie, en: Reliability theory}
+- id: '101031'
+  props: {layer: '4'}
+  title: {de: Approximationstheorie, en: Approximation theory}
+- id: '101032'
+  props: {layer: '4'}
+  title: {de: Funktionalanalysis, en: Functional analysis}
+- id: '102'
+  props: {layer: '2'}
+  title: {de: Informatik, en: Computer Sciences}
+- id: '1020'
+  props: {layer: '3'}
+  title: {de: Informatik, en: Computer Sciences}
+- id: '102001'
+  props: {layer: '4'}
+  title: {de: Artificial Intelligence, en: Artificial intelligence}
+- id: '102002'
+  props: {layer: '4'}
+  title: {de: Augmented Reality, en: Augmented reality}
+- id: '102003'
+  props: {layer: '4'}
+  title: {de: Bildverarbeitung, en: Image processing}
+- id: '102004'
+  props: {layer: '4'}
+  title: {de: Bioinformatik, en: Bioinformatics}
+- id: '102005'
+  props: {layer: '4'}
+  title: {de: Computer Aided Design (CAD), en: Computer aided design (CAD)}
+- id: '102006'
+  props: {layer: '4'}
+  title: {de: Computer Supported Cooperative Work (CSCW), en: Computer supported cooperative
+      work (CSCW)}
+- id: '102007'
+  props: {layer: '4'}
+  title: {de: Computeranimation, en: Computer animation}
+- id: '102008'
+  props: {layer: '4'}
+  title: {de: Computergraphik, en: Computer graphics}
+- id: '102009'
+  props: {layer: '4'}
+  title: {de: Computersimulation, en: Computer simulation}
+- id: '102010'
+  props: {layer: '4'}
+  title: {de: Datenbanksysteme, en: Database systems}
+- id: '102011'
+  props: {layer: '4'}
+  title: {de: Formale Sprachen, en: Formal languages}
+- id: '102012'
+  props: {layer: '4'}
+  title: {de: Geschichte der Informatik, en: History of computer science}
+- id: '102013'
+  props: {layer: '4'}
+  title: {de: Human-Computer Interaction, en: Human-computer interaction}
+- id: '102014'
+  props: {layer: '4'}
+  title: {de: Informationsdesign, en: Information design}
+- id: '102015'
+  props: {layer: '4'}
+  title: {de: Informationssysteme, en: Information systems}
+- id: '102016'
+  props: {layer: '4'}
+  title: {de: IT-Sicherheit, en: IT security}
+- id: '102017'
+  props: {layer: '4'}
+  title: {de: Kryptologie, en: Cryptology}
+- id: '102018'
+  props: {layer: '4'}
+  title: {de: Künstliche Neuronale Netze, en: Artificial neural networks}
+- id: '102019'
+  props: {layer: '4'}
+  title: {de: Machine Learning, en: Machine learning}
+- id: '102020'
+  props: {layer: '4'}
+  title: {de: Medizinische Informatik, en: Medical informatics}
+- id: '102021'
+  props: {layer: '4'}
+  title: {de: Pervasive Computing, en: Pervasive computing}
+- id: '102022'
+  props: {layer: '4'}
+  title: {de: Softwareentwicklung, en: Software development}
+- id: '102023'
+  props: {layer: '4'}
+  title: {de: Supercomputing, en: Supercomputing}
+- id: '102024'
+  props: {layer: '4'}
+  title: {de: Usability Research, en: Usability research}
+- id: '102025'
+  props: {layer: '4'}
+  title: {de: Verteilte Systeme, en: Distributed systems}
+- id: '102026'
+  props: {layer: '4'}
+  title: {de: Virtual Reality, en: Virtual reality}
+- id: '102027'
+  props: {layer: '4'}
+  title: {de: Web Engineering, en: Web engineering}
+- id: '102028'
+  props: {layer: '4'}
+  title: {de: Knowledge Engineering, en: Knowledge engineering}
+- id: '102029'
+  props: {layer: '4'}
+  title: {de: Praktische Informatik, en: Practical computer science}
+- id: '102030'
+  props: {layer: '4'}
+  title: {de: Semantische Technologien, en: Semantic technologies}
+- id: '102031'
+  props: {layer: '4'}
+  title: {de: Theoretische Informatik, en: Theoretical computer science}
+- id: '102032'
+  props: {layer: '4'}
+  title: {de: Computational Intelligence, en: Computational intelligence}
+- id: '102033'
+  props: {layer: '4'}
+  title: {de: Data Mining, en: Data mining}
+- id: '102034'
+  props: {layer: '4'}
+  title: {de: Cyber-Physical Systems, en: Cyber-physical systems}
+- id: '102035'
+  props: {layer: '4'}
+  title: {de: Data Science, en: Data science}
+- id: '102036'
+  props: {layer: '4'}
+  title: {de: Digitale Barrierefreiheit, en: Digital accessibility}
+- id: '102037'
+  props: {layer: '4'}
+  title: {de: Visualisierung, en: Visualisation}
+- id: '103'
+  props: {layer: '2'}
+  title: {de: 'Physik, Astronomie', en: 'Physics, Astronomy'}
+- id: '1030'
+  props: {layer: '3'}
+  title: {de: 'Physik, Astronomie', en: 'Physics, Astronomy'}
+- id: '103001'
+  props: {layer: '4'}
+  title: {de: Aerodynamik, en: Aerodynamics}
+- id: '103002'
+  props: {layer: '4'}
+  title: {de: Akustik, en: Acoustics}
+- id: '103003'
+  props: {layer: '4'}
+  title: {de: Astronomie, en: Astronomy}
+- id: '103004'
+  props: {layer: '4'}
+  title: {de: Astrophysik, en: Astrophysics}
+- id: '103005'
+  props: {layer: '4'}
+  title: {de: Atomphysik, en: Atomic physics}
+- id: '103006'
+  props: {layer: '4'}
+  title: {de: Chemische Physik, en: Chemical physics}
+- id: '103007'
+  props: {layer: '4'}
+  title: {de: Dosimetrie, en: Dosimetry}
+- id: '103008'
+  props: {layer: '4'}
+  title: {de: Experimentalphysik, en: Experimental physics}
+- id: '103009'
+  props: {layer: '4'}
+  title: {de: Festkörperphysik, en: Solid state physics}
+- id: '103010'
+  props: {layer: '4'}
+  title: {de: Geschichte der Physik, en: History of physics}
+- id: '103011'
+  props: {layer: '4'}
+  title: {de: Halbleiterphysik, en: Semiconductor physics}
+- id: '103012'
+  props: {layer: '4'}
+  title: {de: Hochenergiephysik, en: High energy physics}
+- id: '103013'
+  props: {layer: '4'}
+  title: {de: Ionenphysik, en: Ion physics}
+- id: '103014'
+  props: {layer: '4'}
+  title: {de: Kernphysik, en: Nuclear physics}
+- id: '103015'
+  props: {layer: '4'}
+  title: {de: Kondensierte Materie, en: Condensed matter}
+- id: '103016'
+  props: {layer: '4'}
+  title: {de: Laserphysik, en: Laser physics}
+- id: '103017'
+  props: {layer: '4'}
+  title: {de: Magnetismus, en: Magnetism}
+- id: '103018'
+  props: {layer: '4'}
+  title: {de: Materialphysik, en: Materials physics}
+- id: '103019'
+  props: {layer: '4'}
+  title: {de: Mathematische Physik, en: Mathematical physics}
+- id: '103020'
+  props: {layer: '4'}
+  title: {de: Oberflächenphysik, en: Surface physics}
+- id: '103021'
+  props: {layer: '4'}
+  title: {de: Optik, en: Optics}
+- id: '103022'
+  props: {layer: '4'}
+  title: {de: Plasmaphysik, en: Plasma physics}
+- id: '103023'
+  props: {layer: '4'}
+  title: {de: Polymerphysik, en: Polymer physics}
+- id: '103024'
+  props: {layer: '4'}
+  title: {de: Quantenfeldtheorie, en: Quantum field theory}
+- id: '103025'
+  props: {layer: '4'}
+  title: {de: Quantenmechanik, en: Quantum mechanics}
+- id: '103026'
+  props: {layer: '4'}
+  title: {de: Quantenoptik, en: Quantum optics}
+- id: '103027'
+  props: {layer: '4'}
+  title: {de: Reaktorphysik, en: Reactor physics}
+- id: '103028'
+  props: {layer: '4'}
+  title: {de: Relativitätstheorie, en: Theory of relativity}
+- id: '103029'
+  props: {layer: '4'}
+  title: {de: Statistische Physik, en: Statistical physics}
+- id: '103030'
+  props: {layer: '4'}
+  title: {de: Strahlenphysik, en: Radiation physics}
+- id: '103031'
+  props: {layer: '4'}
+  title: {de: Strahlenschutz, en: Radiation protection}
+- id: '103032'
+  props: {layer: '4'}
+  title: {de: Strömungslehre, en: Fluid mechanics}
+- id: '103033'
+  props: {layer: '4'}
+  title: {de: Supraleitung, en: Superconductivity}
+- id: '103034'
+  props: {layer: '4'}
+  title: {de: Teilchenphysik, en: Particle physics}
+- id: '103035'
+  props: {layer: '4'}
+  title: {de: Theoretische Mechanik, en: Theoretical mechanics}
+- id: '103036'
+  props: {layer: '4'}
+  title: {de: Theoretische Physik, en: Theoretical physics}
+- id: '103037'
+  props: {layer: '4'}
+  title: {de: Umweltphysik, en: Environmental physics}
+- id: '103038'
+  props: {layer: '4'}
+  title: {de: Weltraumforschung, en: Space exploration}
+- id: '103039'
+  props: {layer: '4'}
+  title: {de: Aerosolphysik, en: Aerosol physics}
+- id: '103040'
+  props: {layer: '4'}
+  title: {de: Photonik, en: Photonics}
+- id: '103041'
+  props: {layer: '4'}
+  title: {de: Astroteilchenphysik, en: Astroparticle physics}
+- id: '103042'
+  props: {layer: '4'}
+  title: {de: Elektronenmikroskopie, en: Electron microscopy}
+- id: '103043'
+  props: {layer: '4'}
+  title: {de: Computational Physics, en: Computational physics}
+- id: '103044'
+  props: {layer: '4'}
+  title: {de: Kosmologie, en: Cosmology}
+- id: '104'
+  props: {layer: '2'}
+  title: {de: Chemie, en: Chemistry}
+- id: '1040'
+  props: {layer: '3'}
+  title: {de: Chemie, en: Chemistry}
+- id: '104001'
+  props: {layer: '4'}
+  title: {de: Allgemeine Chemie, en: General chemistry}
+- id: '104002'
+  props: {layer: '4'}
+  title: {de: Analytische Chemie, en: Analytical chemistry}
+- id: '104003'
+  props: {layer: '4'}
+  title: {de: Anorganische Chemie, en: Inorganic chemistry}
+- id: '104004'
+  props: {layer: '4'}
+  title: {de: Chemische Biologie, en: Chemical biology}
+- id: '104005'
+  props: {layer: '4'}
+  title: {de: Elektrochemie, en: Electrochemistry}
+- id: '104006'
+  props: {layer: '4'}
+  title: {de: Festkörperchemie, en: Solid state chemistry}
+- id: '104007'
+  props: {layer: '4'}
+  title: {de: Geschichte der Chemie, en: History of chemistry}
+- id: '104008'
+  props: {layer: '4'}
+  title: {de: Katalyse, en: Catalysis}
+- id: '104009'
+  props: {layer: '4'}
+  title: {de: Lebensmittelchemie, en: Food chemistry}
+- id: '104010'
+  props: {layer: '4'}
+  title: {de: Makromolekulare Chemie, en: Macromolecular chemistry}
+- id: '104011'
+  props: {layer: '4'}
+  title: {de: Materialchemie, en: Materials chemistry}
+- id: '104012'
+  props: {layer: '4'}
+  title: {de: Mikroanalyse, en: Microanalysis}
+- id: '104013'
+  props: {layer: '4'}
+  title: {de: Naturstoffchemie, en: Natural product chemistry}
+- id: '104014'
+  props: {layer: '4'}
+  title: {de: Oberflächenchemie, en: Surface chemistry}
+- id: '104015'
+  props: {layer: '4'}
+  title: {de: Organische Chemie, en: Organic chemistry}
+- id: '104016'
+  props: {layer: '4'}
+  title: {de: Photochemie, en: Photochemistry}
+- id: '104017'
+  props: {layer: '4'}
+  title: {de: Physikalische Chemie, en: Physical chemistry}
+- id: '104018'
+  props: {layer: '4'}
+  title: {de: Polymerchemie, en: Polymer chemistry}
+- id: '104019'
+  props: {layer: '4'}
+  title: {de: Polymerwissenschaften, en: Polymer sciences}
+- id: '104020'
+  props: {layer: '4'}
+  title: {de: Radiochemie, en: Radiochemistry}
+- id: '104021'
+  props: {layer: '4'}
+  title: {de: Strukturchemie, en: Structural chemistry}
+- id: '104022'
+  props: {layer: '4'}
+  title: {de: Theoretische Chemie, en: Theoretical chemistry}
+- id: '104023'
+  props: {layer: '4'}
+  title: {de: Umweltchemie, en: Environmental chemistry}
+- id: '104024'
+  props: {layer: '4'}
+  title: {de: Röntgenstrukturanalyse, en: X-ray structural analysis}
+- id: '104025'
+  props: {layer: '4'}
+  title: {de: Single-Molecule Chemistry, en: Single-molecule chemistry}
+- id: '104026'
+  props: {layer: '4'}
+  title: {de: Spektroskopie, en: Spectroscopy}
+- id: '104027'
+  props: {layer: '4'}
+  title: {de: Computational Chemistry, en: Computational chemistry}
+- id: '105'
+  props: {layer: '2'}
+  title: {de: Geowissenschaften, en: Geosciences}
+- id: '1051'
+  props: {layer: '3'}
+  title: {de: 'Geologie, Mineralogie', en: 'Geology, Mineralogy'}
+- id: '105101'
+  props: {layer: '4'}
+  title: {de: Allgemeine Geologie, en: General geology}
+- id: '105102'
+  props: {layer: '4'}
+  title: {de: Allgemeine Geophysik, en: General geophysics}
+- id: '105103'
+  props: {layer: '4'}
+  title: {de: Erdölgeologie, en: Petroleum geology}
+- id: '105104'
+  props: {layer: '4'}
+  title: {de: Erosion, en: Erosion}
+- id: '105105'
+  props: {layer: '4'}
+  title: {de: Geochemie, en: Geochemistry}
+- id: '105106'
+  props: {layer: '4'}
+  title: {de: Geodynamik, en: Geodynamics}
+- id: '105107'
+  props: {layer: '4'}
+  title: {de: Geoelektrik, en: Geoelectrics}
+- id: '105108'
+  props: {layer: '4'}
+  title: {de: Geostatistik, en: Geostatistics}
+- id: '105109'
+  props: {layer: '4'}
+  title: {de: Geothermik, en: Geothermics}
+- id: '105110'
+  props: {layer: '4'}
+  title: {de: Geschichte der Geologie, en: History of geology}
+- id: '105111'
+  props: {layer: '4'}
+  title: {de: Gravimetrie, en: Gravimetry}
+- id: '105112'
+  props: {layer: '4'}
+  title: {de: Historische Geologie, en: Historical geology}
+- id: '105113'
+  props: {layer: '4'}
+  title: {de: Kristallographie, en: Crystallography}
+- id: '105114'
+  props: {layer: '4'}
+  title: {de: Kulturgeologie, en: Cultural geology}
+- id: '105115'
+  props: {layer: '4'}
+  title: {de: Magnetik, en: Magnetics}
+- id: '105116'
+  props: {layer: '4'}
+  title: {de: Mineralogie, en: Mineralogy}
+- id: '105117'
+  props: {layer: '4'}
+  title: {de: Paläobotanik, en: Palaeobotany}
+- id: '105118'
+  props: {layer: '4'}
+  title: {de: Paläontologie, en: Palaeontology}
+- id: '105119'
+  props: {layer: '4'}
+  title: {de: Petrographie, en: Petrography}
+- id: '105120'
+  props: {layer: '4'}
+  title: {de: Petrologie, en: Petrology}
+- id: '105121'
+  props: {layer: '4'}
+  title: {de: Sedimentologie, en: Sedimentology}
+- id: '105122'
+  props: {layer: '4'}
+  title: {de: Seismik, en: Seismic}
+- id: '105123'
+  props: {layer: '4'}
+  title: {de: Stratigraphie, en: Stratigraphy}
+- id: '105124'
+  props: {layer: '4'}
+  title: {de: Tektonik, en: Tectonics}
+- id: '105125'
+  props: {layer: '4'}
+  title: {de: Petrophysik, en: Petrophysics}
+- id: '105126'
+  props: {layer: '4'}
+  title: {de: Angewandte Geophysik, en: Applied geophysics}
+- id: '105127'
+  props: {layer: '4'}
+  title: {de: Geochronologie, en: Geochronology}
+- id: '105128'
+  props: {layer: '4'}
+  title: {de: Geomikrobiologie, en: Geomicrobiology}
+- id: '1052'
+  props: {layer: '3'}
+  title: {de: 'Meteorologie, Klimatologie', en: 'Meteorology, Climatology'}
+- id: '105201'
+  props: {layer: '4'}
+  title: {de: Aeronomie, en: Aeronomy}
+- id: '105202'
+  props: {layer: '4'}
+  title: {de: Agrarmeteorologie, en: Agricultural meteorology}
+- id: '105203'
+  props: {layer: '4'}
+  title: {de: Bioklimatologie, en: Bioclimatology}
+- id: '105204'
+  props: {layer: '4'}
+  title: {de: Klimatologie, en: Climatology}
+- id: '105205'
+  props: {layer: '4'}
+  title: {de: Klimawandel, en: Climate change}
+- id: '105206'
+  props: {layer: '4'}
+  title: {de: Meteorologie, en: Meteorology}
+- id: '105207'
+  props: {layer: '4'}
+  title: {de: Gebirgsmeteorologie, en: Mountain meteorology}
+- id: '105208'
+  props: {layer: '4'}
+  title: {de: Atmosphärenchemie, en: Atmospheric chemistry}
+- id: '1053'
+  props: {layer: '3'}
+  title: {de: Hydrologie, en: Hydrology}
+- id: '105301'
+  props: {layer: '4'}
+  title: {de: Gewässerschutz, en: Water protection}
+- id: '105302'
+  props: {layer: '4'}
+  title: {de: Hydrochemie, en: Hydrochemistry}
+- id: '105303'
+  props: {layer: '4'}
+  title: {de: Hydrogeologie, en: Hydrogeology}
+- id: '105304'
+  props: {layer: '4'}
+  title: {de: Hydrologie, en: Hydrology}
+- id: '105305'
+  props: {layer: '4'}
+  title: {de: Hydrometrie, en: Hydrometry}
+- id: '105306'
+  props: {layer: '4'}
+  title: {de: Ozeanographie, en: Oceanography}
+- id: '105307'
+  props: {layer: '4'}
+  title: {de: Wassergüte, en: Water quality}
+- id: '105308'
+  props: {layer: '4'}
+  title: {de: Wasserressourcen, en: Water resources}
+- id: '1054'
+  props: {layer: '3'}
+  title: {de: Physische Geographie, en: Physical Geography}
+- id: '105401'
+  props: {layer: '4'}
+  title: {de: Biogeographie, en: Biogeography}
+- id: '105402'
+  props: {layer: '4'}
+  title: {de: Bodengeographie, en: Soil geography}
+- id: '105403'
+  props: {layer: '4'}
+  title: {de: Geoinformatik, en: Geoinformatics}
+- id: '105404'
+  props: {layer: '4'}
+  title: {de: Geomorphologie, en: Geomorphology}
+- id: '105405'
+  props: {layer: '4'}
+  title: {de: Geoökologie, en: Geoecology}
+- id: '105406'
+  props: {layer: '4'}
+  title: {de: Geschichte der Geographie, en: History of geography}
+- id: '105407'
+  props: {layer: '4'}
+  title: {de: Kartographie, en: Cartography}
+- id: '105408'
+  props: {layer: '4'}
+  title: {de: Physische Geographie, en: Physical geography}
+- id: '105409'
+  props: {layer: '4'}
+  title: {de: Topographie, en: Topography}
+- id: '1059'
+  props: {layer: '3'}
+  title: {de: Sonstige und interdisziplinäre Geowissenschaften, en: Interdisciplinary
+      Geosciences not elsewhere classified}
+- id: '105901'
+  props: {layer: '4'}
+  title: {de: Glaziologie, en: Glaciology}
+- id: '105902'
+  props: {layer: '4'}
+  title: {de: Naturgefahren, en: Natural hazards}
+- id: '105903'
+  props: {layer: '4'}
+  title: {de: Speläologie, en: Speleology}
+- id: '105904'
+  props: {layer: '4'}
+  title: {de: Umweltforschung, en: Environmental research}
+- id: '105905'
+  props: {layer: '4'}
+  title: {de: Umweltschutz, en: Environmental protection}
+- id: '105906'
+  props: {layer: '4'}
+  title: {de: Umweltgeowissenschaften, en: Environmental geosciences}
+- id: '105907'
+  props: {layer: '4'}
+  title: {de: Polarforschung, en: Polar research}
+- id: '106'
+  props: {layer: '2'}
+  title: {de: Biologie, en: Biology}
+- id: '1060'
+  props: {layer: '3'}
+  title: {de: Biologie, en: Biology}
+- id: '106001'
+  props: {layer: '4'}
+  title: {de: Allgemeine Biologie, en: General biology}
+- id: '106002'
+  props: {layer: '4'}
+  title: {de: Biochemie, en: Biochemistry}
+- id: '106003'
+  props: {layer: '4'}
+  title: {de: Biodiversitätsforschung, en: Biodiversity research}
+- id: '106004'
+  props: {layer: '4'}
+  title: {de: Bioethik, en: Bioethics}
+- id: '106005'
+  props: {layer: '4'}
+  title: {de: Bioinformatik, en: Bioinformatics}
+- id: '106006'
+  props: {layer: '4'}
+  title: {de: Biophysik, en: Biophysics}
+- id: '106007'
+  props: {layer: '4'}
+  title: {de: Biostatistik, en: Biostatistics}
+- id: '106008'
+  props: {layer: '4'}
+  title: {de: Botanik, en: Botany}
+- id: '106009'
+  props: {layer: '4'}
+  title: {de: Chronobiologie, en: Chronobiology}
+- id: '106010'
+  props: {layer: '4'}
+  title: {de: Entwicklungsbiologie, en: Developmental biology}
+- id: '106011'
+  props: {layer: '4'}
+  title: {de: '3R (Replacement, Reduction, Refinement von Tierversuchen)', en: '3Rs
+      (replacement, reduction, refinement of animal testing)'}
+- id: '106012'
+  props: {layer: '4'}
+  title: {de: Evolutionsforschung, en: Evolutionary research}
+- id: '106013'
+  props: {layer: '4'}
+  title: {de: Genetik, en: Genetics}
+- id: '106014'
+  props: {layer: '4'}
+  title: {de: Genomik, en: Genomics}
+- id: '106015'
+  props: {layer: '4'}
+  title: {de: Geobotanik, en: Geobotany}
+- id: '106016'
+  props: {layer: '4'}
+  title: {de: Geschichte der Biologie, en: History of biology}
+- id: '106017'
+  props: {layer: '4'}
+  title: {de: Glykobiologie, en: Glycobiology}
+- id: '106018'
+  props: {layer: '4'}
+  title: {de: Humanbiologie, en: Human biology}
+- id: '106019'
+  props: {layer: '4'}
+  title: {de: Hydrobiologie, en: Hydrobiology}
+- id: '106020'
+  props: {layer: '4'}
+  title: {de: Limnologie, en: Limnology}
+- id: '106021'
+  props: {layer: '4'}
+  title: {de: Meeresbiologie, en: Marine biology}
+- id: '106022'
+  props: {layer: '4'}
+  title: {de: Mikrobiologie, en: Microbiology}
+- id: '106023'
+  props: {layer: '4'}
+  title: {de: Molekularbiologie, en: Molecular biology}
+- id: '106024'
+  props: {layer: '4'}
+  title: {de: Mykologie, en: Mycology}
+- id: '106025'
+  props: {layer: '4'}
+  title: {de: Neurobiologie, en: Neurobiology}
+- id: '106026'
+  props: {layer: '4'}
+  title: {de: Ökosystemforschung, en: Ecosystem research}
+- id: '106027'
+  props: {layer: '4'}
+  title: {de: Ökotoxikologie, en: Ecotoxicology}
+- id: '106028'
+  props: {layer: '4'}
+  title: {de: Pflanzenanatomie, en: Plant anatomy}
+- id: '106029'
+  props: {layer: '4'}
+  title: {de: Pflanzenmorphologie, en: Plant morphology}
+- id: '106030'
+  props: {layer: '4'}
+  title: {de: Pflanzenökologie, en: Plant ecology}
+- id: '106031'
+  props: {layer: '4'}
+  title: {de: Pflanzenphysiologie, en: Plant physiology}
+- id: '106032'
+  props: {layer: '4'}
+  title: {de: Photobiologie, en: Photobiology}
+- id: '106033'
+  props: {layer: '4'}
+  title: {de: Phylogenie, en: Phylogeny}
+- id: '106034'
+  props: {layer: '4'}
+  title: {de: Phytochemie, en: Phytochemistry}
+- id: '106035'
+  props: {layer: '4'}
+  title: {de: Phytogeographie, en: Phytogeography}
+- id: '106036'
+  props: {layer: '4'}
+  title: {de: Populationsgenetik, en: Population genetics}
+- id: '106037'
+  props: {layer: '4'}
+  title: {de: Proteomik, en: Proteomics}
+- id: '106038'
+  props: {layer: '4'}
+  title: {de: Reproduktionsbiologie, en: Reproductive biology}
+- id: '106039'
+  props: {layer: '4'}
+  title: {de: Stammzellenforschung, en: Stem cell research}
+- id: '106040'
+  props: {layer: '4'}
+  title: {de: Strahlenbiologie, en: Radiation biology}
+- id: '106041'
+  props: {layer: '4'}
+  title: {de: Strukturbiologie, en: Structural biology}
+- id: '106042'
+  props: {layer: '4'}
+  title: {de: Systematische Botanik, en: Systematic botany}
+- id: '106043'
+  props: {layer: '4'}
+  title: {de: Systematische Zoologie, en: Systematic zoology}
+- id: '106044'
+  props: {layer: '4'}
+  title: {de: Systembiologie, en: Systems biology}
+- id: '106045'
+  props: {layer: '4'}
+  title: {de: Theoretische Biologie, en: Theoretical biology}
+- id: '106046'
+  props: {layer: '4'}
+  title: {de: Tieranatomie, en: Animal anatomy}
+- id: '106047'
+  props: {layer: '4'}
+  title: {de: Tierökologie, en: Animal ecology}
+- id: '106048'
+  props: {layer: '4'}
+  title: {de: Tierphysiologie, en: Animal physiology}
+- id: '106049'
+  props: {layer: '4'}
+  title: {de: Ultrastrukturforschung, en: Ultrastructure research}
+- id: '106050'
+  props: {layer: '4'}
+  title: {de: Vegetationskunde, en: Vegetation science}
+- id: '106051'
+  props: {layer: '4'}
+  title: {de: Verhaltensbiologie, en: Behavioural biology}
+- id: '106052'
+  props: {layer: '4'}
+  title: {de: Zellbiologie, en: Cell biology}
+- id: '106053'
+  props: {layer: '4'}
+  title: {de: Zoogeographie, en: Zoogeography}
+- id: '106054'
+  props: {layer: '4'}
+  title: {de: Zoologie, en: Zoology}
+- id: '106055'
+  props: {layer: '4'}
+  title: {de: Aerobiologie, en: Aerobiology}
+- id: '106056'
+  props: {layer: '4'}
+  title: {de: Biologische Anthropologie, en: Biological anthropology}
+- id: '106057'
+  props: {layer: '4'}
+  title: {de: Metabolomik, en: Metabolomics}
+- id: '106058'
+  props: {layer: '4'}
+  title: {de: Bodenbiologie, en: Soil biology}
+- id: '106059'
+  props: {layer: '4'}
+  title: {de: Mikrobiomforschung, en: Microbiome research}
+- id: '106060'
+  props: {layer: '4'}
+  title: {de: Tierethik, en: Animal ethics}
+- id: '107'
+  props: {layer: '2'}
+  title: {de: Andere Naturwissenschaften, en: Other Natural Sciences}
+- id: '1070'
+  props: {layer: '3'}
+  title: {de: Andere Naturwissenschaften, en: Other Natural Sciences}
+- id: '107001'
+  props: {layer: '4'}
+  title: {de: Archäometrie, en: Archaeometry}
+- id: '107002'
+  props: {layer: '4'}
+  title: {de: Bionik, en: Bionics}
+- id: '107003'
+  props: {layer: '4'}
+  title: {de: Geschichte der Naturwissenschaften, en: History of natural sciences}
+- id: '107004'
+  props: {layer: '4'}
+  title: {de: Humanökologie, en: Human ecology}
+- id: '107005'
+  props: {layer: '4'}
+  title: {de: Lebensmitteluntersuchung, en: Food testing}
+- id: '107006'
+  props: {layer: '4'}
+  title: {de: Naturschutz, en: Nature conservation}
+- id: '107007'
+  props: {layer: '4'}
+  title: {de: Risikoforschung, en: Risk research}
+- id: '107008'
+  props: {layer: '4'}
+  title: {de: Archäobotanik, en: Archaeobotany}
+- id: '107009'
+  props: {layer: '4'}
+  title: {de: Archäozoologie, en: Archaeozoology}
+- id: '107010'
+  props: {layer: '4'}
+  title: {de: Geoarchäologie, en: Geoarchaeology}
+- id: '2'
+  props: {layer: '1'}
+  title: {de: TECHNISCHE WISSENSCHAFTEN, en: TECHNICAL SCIENCES}
+- id: '201'
+  props: {layer: '2'}
+  title: {de: Bauwesen, en: Construction Engineering}
+- id: '2011'
+  props: {layer: '3'}
+  title: {de: Bauingenieurwesen, en: Civil Engineering}
+- id: '201101'
+  props: {layer: '4'}
+  title: {de: Baubetrieb, en: Construction operation}
+- id: '201102'
+  props: {layer: '4'}
+  title: {de: Baudynamik, en: Structural dynamics}
+- id: '201103'
+  props: {layer: '4'}
+  title: {de: Bauphysik, en: Building physics}
+- id: '201104'
+  props: {layer: '4'}
+  title: {de: Baustatik, en: Structural analysis}
+- id: '201105'
+  props: {layer: '4'}
+  title: {de: Baustofflehre, en: Construction material practice}
+- id: '201106'
+  props: {layer: '4'}
+  title: {de: Bautechnik, en: Structural engineering}
+- id: '201107'
+  props: {layer: '4'}
+  title: {de: Betriebsfestigkeit, en: Endurance strength}
+- id: '201108'
+  props: {layer: '4'}
+  title: {de: Bruchmechanik, en: Fracture mechanics}
+- id: '201109'
+  props: {layer: '4'}
+  title: {de: Brückenbau, en: Bridge construction}
+- id: '201110'
+  props: {layer: '4'}
+  title: {de: Festigkeitslehre, en: Strength of materials}
+- id: '201111'
+  props: {layer: '4'}
+  title: {de: Flussbau, en: River engineering}
+- id: '201112'
+  props: {layer: '4'}
+  title: {de: Hochbau, en: Building construction}
+- id: '201113'
+  props: {layer: '4'}
+  title: {de: Holzbau, en: Timber engineering}
+- id: '201114'
+  props: {layer: '4'}
+  title: {de: Industriebau, en: Industrial building}
+- id: '201115'
+  props: {layer: '4'}
+  title: {de: Konstruktiver Wasserbau, en: Structural hydraulic engineering}
+- id: '201116'
+  props: {layer: '4'}
+  title: {de: Landwirtschaftliches Bauwesen, en: Agricultural civil engineering}
+- id: '201117'
+  props: {layer: '4'}
+  title: {de: Leichtbau, en: Lightweight design}
+- id: '201118'
+  props: {layer: '4'}
+  title: {de: Siedlungswasserbau, en: Urban water supply and sanitation}
+- id: '201119'
+  props: {layer: '4'}
+  title: {de: Stahlbau, en: Steel construction}
+- id: '201120'
+  props: {layer: '4'}
+  title: {de: Stahlbetonbau, en: Reinforced concrete construction}
+- id: '201121'
+  props: {layer: '4'}
+  title: {de: Straßenbau, en: Road construction}
+- id: '201122'
+  props: {layer: '4'}
+  title: {de: Technischer Hochwasserschutz, en: Technical flood protection}
+- id: '201123'
+  props: {layer: '4'}
+  title: {de: Tiefbau, en: Underground engineering}
+- id: '201124'
+  props: {layer: '4'}
+  title: {de: Tragwerkslehre, en: Structural design}
+- id: '201125'
+  props: {layer: '4'}
+  title: {de: Wasserbau, en: Hydraulic engineering}
+- id: '201126'
+  props: {layer: '4'}
+  title: {de: Wasserkraftanlagenbau, en: Hydropower plant construction}
+- id: '201127'
+  props: {layer: '4'}
+  title: {de: Wildbach- und Lawinenverbauung, en: Torrent and avalanche control}
+- id: '201128'
+  props: {layer: '4'}
+  title: {de: Nachhaltiges Bauen, en: Sustainable building}
+- id: '201129'
+  props: {layer: '4'}
+  title: {de: Erdbebeningenieurwesen, en: Earthquake engineering}
+- id: '201130'
+  props: {layer: '4'}
+  title: {de: Konstruktiver Glasbau, en: Structural glass construction}
+- id: '201131'
+  props: {layer: '4'}
+  title: {de: Baugeschichte, en: Building history}
+- id: '201132'
+  props: {layer: '4'}
+  title: {de: Computational Engineering, en: Computational engineering}
+- id: '2012'
+  props: {layer: '3'}
+  title: {de: Architektur, en: Architecture}
+- id: '201201'
+  props: {layer: '4'}
+  title: {de: Architekturgeschichte, en: History of architecture}
+- id: '201202'
+  props: {layer: '4'}
+  title: {de: Architekturmodellbau, en: Architectural modelling}
+- id: '201203'
+  props: {layer: '4'}
+  title: {de: Architekturtheorie, en: Architectural theory}
+- id: '201204'
+  props: {layer: '4'}
+  title: {de: Barrierefreies Bauen, en: Barrier-free building}
+- id: '201205'
+  props: {layer: '4'}
+  title: {de: Bauforschung, en: Building research}
+- id: '201206'
+  props: {layer: '4'}
+  title: {de: Entwerfen, en: Designing}
+- id: '201207'
+  props: {layer: '4'}
+  title: {de: Gebäudelehre, en: Building typology}
+- id: '201208'
+  props: {layer: '4'}
+  title: {de: Industriearchitektur, en: Industrial architecture}
+- id: '201209'
+  props: {layer: '4'}
+  title: {de: Innenarchitektur, en: Interior design}
+- id: '201210'
+  props: {layer: '4'}
+  title: {de: Landschaftsarchitektur, en: Landscape architecture}
+- id: '201211'
+  props: {layer: '4'}
+  title: {de: Solararchitektur, en: Solar architecture}
+- id: '201212'
+  props: {layer: '4'}
+  title: {de: Städtebau, en: Urban design}
+- id: '201213'
+  props: {layer: '4'}
+  title: {de: Wohnbau, en: Housing}
+- id: '201214'
+  props: {layer: '4'}
+  title: {de: Experimentelle Architektur, en: Experimental architecture}
+- id: '201215'
+  props: {layer: '4'}
+  title: {de: Baukulturelles Erbe, en: Building cultural heritage}
+- id: '2013'
+  props: {layer: '3'}
+  title: {de: Verkehrswesen, en: Transportation}
+- id: '201301'
+  props: {layer: '4'}
+  title: {de: Bahnbau, en: Railway construction}
+- id: '201302'
+  props: {layer: '4'}
+  title: {de: Eisenbahnwesen, en: Railway engineering}
+- id: '201303'
+  props: {layer: '4'}
+  title: {de: Seilbahnwesen, en: Ropeways}
+- id: '201304'
+  props: {layer: '4'}
+  title: {de: Straßenbau, en: Road construction}
+- id: '201305'
+  props: {layer: '4'}
+  title: {de: Verkehrstechnik, en: Traffic engineering}
+- id: '201306'
+  props: {layer: '4'}
+  title: {de: Verkehrstelematik, en: Traffic telematics}
+- id: '201307'
+  props: {layer: '4'}
+  title: {de: Verkehrswirtschaft, en: Transport economics}
+- id: '2019'
+  props: {layer: '3'}
+  title: {de: Sonstiges Bauwesen, en: Construction Engineering not elsewhere classified}
+- id: '201901'
+  props: {layer: '4'}
+  title: {de: Altbausanierung, en: Old building renovation}
+- id: '201902'
+  props: {layer: '4'}
+  title: {de: Bauökologie, en: Building ecology}
+- id: '201903'
+  props: {layer: '4'}
+  title: {de: Ingenieurbiologie, en: Soil bioengineering}
+- id: '201904'
+  props: {layer: '4'}
+  title: {de: Vegetationstechnik, en: Vegetation technology}
+- id: '201905'
+  props: {layer: '4'}
+  title: {de: Bauen im Bestand, en: Building within existing structures}
+- id: '201906'
+  props: {layer: '4'}
+  title: {de: Bauwerksbegrünung, en: Building-integrated vegetation}
+- id: '202'
+  props: {layer: '2'}
+  title: {de: 'Elektrotechnik, Elektronik, Informationstechnik', en: 'Electrical Engineering,
+      Electronics, Information Engineering'}
+- id: '2020'
+  props: {layer: '3'}
+  title: {de: 'Elektrotechnik, Elektronik, Informationstechnik', en: 'Electrical Engineering,
+      Electronics, Information Engineering'}
+- id: '202001'
+  props: {layer: '4'}
+  title: {de: Audiotechnik, en: Audio technology}
+- id: '202002'
+  props: {layer: '4'}
+  title: {de: Audiovisuelle Medien, en: Audiovisual media}
+- id: '202003'
+  props: {layer: '4'}
+  title: {de: Automatisierungstechnik, en: Automation}
+- id: '202004'
+  props: {layer: '4'}
+  title: {de: Brain-Computer Interface, en: Brain-computer interface}
+- id: '202005'
+  props: {layer: '4'}
+  title: {de: Computer Architektur, en: Computer architecture}
+- id: '202006'
+  props: {layer: '4'}
+  title: {de: Computer Hardware, en: Computer hardware}
+- id: '202007'
+  props: {layer: '4'}
+  title: {de: Computer Integrated Manufacturing (CIM), en: Computer integrated manufacturing
+      (CIM)}
+- id: '202008'
+  props: {layer: '4'}
+  title: {de: Elektrische Anlagen, en: Electrical power systems}
+- id: '202009'
+  props: {layer: '4'}
+  title: {de: Elektrische Antriebstechnik, en: Electrical drive engineering}
+- id: '202010'
+  props: {layer: '4'}
+  title: {de: Elektrische Energietechnik, en: Electric power engineering}
+- id: '202011'
+  props: {layer: '4'}
+  title: {de: Elektrische Maschinen, en: Electrical machines}
+- id: '202012'
+  props: {layer: '4'}
+  title: {de: Elektrische Messtechnik, en: Electrical measurement technology}
+- id: '202013'
+  props: {layer: '4'}
+  title: {de: Elektromagnetische Verträglichkeit, en: Electromagnetic compatibility}
+- id: '202014'
+  props: {layer: '4'}
+  title: {de: Elektromagnetismus, en: Electromagnetism}
+- id: '202015'
+  props: {layer: '4'}
+  title: {de: Elektronik, en: Electronics}
+- id: '202016'
+  props: {layer: '4'}
+  title: {de: Elektrotechnik, en: Electrical engineering}
+- id: '202017'
+  props: {layer: '4'}
+  title: {de: Embedded Systems, en: Embedded systems}
+- id: '202018'
+  props: {layer: '4'}
+  title: {de: Halbleiterelektronik, en: Semiconductor electronics}
+- id: '202019'
+  props: {layer: '4'}
+  title: {de: Hochfrequenztechnik, en: High frequency engineering}
+- id: '202020'
+  props: {layer: '4'}
+  title: {de: Hochspannungstechnik, en: High voltage engineering}
+- id: '202021'
+  props: {layer: '4'}
+  title: {de: Industrielle Elektronik, en: Industrial electronics}
+- id: '202022'
+  props: {layer: '4'}
+  title: {de: Informationstechnik, en: Information technology}
+- id: '202023'
+  props: {layer: '4'}
+  title: {de: Integrierte Schaltkreise, en: Integrated circuits}
+- id: '202024'
+  props: {layer: '4'}
+  title: {de: Lasertechnik, en: Laser technology}
+- id: '202025'
+  props: {layer: '4'}
+  title: {de: Leistungselektronik, en: Power electronics}
+- id: '202026'
+  props: {layer: '4'}
+  title: {de: Lichttechnik, en: Light technology}
+- id: '202027'
+  props: {layer: '4'}
+  title: {de: Mechatronik, en: Mechatronics}
+- id: '202028'
+  props: {layer: '4'}
+  title: {de: Mikroelektronik, en: Microelectronics}
+- id: '202029'
+  props: {layer: '4'}
+  title: {de: Mikrowellentechnik, en: Microwave engineering}
+- id: '202030'
+  props: {layer: '4'}
+  title: {de: Nachrichtentechnik, en: Communication engineering}
+- id: '202031'
+  props: {layer: '4'}
+  title: {de: Netzwerktechnik, en: Network engineering}
+- id: '202032'
+  props: {layer: '4'}
+  title: {de: Photovoltaik, en: Photovoltaics}
+- id: '202033'
+  props: {layer: '4'}
+  title: {de: Radartechnik, en: Radar technology}
+- id: '202034'
+  props: {layer: '4'}
+  title: {de: Regelungstechnik, en: Control engineering}
+- id: '202035'
+  props: {layer: '4'}
+  title: {de: Robotik, en: Robotics}
+- id: '202036'
+  props: {layer: '4'}
+  title: {de: Sensorik, en: Sensor systems}
+- id: '202037'
+  props: {layer: '4'}
+  title: {de: Signalverarbeitung, en: Signal processing}
+- id: '202038'
+  props: {layer: '4'}
+  title: {de: Telekommunikation, en: Telecommunications}
+- id: '202039'
+  props: {layer: '4'}
+  title: {de: Theoretische Elektrotechnik, en: Theoretical electrical engineering}
+- id: '202040'
+  props: {layer: '4'}
+  title: {de: Übertragungstechnik, en: Transmission technology}
+- id: '202041'
+  props: {layer: '4'}
+  title: {de: Technische Informatik, en: Computer engineering}
+- id: '202042'
+  props: {layer: '4'}
+  title: {de: Optische Nachrichtentechnik, en: Optical communication engineering}
+- id: '202043'
+  props: {layer: '4'}
+  title: {de: Netzwerksicherheit, en: Network security}
+- id: '203'
+  props: {layer: '2'}
+  title: {de: Maschinenbau, en: Mechanical Engineering}
+- id: '2030'
+  props: {layer: '3'}
+  title: {de: Maschinenbau, en: Mechanical Engineering}
+- id: '203001'
+  props: {layer: '4'}
+  title: {de: Apparatebau, en: Apparatus engineering}
+- id: '203002'
+  props: {layer: '4'}
+  title: {de: Betriebsfestigkeit, en: Endurance strength}
+- id: '203003'
+  props: {layer: '4'}
+  title: {de: Bruchmechanik, en: Fracture mechanics}
+- id: '203004'
+  props: {layer: '4'}
+  title: {de: Fahrzeugtechnik, en: Automotive technology}
+- id: '203005'
+  props: {layer: '4'}
+  title: {de: Feinwerktechnik, en: Precision engineering}
+- id: '203006'
+  props: {layer: '4'}
+  title: {de: Fertigungstechnik, en: Production engineering}
+- id: '203007'
+  props: {layer: '4'}
+  title: {de: Festigkeitslehre, en: Strength of materials}
+- id: '203008'
+  props: {layer: '4'}
+  title: {de: Fördertechnik, en: Conveyor technology}
+- id: '203009'
+  props: {layer: '4'}
+  title: {de: Kältetechnik, en: Refrigeration engineering}
+- id: '203010'
+  props: {layer: '4'}
+  title: {de: Klimatechnik, en: Air conditioning technology}
+- id: '203011'
+  props: {layer: '4'}
+  title: {de: Leichtbau, en: Lightweight design}
+- id: '203012'
+  props: {layer: '4'}
+  title: {de: Luftfahrttechnik, en: Aerospace engineering}
+- id: '203013'
+  props: {layer: '4'}
+  title: {de: Maschinenbau, en: Mechanical engineering}
+- id: '203014'
+  props: {layer: '4'}
+  title: {de: Maschinendynamik, en: Machine dynamics}
+- id: '203015'
+  props: {layer: '4'}
+  title: {de: Mechatronik, en: Mechatronics}
+- id: '203016'
+  props: {layer: '4'}
+  title: {de: Messtechnik, en: Measurement engineering}
+- id: '203017'
+  props: {layer: '4'}
+  title: {de: Mikromechanik, en: Micromechanics}
+- id: '203018'
+  props: {layer: '4'}
+  title: {de: Montanmaschinenbau, en: Heavy machinery construction}
+- id: '203019'
+  props: {layer: '4'}
+  title: {de: Reaktortechnik, en: Reactor technology}
+- id: '203020'
+  props: {layer: '4'}
+  title: {de: Schweißtechnik, en: Welding engineering}
+- id: '203021'
+  props: {layer: '4'}
+  title: {de: Strömungsmaschinen, en: Fluid-flow machinery}
+- id: '203022'
+  props: {layer: '4'}
+  title: {de: Technische Mechanik, en: Technical mechanics}
+- id: '203023'
+  props: {layer: '4'}
+  title: {de: Thermische Turbomaschinen, en: Thermal turbomachinery}
+- id: '203024'
+  props: {layer: '4'}
+  title: {de: Thermodynamik, en: Thermodynamics}
+- id: '203025'
+  props: {layer: '4'}
+  title: {de: Tribologie, en: Tribology}
+- id: '203026'
+  props: {layer: '4'}
+  title: {de: Umformtechnik, en: Forming}
+- id: '203027'
+  props: {layer: '4'}
+  title: {de: Verbrennungskraftmaschinen, en: Internal combustion engines}
+- id: '203028'
+  props: {layer: '4'}
+  title: {de: Wärmetechnik, en: Thermal engineering}
+- id: '203029'
+  props: {layer: '4'}
+  title: {de: Werkzeugbau, en: Tool construction}
+- id: '203030'
+  props: {layer: '4'}
+  title: {de: Brennstoffzellentechnik, en: Fuel cell technology}
+- id: '203031'
+  props: {layer: '4'}
+  title: {de: Konstruktionslehre, en: Engineering design}
+- id: '203032'
+  props: {layer: '4'}
+  title: {de: Generative Fertigungsverfahren, en: Additive manufacturing}
+- id: '203033'
+  props: {layer: '4'}
+  title: {de: Hydraulische Antriebstechnik, en: Hydraulic drive technology}
+- id: '203034'
+  props: {layer: '4'}
+  title: {de: Kontinuumsmechanik, en: Continuum mechanics}
+- id: '203035'
+  props: {layer: '4'}
+  title: {de: Thermoprozesstechnik, en: Thermal processing technology}
+- id: '203036'
+  props: {layer: '4'}
+  title: {de: Waffen- und Munitionstechnik, en: Weapons and munitions technology}
+- id: '203037'
+  props: {layer: '4'}
+  title: {de: Computational Engineering, en: Computational engineering}
+- id: '203038'
+  props: {layer: '4'}
+  title: {de: Lüftungstechnik, en: Ventilation technology}
+- id: '204'
+  props: {layer: '2'}
+  title: {de: Chemische Verfahrenstechnik, en: Chemical Process Engineering}
+- id: '2040'
+  props: {layer: '3'}
+  title: {de: Chemische Verfahrenstechnik, en: Chemical Process Engineering}
+- id: '204001'
+  props: {layer: '4'}
+  title: {de: Anorganisch-chemische Technologie, en: Inorganic chemical technology}
+- id: '204002'
+  props: {layer: '4'}
+  title: {de: Chemische Reaktionstechnik, en: Chemical reaction engineering}
+- id: '204003'
+  props: {layer: '4'}
+  title: {de: Chemische Verfahrenstechnik, en: Chemical process engineering}
+- id: '204004'
+  props: {layer: '4'}
+  title: {de: Organisch-chemische Technologie, en: Organic chemical technology}
+- id: '204005'
+  props: {layer: '4'}
+  title: {de: Raffinerietechnik, en: Refining technology}
+- id: '204006'
+  props: {layer: '4'}
+  title: {de: Mechanische Verfahrenstechnik, en: Mechanical process engineering}
+- id: '204007'
+  props: {layer: '4'}
+  title: {de: Thermische Verfahrenstechnik, en: Thermal process engineering}
+- id: '204008'
+  props: {layer: '4'}
+  title: {de: Membrantechnologie, en: Membrane technology}
+- id: '205'
+  props: {layer: '2'}
+  title: {de: Werkstofftechnik, en: Materials Engineering}
+- id: '2050'
+  props: {layer: '3'}
+  title: {de: Werkstofftechnik, en: Materials Engineering}
+- id: '205001'
+  props: {layer: '4'}
+  title: {de: Baustoffprüfung, en: Building materials testing}
+- id: '205002'
+  props: {layer: '4'}
+  title: {de: Beschichtungstechnik, en: Coating technology}
+- id: '205003'
+  props: {layer: '4'}
+  title: {de: Feuerfeste Materialien, en: Refractories}
+- id: '205004'
+  props: {layer: '4'}
+  title: {de: Funktionsmaterialien, en: Functional materials}
+- id: '205005'
+  props: {layer: '4'}
+  title: {de: Gesteinshüttenkunde, en: Ceramics engineering}
+- id: '205006'
+  props: {layer: '4'}
+  title: {de: Holzforschung, en: Wood research}
+- id: '205007'
+  props: {layer: '4'}
+  title: {de: Holzschutzmittel, en: Wood preservatives}
+- id: '205008'
+  props: {layer: '4'}
+  title: {de: Holztechnologie, en: Wood technology}
+- id: '205009'
+  props: {layer: '4'}
+  title: {de: Keramische Werkstoffe, en: Ceramic materials}
+- id: '205010'
+  props: {layer: '4'}
+  title: {de: Korrosionsschutzmittel, en: Anticorrosives}
+- id: '205011'
+  props: {layer: '4'}
+  title: {de: Kunststofftechnik, en: Polymer engineering}
+- id: '205012'
+  props: {layer: '4'}
+  title: {de: Kunststoffverarbeitung, en: Polymer processing}
+- id: '205013'
+  props: {layer: '4'}
+  title: {de: Schadensanalytik, en: Failure analysis}
+- id: '205014'
+  props: {layer: '4'}
+  title: {de: Textiltechnik, en: Textile technology}
+- id: '205015'
+  props: {layer: '4'}
+  title: {de: Verbundwerkstoffe, en: Composites}
+- id: '205016'
+  props: {layer: '4'}
+  title: {de: Werkstoffprüfung, en: Materials testing}
+- id: '205017'
+  props: {layer: '4'}
+  title: {de: Werkstofftechnik, en: Materials engineering}
+- id: '205018'
+  props: {layer: '4'}
+  title: {de: Zellstoff- und Papiertechnik, en: Pulp and paper technology}
+- id: '205019'
+  props: {layer: '4'}
+  title: {de: Materialwissenschaften, en: Material sciences}
+- id: '206'
+  props: {layer: '2'}
+  title: {de: Medizintechnik, en: Medical Engineering}
+- id: '2060'
+  props: {layer: '3'}
+  title: {de: Medizintechnik, en: Medical Engineering}
+- id: '206001'
+  props: {layer: '4'}
+  title: {de: Biomedizinische Technik, en: Biomedical engineering}
+- id: '206002'
+  props: {layer: '4'}
+  title: {de: Elektromedizinische Technik, en: Electro-medical engineering}
+- id: '206003'
+  props: {layer: '4'}
+  title: {de: Medizinische Physik, en: Medical physics}
+- id: '206004'
+  props: {layer: '4'}
+  title: {de: Medizintechnik, en: Medical engineering}
+- id: '206005'
+  props: {layer: '4'}
+  title: {de: Prothetik, en: Prosthetics}
+- id: '206006'
+  props: {layer: '4'}
+  title: {de: Rehabilitationstechnik, en: Rehabilitation technology}
+- id: '207'
+  props: {layer: '2'}
+  title: {de: 'Umweltingenieurwesen, Angewandte Geowissenschaften', en: 'Environmental
+      Engineering, Applied Geosciences'}
+- id: '2071'
+  props: {layer: '3'}
+  title: {de: Umwelttechnik, en: Environmental Engineering}
+- id: '207101'
+  props: {layer: '4'}
+  title: {de: Abfalltechnik, en: Waste engineering}
+- id: '207102'
+  props: {layer: '4'}
+  title: {de: Abluftreinigung, en: Exhaust air purification}
+- id: '207103'
+  props: {layer: '4'}
+  title: {de: Abwasserreinigung, en: Wastewater treatment}
+- id: '207104'
+  props: {layer: '4'}
+  title: {de: Altlastensanierung, en: Remediation of contaminated sites}
+- id: '207105'
+  props: {layer: '4'}
+  title: {de: Deponietechnik, en: Landfill technology}
+- id: '207106'
+  props: {layer: '4'}
+  title: {de: Erneuerbare Energie, en: Renewable energy}
+- id: '207107'
+  props: {layer: '4'}
+  title: {de: Luftreinhaltung, en: Air pollution control}
+- id: '207108'
+  props: {layer: '4'}
+  title: {de: Recycling, en: Recycling}
+- id: '207109'
+  props: {layer: '4'}
+  title: {de: Schadstoffemission, en: Pollutant emission}
+- id: '207110'
+  props: {layer: '4'}
+  title: {de: Technischer Umweltschutz, en: Technical environmental protection}
+- id: '207111'
+  props: {layer: '4'}
+  title: {de: Umwelttechnik, en: Environmental engineering}
+- id: '207112'
+  props: {layer: '4'}
+  title: {de: Wasseraufbereitung, en: Water treatment}
+- id: '207113'
+  props: {layer: '4'}
+  title: {de: Wasserinfrastruktur, en: Water infrastructure}
+- id: '207114'
+  props: {layer: '4'}
+  title: {de: Wasserwirtschaft, en: Water management}
+- id: '2072'
+  props: {layer: '3'}
+  title: {de: 'Ingenieurgeologie, Geotechnik', en: 'Engineering Geology, Geotechnics'}
+- id: '207201'
+  props: {layer: '4'}
+  title: {de: Bodenmechanik, en: Soil mechanics}
+- id: '207202'
+  props: {layer: '4'}
+  title: {de: Erdbau, en: Earthworks}
+- id: '207203'
+  props: {layer: '4'}
+  title: {de: Felsmechanik, en: Rock mechanics}
+- id: '207204'
+  props: {layer: '4'}
+  title: {de: Geotechnik, en: Geotechnics}
+- id: '207205'
+  props: {layer: '4'}
+  title: {de: Grundbau, en: Foundation engineering}
+- id: '207206'
+  props: {layer: '4'}
+  title: {de: Ingenieurgeologie, en: Engineering geology}
+- id: '207207'
+  props: {layer: '4'}
+  title: {de: Tunnelbau, en: Tunnelling}
+- id: '207208'
+  props: {layer: '4'}
+  title: {de: Tunnelbelüftung, en: Tunnel ventilation}
+- id: '2073'
+  props: {layer: '3'}
+  title: {de: 'Bergbau, Erdölgewinnung', en: 'Mining, Petroleum Engineering'}
+- id: '207301'
+  props: {layer: '4'}
+  title: {de: Aufbereitung mineralischer Rohstoffe, en: Processing of mineral raw
+      materials}
+- id: '207302'
+  props: {layer: '4'}
+  title: {de: Bergbaukunde, en: Mining engineering}
+- id: '207303'
+  props: {layer: '4'}
+  title: {de: Bergschadenkunde, en: Mining damage}
+- id: '207304'
+  props: {layer: '4'}
+  title: {de: Erdgasgewinnung, en: Natural gas production}
+- id: '207305'
+  props: {layer: '4'}
+  title: {de: Erdgastechnik, en: Natural gas engineering}
+- id: '207306'
+  props: {layer: '4'}
+  title: {de: Erdölgeologie, en: Petroleum geology}
+- id: '207307'
+  props: {layer: '4'}
+  title: {de: Erdölgewinnung, en: Petroleum production}
+- id: '207308'
+  props: {layer: '4'}
+  title: {de: Erdöltechnik, en: Petroleum engineering}
+- id: '207309'
+  props: {layer: '4'}
+  title: {de: Geschichte des Bergbaus, en: History of mining}
+- id: '207310'
+  props: {layer: '4'}
+  title: {de: Gewinnung mineralischer Rohstoffe, en: Extraction of mineral raw materials}
+- id: '207311'
+  props: {layer: '4'}
+  title: {de: Lagerstättenkunde, en: Economic geology}
+- id: '207312'
+  props: {layer: '4'}
+  title: {de: Markscheidekunde, en: Mine surveying}
+- id: '207313'
+  props: {layer: '4'}
+  title: {de: Tiefbohrtechnik, en: Drilling engineering}
+- id: '207314'
+  props: {layer: '4'}
+  title: {de: Untertagebau, en: Underground mining}
+- id: '2074'
+  props: {layer: '3'}
+  title: {de: 'Geodäsie, Vermessungswesen', en: 'Geodesy, Surveying'}
+- id: '207401'
+  props: {layer: '4'}
+  title: {de: 3D-Vermessung, en: 3D-surveying}
+- id: '207402'
+  props: {layer: '4'}
+  title: {de: Fernerkundung, en: Remote sensing}
+- id: '207403'
+  props: {layer: '4'}
+  title: {de: Geodäsie, en: Geodesy}
+- id: '207404'
+  props: {layer: '4'}
+  title: {de: Geoinformatik, en: Geoinformatics}
+- id: '207405'
+  props: {layer: '4'}
+  title: {de: Ingenieurgeodäsie, en: Engineering geodesy}
+- id: '207406'
+  props: {layer: '4'}
+  title: {de: Kartographie, en: Cartography}
+- id: '207407'
+  props: {layer: '4'}
+  title: {de: Katastervermessung, en: Cadastral surveying}
+- id: '207408'
+  props: {layer: '4'}
+  title: {de: Landesvermessung, en: Land surveying}
+- id: '207409'
+  props: {layer: '4'}
+  title: {de: Navigationssysteme, en: Navigation systems}
+- id: '207410'
+  props: {layer: '4'}
+  title: {de: Photogrammetrie, en: Photogrammetry}
+- id: '207411'
+  props: {layer: '4'}
+  title: {de: Satellitengeodäsie, en: Satellite geodesy}
+- id: '207412'
+  props: {layer: '4'}
+  title: {de: Satellitengestützte Koordinatenmessung, en: Satellite-based coordinate
+      measuring}
+- id: '207413'
+  props: {layer: '4'}
+  title: {de: Vermessungswesen, en: Surveying}
+- id: '2079'
+  props: {layer: '3'}
+  title: {de: 'Sonstiges Umweltingenieurwesen, Angewandte Geowissenschaften', en: 'Environmental
+      Engineering, Applied Geosciences not elsewhere classified'}
+- id: '207901'
+  props: {layer: '4'}
+  title: {de: Offshore-Technik, en: Offshore technology}
+- id: '207902'
+  props: {layer: '4'}
+  title: {de: Computational Geosciences, en: Computational geosciences}
+- id: '208'
+  props: {layer: '2'}
+  title: {de: Umweltbiotechnologie, en: Environmental Biotechnology}
+- id: '2080'
+  props: {layer: '3'}
+  title: {de: Umweltbiotechnologie, en: Environmental Biotechnology}
+- id: '208001'
+  props: {layer: '4'}
+  title: {de: Bioremediation, en: Bioremediation}
+- id: '208002'
+  props: {layer: '4'}
+  title: {de: Ethik in der Umweltbiotechnologie, en: Environmental biotechnology related
+      ethics}
+- id: '208003'
+  props: {layer: '4'}
+  title: {de: Umweltbiotechnologie, en: Environmental biotechnology}
+- id: '209'
+  props: {layer: '2'}
+  title: {de: Industrielle Biotechnologie, en: Industrial Biotechnology}
+- id: '2090'
+  props: {layer: '3'}
+  title: {de: Industrielle Biotechnologie, en: Industrial Biotechnology}
+- id: '209001'
+  props: {layer: '4'}
+  title: {de: Biokatalyse, en: Biocatalysis}
+- id: '209002'
+  props: {layer: '4'}
+  title: {de: Bioprozesstechnik, en: Bioprocess technology}
+- id: '209003'
+  props: {layer: '4'}
+  title: {de: Biotreibstoffe, en: Biofuels}
+- id: '209004'
+  props: {layer: '4'}
+  title: {de: Enzymtechnologie, en: Enzyme technology}
+- id: '209005'
+  props: {layer: '4'}
+  title: {de: Fermentation, en: Fermentation}
+- id: '209006'
+  props: {layer: '4'}
+  title: {de: Industrielle Biotechnologie, en: Industrial biotechnology}
+- id: '210'
+  props: {layer: '2'}
+  title: {de: Nanotechnologie, en: Nanotechnology}
+- id: '2100'
+  props: {layer: '3'}
+  title: {de: Nanotechnologie, en: Nanotechnology}
+- id: '210001'
+  props: {layer: '4'}
+  title: {de: Nanoanalytik, en: Nanoanalytics}
+- id: '210002'
+  props: {layer: '4'}
+  title: {de: Nanobiotechnologie, en: Nanobiotechnology}
+- id: '210003'
+  props: {layer: '4'}
+  title: {de: Nanoelektronik, en: Nanoelectronics}
+- id: '210004'
+  props: {layer: '4'}
+  title: {de: Nanomaterialien, en: Nanomaterials}
+- id: '210005'
+  props: {layer: '4'}
+  title: {de: Nanophotonik, en: Nanophotonics}
+- id: '210006'
+  props: {layer: '4'}
+  title: {de: Nanotechnologie, en: Nanotechnology}
+- id: '211'
+  props: {layer: '2'}
+  title: {de: Andere Technische Wissenschaften, en: Other Technical Sciences}
+- id: '2111'
+  props: {layer: '3'}
+  title: {de: Metallurgie, en: Metallurgy}
+- id: '211101'
+  props: {layer: '4'}
+  title: {de: Eisen- und Stahlmetallurgie, en: Iron and steel metallurgy}
+- id: '211102'
+  props: {layer: '4'}
+  title: {de: Gießereitechnik, en: Casting technology}
+- id: '211103'
+  props: {layer: '4'}
+  title: {de: Metallkunde, en: Physical metallurgy}
+- id: '211104'
+  props: {layer: '4'}
+  title: {de: Metallurgie, en: Metallurgy}
+- id: '211105'
+  props: {layer: '4'}
+  title: {de: Nichteisenmetallurgie, en: Nonferrous metallurgy}
+- id: '211106'
+  props: {layer: '4'}
+  title: {de: Leichtmetalle, en: Light metals}
+- id: '211107'
+  props: {layer: '4'}
+  title: {de: Sekundärmetallurgie, en: Secondary metallurgy}
+- id: '2112'
+  props: {layer: '3'}
+  title: {de: Lebensmitteltechnologie, en: Food Technology}
+- id: '211201'
+  props: {layer: '4'}
+  title: {de: Getreidetechnologie, en: Grain technology}
+- id: '211202'
+  props: {layer: '4'}
+  title: {de: Lebensmitteltechnologie, en: Food technology}
+- id: '211203'
+  props: {layer: '4'}
+  title: {de: Lebensmittelverfahrenstechnik, en: Food processing engineering}
+- id: '211204'
+  props: {layer: '4'}
+  title: {de: Fleischtechnologie, en: Meat technology}
+- id: '2119'
+  props: {layer: '3'}
+  title: {de: Sonstige Technische Wissenschaften, en: Technical Sciences not elsewhere
+      classified}
+- id: '211901'
+  props: {layer: '4'}
+  title: {de: Abfallvermeidung, en: Waste prevention}
+- id: '211902'
+  props: {layer: '4'}
+  title: {de: Assistierende Technologien, en: Assistive technologies}
+- id: '211903'
+  props: {layer: '4'}
+  title: {de: Betriebswissenschaften, en: Science of management}
+- id: '211904'
+  props: {layer: '4'}
+  title: {de: Biomechanik, en: Biomechanics}
+- id: '211905'
+  props: {layer: '4'}
+  title: {de: Bionik, en: Bionics}
+- id: '211906'
+  props: {layer: '4'}
+  title: {de: Brandschutz, en: Fire protection}
+- id: '211907'
+  props: {layer: '4'}
+  title: {de: Energieeinsparung, en: Energy saving}
+- id: '211908'
+  props: {layer: '4'}
+  title: {de: Energieforschung, en: Energy research}
+- id: '211909'
+  props: {layer: '4'}
+  title: {de: Energietechnik, en: Energy technology}
+- id: '211910'
+  props: {layer: '4'}
+  title: {de: Lärmschutz, en: Noise protection}
+- id: '211911'
+  props: {layer: '4'}
+  title: {de: Nachhaltige Technologien, en: Sustainable technologies}
+- id: '211912'
+  props: {layer: '4'}
+  title: {de: Produktgestaltung, en: Product design}
+- id: '211913'
+  props: {layer: '4'}
+  title: {de: Qualitätssicherung, en: Quality assurance}
+- id: '211914'
+  props: {layer: '4'}
+  title: {de: Risikoforschung, en: Risk research}
+- id: '211915'
+  props: {layer: '4'}
+  title: {de: Solartechnik, en: Solar technology}
+- id: '211916'
+  props: {layer: '4'}
+  title: {de: Sprengtechnik, en: Blasting engineering}
+- id: '211917'
+  props: {layer: '4'}
+  title: {de: Technikfolgenabschätzung, en: Technology assessment}
+- id: '211918'
+  props: {layer: '4'}
+  title: {de: Technikgeschichte, en: Technical history}
+- id: '211919'
+  props: {layer: '4'}
+  title: {de: Thermographie, en: Thermography}
+- id: '211920'
+  props: {layer: '4'}
+  title: {de: Verpackungstechnik, en: Packaging technology}
+- id: '211921'
+  props: {layer: '4'}
+  title: {de: Zivil- und Katastrophenschutz, en: Civil protection and disaster control}
+- id: '211922'
+  props: {layer: '4'}
+  title: {de: Energiespeicherung, en: Energy storage}
+- id: '211923'
+  props: {layer: '4'}
+  title: {de: Fabrikplanung, en: Factory planning}
+- id: '211924'
+  props: {layer: '4'}
+  title: {de: Prozess- und Anlagensicherheit, en: Process and plant safety}
+- id: '211925'
+  props: {layer: '4'}
+  title: {de: Explosionsforschung, en: Explosion research}
+- id: '211926'
+  props: {layer: '4'}
+  title: {de: Technikethik, en: Technology ethics}
+- id: '3'
+  props: {layer: '1'}
+  title: {de: 'HUMANMEDIZIN, GESUNDHEITSWISSENSCHAFTEN', en: 'HUMAN MEDICINE, HEALTH
+      SCIENCES'}
+- id: '301'
+  props: {layer: '2'}
+  title: {de: 'Medizinisch-theoretische Wissenschaften, Pharmazie', en: 'Medical-Theoretical
+      Sciences, Pharmacy'}
+- id: '3011'
+  props: {layer: '3'}
+  title: {de: 'Anatomie, Pathologie, Physiologie', en: 'Anatomy, Pathology, Physiology'}
+- id: '301101'
+  props: {layer: '4'}
+  title: {de: Allgemeine Pathologie, en: General pathology}
+- id: '301102'
+  props: {layer: '4'}
+  title: {de: Anatomie, en: Anatomy}
+- id: '301103'
+  props: {layer: '4'}
+  title: {de: Diagnostik in der Medizin, en: Medical diagnostics}
+- id: '301104'
+  props: {layer: '4'}
+  title: {de: Embryologie, en: Embryology}
+- id: '301105'
+  props: {layer: '4'}
+  title: {de: Experimentelle Pathologie, en: Experimental pathology}
+- id: '301106'
+  props: {layer: '4'}
+  title: {de: Funktionelle Anatomie, en: Functional anatomy}
+- id: '301107'
+  props: {layer: '4'}
+  title: {de: Histologie, en: Histology}
+- id: '301108'
+  props: {layer: '4'}
+  title: {de: Molekulare Pathologie, en: Molecular pathology}
+- id: '301109'
+  props: {layer: '4'}
+  title: {de: Pathophysiologie, en: Pathophysiology}
+- id: '301110'
+  props: {layer: '4'}
+  title: {de: Physiologie, en: Physiology}
+- id: '301111'
+  props: {layer: '4'}
+  title: {de: Röntgenanatomie, en: Radiologic anatomy}
+- id: '301112'
+  props: {layer: '4'}
+  title: {de: Systematische Anatomie, en: Systematic anatomy}
+- id: '301113'
+  props: {layer: '4'}
+  title: {de: Topographische Anatomie, en: Topographic anatomy}
+- id: '301114'
+  props: {layer: '4'}
+  title: {de: Zellbiologie, en: Cell biology}
+- id: '301115'
+  props: {layer: '4'}
+  title: {de: Sonoanatomie, en: Sonoanatomy}
+- id: '3012'
+  props: {layer: '3'}
+  title: {de: 'Pharmazie, Pharmakologie, Toxikologie', en: 'Pharmacy, Pharmacology,
+      Toxicology'}
+- id: '301201'
+  props: {layer: '4'}
+  title: {de: 'Arzneimittel-, Arzneistoffanalyse', en: Pharmaceutical and drug analysis}
+- id: '301202'
+  props: {layer: '4'}
+  title: {de: Geschichte der Pharmazie, en: History of pharmacy}
+- id: '301203'
+  props: {layer: '4'}
+  title: {de: Pharmakodynamik, en: Pharmacodynamics}
+- id: '301204'
+  props: {layer: '4'}
+  title: {de: Pharmakognosie, en: Pharmacognosy}
+- id: '301205'
+  props: {layer: '4'}
+  title: {de: Pharmakokinetik, en: Pharmacokinetics}
+- id: '301206'
+  props: {layer: '4'}
+  title: {de: Pharmakologie, en: Pharmacology}
+- id: '301207'
+  props: {layer: '4'}
+  title: {de: Pharmazeutische Chemie, en: Pharmaceutical chemistry}
+- id: '301208'
+  props: {layer: '4'}
+  title: {de: Pharmazeutische Technologie, en: Pharmaceutical technology}
+- id: '301209'
+  props: {layer: '4'}
+  title: {de: Pharmazie, en: Pharmacy}
+- id: '301210'
+  props: {layer: '4'}
+  title: {de: Psychopharmakologie, en: Psychopharmacology}
+- id: '301211'
+  props: {layer: '4'}
+  title: {de: Toxikologie, en: Toxicology}
+- id: '301212'
+  props: {layer: '4'}
+  title: {de: Klinische Pharmazie, en: Clinical pharmacy}
+- id: '301213'
+  props: {layer: '4'}
+  title: {de: Drug Targeting, en: Drug targeting}
+- id: '301214'
+  props: {layer: '4'}
+  title: {de: Biopharmazie, en: Biopharmacy}
+- id: '301215'
+  props: {layer: '4'}
+  title: {de: Arzneimittelsicherheit, en: Drug safety}
+- id: '3013'
+  props: {layer: '3'}
+  title: {de: 'Medizinische Biochemie, Humangenetik', en: 'Medical Biochemistry, Human
+      Genetics'}
+- id: '301301'
+  props: {layer: '4'}
+  title: {de: Humangenetik, en: Human genetics}
+- id: '301302'
+  props: {layer: '4'}
+  title: {de: Lipidforschung, en: Lipidomics research}
+- id: '301303'
+  props: {layer: '4'}
+  title: {de: Medizinische Biochemie, en: Medical biochemistry}
+- id: '301304'
+  props: {layer: '4'}
+  title: {de: Medizinische Biologie, en: Medical biology}
+- id: '301305'
+  props: {layer: '4'}
+  title: {de: Medizinische Chemie, en: Medical chemistry}
+- id: '301306'
+  props: {layer: '4'}
+  title: {de: Medizinische Molekularbiologie, en: Medical molecular biology}
+- id: '301307'
+  props: {layer: '4'}
+  title: {de: Zytogenetik, en: Cytogenetics}
+- id: '301308'
+  props: {layer: '4'}
+  title: {de: Alternsforschung, en: Ageing research}
+- id: '3014'
+  props: {layer: '3'}
+  title: {de: Neurowissenschaften, en: Neurosciences}
+- id: '301401'
+  props: {layer: '4'}
+  title: {de: Hirnforschung, en: Brain research}
+- id: '301402'
+  props: {layer: '4'}
+  title: {de: Neurobiologie, en: Neurobiology}
+- id: '301403'
+  props: {layer: '4'}
+  title: {de: Neurochemie, en: Neurochemistry}
+- id: '301404'
+  props: {layer: '4'}
+  title: {de: Neuroimmunologie, en: Neuroimmunology}
+- id: '301405'
+  props: {layer: '4'}
+  title: {de: Neuropathologie, en: Neuropathology}
+- id: '301406'
+  props: {layer: '4'}
+  title: {de: Neuropharmakologie, en: Neuropharmacology}
+- id: '301407'
+  props: {layer: '4'}
+  title: {de: Neurophysiologie, en: Neurophysiology}
+- id: '301408'
+  props: {layer: '4'}
+  title: {de: Psychophysiologie, en: Psychophysiology}
+- id: '301409'
+  props: {layer: '4'}
+  title: {de: Neuroanatomie, en: Neuroanatomy}
+- id: '3019'
+  props: {layer: '3'}
+  title: {de: Sonstige Medizinisch-theoretische Wissenschaften, en: Medical-Theoretical
+      Sciences not elsewhere classified}
+- id: '301901'
+  props: {layer: '4'}
+  title: {de: Blutgruppenserologie, en: Blood group serology}
+- id: '301902'
+  props: {layer: '4'}
+  title: {de: Immunologie, en: Immunology}
+- id: '301903'
+  props: {layer: '4'}
+  title: {de: Impfstoffentwicklung, en: Vaccine development}
+- id: '301904'
+  props: {layer: '4'}
+  title: {de: Krebsforschung, en: Cancer research}
+- id: '301905'
+  props: {layer: '4'}
+  title: {de: Psychoneuroimmunologie, en: Psychoneuroimmunology}
+- id: '301906'
+  props: {layer: '4'}
+  title: {de: Serologie, en: Serology}
+- id: '301907'
+  props: {layer: '4'}
+  title: {de: Biobanking, en: Biobanking}
+- id: '302'
+  props: {layer: '2'}
+  title: {de: Klinische Medizin, en: Clinical Medicine}
+- id: '3020'
+  props: {layer: '3'}
+  title: {de: Klinische Medizin, en: Clinical Medicine}
+- id: '302001'
+  props: {layer: '4'}
+  title: {de: Akupunktur, en: Acupuncture}
+- id: '302002'
+  props: {layer: '4'}
+  title: {de: Allergologie, en: Allergology}
+- id: '302003'
+  props: {layer: '4'}
+  title: {de: Allgemeinchirurgie, en: General surgery}
+- id: '302004'
+  props: {layer: '4'}
+  title: {de: Anästhesiologie, en: Anaesthesiology}
+- id: '302005'
+  props: {layer: '4'}
+  title: {de: Andrologie, en: Andrology}
+- id: '302006'
+  props: {layer: '4'}
+  title: {de: Angiologie, en: Angiology}
+- id: '302007'
+  props: {layer: '4'}
+  title: {de: Augenheilkunde, en: Ophthalmology}
+- id: '302008'
+  props: {layer: '4'}
+  title: {de: Balneologie, en: Balneology}
+- id: '302009'
+  props: {layer: '4'}
+  title: {de: Chemotherapie, en: Chemotherapy}
+- id: '302010'
+  props: {layer: '4'}
+  title: {de: Computertomographie (CT), en: Computed tomography (CT)}
+- id: '302011'
+  props: {layer: '4'}
+  title: {de: Dermatologie, en: Dermatology}
+- id: '302012'
+  props: {layer: '4'}
+  title: {de: Diabetologie, en: Diabetology}
+- id: '302013'
+  props: {layer: '4'}
+  title: {de: Diagnostik in der Medizin, en: Medical diagnostics}
+- id: '302014'
+  props: {layer: '4'}
+  title: {de: Endokrinologie, en: Endocrinology}
+- id: '302015'
+  props: {layer: '4'}
+  title: {de: Experimentelle Chirurgie, en: Experimental surgery}
+- id: '302016'
+  props: {layer: '4'}
+  title: {de: Gastroenterologie, en: Gastroenterology}
+- id: '302017'
+  props: {layer: '4'}
+  title: {de: Geburtshilfe, en: Obstetrics}
+- id: '302018'
+  props: {layer: '4'}
+  title: {de: Gefäßchirurgie, en: Vascular surgery}
+- id: '302019'
+  props: {layer: '4'}
+  title: {de: Geriatrie, en: Geriatrics}
+- id: '302020'
+  props: {layer: '4'}
+  title: {de: Gerontologie, en: Gerontology}
+- id: '302021'
+  props: {layer: '4'}
+  title: {de: Geschichte der Psychiatrie, en: History of psychiatry}
+- id: '302022'
+  props: {layer: '4'}
+  title: {de: Gynäkologie, en: Gynaecology}
+- id: '302023'
+  props: {layer: '4'}
+  title: {de: 'Hals-, Nasen-, Ohrenheilkunde', en: 'Ear, nose and throat medicine'}
+- id: '302024'
+  props: {layer: '4'}
+  title: {de: Hämatologie, en: Haematology}
+- id: '302025'
+  props: {layer: '4'}
+  title: {de: Hepatologie, en: Hepatology}
+- id: '302026'
+  props: {layer: '4'}
+  title: {de: Herzchirurgie, en: Heart surgery}
+- id: '302027'
+  props: {layer: '4'}
+  title: {de: 'Hör-, Stimm- und Sprachstörungen', en: 'Hearing, voice and language
+      disorders'}
+- id: '302028'
+  props: {layer: '4'}
+  title: {de: Hyperbare Medizin, en: Hyperbaric medicine}
+- id: '302029'
+  props: {layer: '4'}
+  title: {de: Implantologie, en: Implantology}
+- id: '302030'
+  props: {layer: '4'}
+  title: {de: Innere Medizin, en: Internal medicine}
+- id: '302031'
+  props: {layer: '4'}
+  title: {de: Intensivmedizin, en: Intensive care medicine}
+- id: '302032'
+  props: {layer: '4'}
+  title: {de: Kardiologie, en: Cardiology}
+- id: '302033'
+  props: {layer: '4'}
+  title: {de: Kieferchirurgie, en: Jaw surgery}
+- id: '302034'
+  props: {layer: '4'}
+  title: {de: Kieferorthopädie, en: Orthodontics}
+- id: '302035'
+  props: {layer: '4'}
+  title: {de: Kinder- und Jugendheilkunde, en: Paediatrics and adolescent medicine}
+- id: '302036'
+  props: {layer: '4'}
+  title: {de: Kinder- und Jugendpsychiatrie, en: Child and adolescent psychiatry}
+- id: '302037'
+  props: {layer: '4'}
+  title: {de: Kinderchirurgie, en: Paediatric surgery}
+- id: '302038'
+  props: {layer: '4'}
+  title: {de: Klinische Neuropsychologie, en: Clinical neuropsychology}
+- id: '302039'
+  props: {layer: '4'}
+  title: {de: Komplementärmedizin, en: Complementary medicine}
+- id: '302040'
+  props: {layer: '4'}
+  title: {de: Labordiagnostik, en: Laboratory diagnostics}
+- id: '302041'
+  props: {layer: '4'}
+  title: {de: Laserchirurgie, en: Laser surgery}
+- id: '302042'
+  props: {layer: '4'}
+  title: {de: Logopädie, en: Logopedics}
+- id: '302043'
+  props: {layer: '4'}
+  title: {de: Magnetresonanztomographie (MRT), en: Magnetic resonance imaging (MRI)}
+- id: '302044'
+  props: {layer: '4'}
+  title: {de: Medizinische Physik, en: Medical physics}
+- id: '302045'
+  props: {layer: '4'}
+  title: {de: Medizinische Psychologie, en: Medical psychology}
+- id: '302046'
+  props: {layer: '4'}
+  title: {de: Medizinische Psychotherapie, en: Medical psychotherapy}
+- id: '302047'
+  props: {layer: '4'}
+  title: {de: Mikrochirurgie, en: Microsurgery}
+- id: '302048'
+  props: {layer: '4'}
+  title: {de: Minimal-invasive Chirurgie, en: Minimally invasive surgery}
+- id: '302049'
+  props: {layer: '4'}
+  title: {de: Neonatologie, en: Neonatology}
+- id: '302050'
+  props: {layer: '4'}
+  title: {de: Nephrologie, en: Nephrology}
+- id: '302051'
+  props: {layer: '4'}
+  title: {de: Neurochirurgie, en: Neurosurgery}
+- id: '302052'
+  props: {layer: '4'}
+  title: {de: Neurologie, en: Neurology}
+- id: '302053'
+  props: {layer: '4'}
+  title: {de: Notfallmedizin, en: Emergency medicine}
+- id: '302054'
+  props: {layer: '4'}
+  title: {de: Nuklearmedizin, en: Nuclear medicine}
+- id: '302055'
+  props: {layer: '4'}
+  title: {de: Onkologie, en: Oncology}
+- id: '302056'
+  props: {layer: '4'}
+  title: {de: Onkologische Chirurgie, en: Oncological surgery}
+- id: '302057'
+  props: {layer: '4'}
+  title: {de: Orthopädie, en: Orthopaedics}
+- id: '302058'
+  props: {layer: '4'}
+  title: {de: Palliativmedizin, en: Palliative medicine}
+- id: '302059'
+  props: {layer: '4'}
+  title: {de: Parodontologie, en: Periodontology}
+- id: '302060'
+  props: {layer: '4'}
+  title: {de: Perinatologie, en: Perinatology}
+- id: '302061'
+  props: {layer: '4'}
+  title: {de: Physikalische Medizin, en: Physical medicine}
+- id: '302062'
+  props: {layer: '4'}
+  title: {de: Plastische und Rekonstruktive Chirurgie, en: Plastic and reconstructive
+      surgery}
+- id: '302063'
+  props: {layer: '4'}
+  title: {de: Polytraumaversorgung, en: Multiple trauma care}
+- id: '302064'
+  props: {layer: '4'}
+  title: {de: Pränatale Diagnostik, en: Prenatal diagnostics}
+- id: '302065'
+  props: {layer: '4'}
+  title: {de: Psychiatrie, en: Clinical psychiatry}
+- id: '302066'
+  props: {layer: '4'}
+  title: {de: Psychopathologie, en: Psychopathology}
+- id: '302067'
+  props: {layer: '4'}
+  title: {de: Psychosomatik, en: Psychosomatics}
+- id: '302068'
+  props: {layer: '4'}
+  title: {de: Pulmologie, en: Pulmology}
+- id: '302069'
+  props: {layer: '4'}
+  title: {de: Radiochirurgie, en: Radiosurgery}
+- id: '302070'
+  props: {layer: '4'}
+  title: {de: Radiodiagnostik, en: Radiodiagnostics}
+- id: '302071'
+  props: {layer: '4'}
+  title: {de: Radiologie, en: Radiology}
+- id: '302072'
+  props: {layer: '4'}
+  title: {de: Rheumatologie, en: Rheumatology}
+- id: '302073'
+  props: {layer: '4'}
+  title: {de: Schlafmedizin, en: Sleep medicine}
+- id: '302074'
+  props: {layer: '4'}
+  title: {de: Schmerzmedizin, en: Pain medicine}
+- id: '302075'
+  props: {layer: '4'}
+  title: {de: Sonographie, en: Sonography}
+- id: '302076'
+  props: {layer: '4'}
+  title: {de: Sozialpsychiatrie, en: Social psychiatry}
+- id: '302077'
+  props: {layer: '4'}
+  title: {de: Stammzellentransplantation, en: Stem cell transplantation}
+- id: '302078'
+  props: {layer: '4'}
+  title: {de: Stoffwechselerkrankungen, en: Metabolic diseases}
+- id: '302079'
+  props: {layer: '4'}
+  title: {de: Strahlenschutz, en: Radiation protection}
+- id: '302080'
+  props: {layer: '4'}
+  title: {de: Strahlentherapie, en: Radiotherapy}
+- id: '302081'
+  props: {layer: '4'}
+  title: {de: Thoraxchirurgie, en: Thoracic surgery}
+- id: '302082'
+  props: {layer: '4'}
+  title: {de: Transfusionsmedizin, en: Transfusion medicine}
+- id: '302083'
+  props: {layer: '4'}
+  title: {de: Transplantationschirurgie, en: Transplant surgery}
+- id: '302084'
+  props: {layer: '4'}
+  title: {de: Transplantationsmedizin, en: Transplantation medicine}
+- id: '302085'
+  props: {layer: '4'}
+  title: {de: Unfallchirurgie, en: Trauma surgery}
+- id: '302086'
+  props: {layer: '4'}
+  title: {de: Urologie, en: Urology}
+- id: '302087'
+  props: {layer: '4'}
+  title: {de: Venerologie, en: Venereology}
+- id: '302088'
+  props: {layer: '4'}
+  title: {de: 'Zahn-, Mund- und Kieferheilkunde', en: Dentistry}
+- id: '302089'
+  props: {layer: '4'}
+  title: {de: Reproduktionsmedizin, en: Reproductive medicine}
+- id: '302090'
+  props: {layer: '4'}
+  title: {de: Allgemeinmedizin, en: General practice}
+- id: '302091'
+  props: {layer: '4'}
+  title: {de: Immuntherapie, en: Immunotherapy}
+- id: '302092'
+  props: {layer: '4'}
+  title: {de: Orale Chirurgie, en: Oral surgery}
+- id: '302093'
+  props: {layer: '4'}
+  title: {de: Zahnerhaltungskunde, en: Restorative dentistry}
+- id: '303'
+  props: {layer: '2'}
+  title: {de: Gesundheitswissenschaften, en: Health Sciences}
+- id: '3030'
+  props: {layer: '3'}
+  title: {de: Gesundheitswissenschaften, en: Health Sciences}
+- id: '303001'
+  props: {layer: '4'}
+  title: {de: Arbeitsmedizin, en: Occupational medicine}
+- id: '303002'
+  props: {layer: '4'}
+  title: {de: Bakteriologie, en: Bacteriology}
+- id: '303003'
+  props: {layer: '4'}
+  title: {de: Berufskrankheiten, en: Occupational diseases}
+- id: '303004'
+  props: {layer: '4'}
+  title: {de: Bewegungswissenschaft, en: Kinesiology}
+- id: '303005'
+  props: {layer: '4'}
+  title: {de: Biomechanik des Sports, en: Sports biomechanics}
+- id: '303006'
+  props: {layer: '4'}
+  title: {de: Diätologie, en: Dietetics}
+- id: '303007'
+  props: {layer: '4'}
+  title: {de: Epidemiologie, en: Epidemiology}
+- id: '303008'
+  props: {layer: '4'}
+  title: {de: Ergonomie, en: Ergonomics}
+- id: '303009'
+  props: {layer: '4'}
+  title: {de: Ernährungswissenschaften, en: Nutritional sciences}
+- id: '303010'
+  props: {layer: '4'}
+  title: {de: Gesundheitsökonomie, en: Health economics}
+- id: '303011'
+  props: {layer: '4'}
+  title: {de: Gesundheitspolitik, en: Health policy}
+- id: '303012'
+  props: {layer: '4'}
+  title: {de: Gesundheitswissenschaften, en: Health sciences}
+- id: '303013'
+  props: {layer: '4'}
+  title: {de: Hygiene, en: Hygiene}
+- id: '303014'
+  props: {layer: '4'}
+  title: {de: Impfschutz, en: Vaccine protection}
+- id: '303015'
+  props: {layer: '4'}
+  title: {de: Krankenhaushygiene, en: Hospital hygiene}
+- id: '303016'
+  props: {layer: '4'}
+  title: {de: Krankenhausmanagement, en: Hospital management}
+- id: '303017'
+  props: {layer: '4'}
+  title: {de: Lebensmittelhygiene, en: Food hygiene}
+- id: '303018'
+  props: {layer: '4'}
+  title: {de: Lufthygiene, en: Air hygiene}
+- id: '303019'
+  props: {layer: '4'}
+  title: {de: Medizinische Ethik, en: Medical ethics}
+- id: '303020'
+  props: {layer: '4'}
+  title: {de: Medizinische Mikrobiologie, en: Medical microbiology}
+- id: '303021'
+  props: {layer: '4'}
+  title: {de: Medizinische Rehabilitation, en: Medical rehabilitation}
+- id: '303022'
+  props: {layer: '4'}
+  title: {de: Palliativpflege, en: Palliative care}
+- id: '303023'
+  props: {layer: '4'}
+  title: {de: Parasitologie, en: Parasitology}
+- id: '303024'
+  props: {layer: '4'}
+  title: {de: Pflegewissenschaft, en: Nursing science}
+- id: '303025'
+  props: {layer: '4'}
+  title: {de: Präventivmedizin, en: Preventive medicine}
+- id: '303026'
+  props: {layer: '4'}
+  title: {de: Public Health, en: Public health}
+- id: '303027'
+  props: {layer: '4'}
+  title: {de: Sozialmedizin, en: Social medicine}
+- id: '303028'
+  props: {layer: '4'}
+  title: {de: Sportwissenschaft, en: Sport science}
+- id: '303029'
+  props: {layer: '4'}
+  title: {de: Suchtforschung, en: Addiction research}
+- id: '303030'
+  props: {layer: '4'}
+  title: {de: Trainingswissenschaft, en: Training science}
+- id: '303031'
+  props: {layer: '4'}
+  title: {de: Tropenmedizin, en: Tropical medicine}
+- id: '303032'
+  props: {layer: '4'}
+  title: {de: Umwelthygiene, en: Environmental hygiene}
+- id: '303033'
+  props: {layer: '4'}
+  title: {de: Umweltmedizin, en: Environmental medicine}
+- id: '303034'
+  props: {layer: '4'}
+  title: {de: Virologie, en: Virology}
+- id: '303035'
+  props: {layer: '4'}
+  title: {de: Wasserhygiene, en: Water hygiene}
+- id: '303036'
+  props: {layer: '4'}
+  title: {de: Patientensicherheit, en: Patient safety}
+- id: '303037'
+  props: {layer: '4'}
+  title: {de: Ergotherapie, en: Occupational therapy}
+- id: '303038'
+  props: {layer: '4'}
+  title: {de: Physiotherapie, en: Physiotherapy}
+- id: '303039'
+  props: {layer: '4'}
+  title: {de: Radiologietechnologie, en: Radiological technology}
+- id: '303040'
+  props: {layer: '4'}
+  title: {de: Versorgungsforschung, en: Health services research}
+- id: '304'
+  props: {layer: '2'}
+  title: {de: Medizinische Biotechnologie, en: Medical Biotechnology}
+- id: '3040'
+  props: {layer: '3'}
+  title: {de: Medizinische Biotechnologie, en: Medical Biotechnology}
+- id: '304001'
+  props: {layer: '4'}
+  title: {de: Ethik in der Medizinischen Biotechnologie, en: Medical biotechnology
+      related ethics}
+- id: '304002'
+  props: {layer: '4'}
+  title: {de: Genetische Diagnostik, en: Genetic diagnostics}
+- id: '304003'
+  props: {layer: '4'}
+  title: {de: Gentechnik, en: Genetic engineering}
+- id: '304004'
+  props: {layer: '4'}
+  title: {de: Gentherapie, en: Gene therapy}
+- id: '304005'
+  props: {layer: '4'}
+  title: {de: Medizinische Biotechnologie, en: Medical biotechnology}
+- id: '304006'
+  props: {layer: '4'}
+  title: {de: Pharmakogenomik, en: Pharmacogenomics}
+- id: '304007'
+  props: {layer: '4'}
+  title: {de: Tissue Engineering, en: Tissue engineering}
+- id: '304008'
+  props: {layer: '4'}
+  title: {de: Regenerative Medizin, en: Regenerative medicine}
+- id: '305'
+  props: {layer: '2'}
+  title: {de: 'Andere Humanmedizin, Gesundheitswissenschaften', en: 'Other Human Medicine,
+      Health Sciences'}
+- id: '3051'
+  props: {layer: '3'}
+  title: {de: Gerichtsmedizin, en: Forensic Medicine}
+- id: '305101'
+  props: {layer: '4'}
+  title: {de: Blutspurenanalyse, en: Bloodstain pattern analysis}
+- id: '305102'
+  props: {layer: '4'}
+  title: {de: DNA-Analyse (Gerichtsmedizin), en: DNA analysis (Forensic medicine)}
+- id: '305103'
+  props: {layer: '4'}
+  title: {de: Forensische Biologie, en: Forensic biology}
+- id: '305104'
+  props: {layer: '4'}
+  title: {de: Forensische Chemie, en: Forensic chemistry}
+- id: '305105'
+  props: {layer: '4'}
+  title: {de: Forensische Psychiatrie, en: Forensic psychiatry}
+- id: '305106'
+  props: {layer: '4'}
+  title: {de: Forensische Radiologie, en: Forensic radiology}
+- id: '305107'
+  props: {layer: '4'}
+  title: {de: Forensische Toxikologie, en: Forensic toxicology}
+- id: '305108'
+  props: {layer: '4'}
+  title: {de: Gerichtliche Humanmedizin, en: Forensic human medicine}
+- id: '305109'
+  props: {layer: '4'}
+  title: {de: Forensische Anthropologie, en: Forensic anthropology}
+- id: '3059'
+  props: {layer: '3'}
+  title: {de: 'Sonstige Humanmedizin, Gesundheitswissenschaften', en: 'Human Medicine,
+      Health Sciences not elsewhere classified'}
+- id: '305901'
+  props: {layer: '4'}
+  title: {de: Computerunterstützte Diagnose und Therapie, en: Computer-aided diagnosis
+      and therapy}
+- id: '305902'
+  props: {layer: '4'}
+  title: {de: Gender Medizin, en: Gender medicine}
+- id: '305903'
+  props: {layer: '4'}
+  title: {de: Geschichte der Medizin, en: History of medicine}
+- id: '305904'
+  props: {layer: '4'}
+  title: {de: Medizinische Dokumentation, en: Medical documentation}
+- id: '305905'
+  props: {layer: '4'}
+  title: {de: Medizinische Informatik, en: Medical informatics}
+- id: '305906'
+  props: {layer: '4'}
+  title: {de: Medizinische Kybernetik, en: Medical cybernetics}
+- id: '305907'
+  props: {layer: '4'}
+  title: {de: Medizinische Statistik, en: Medical statistics}
+- id: '305908'
+  props: {layer: '4'}
+  title: {de: Sportmedizin, en: Sports medicine}
+- id: '305909'
+  props: {layer: '4'}
+  title: {de: Stressforschung, en: Stress research}
+- id: '305910'
+  props: {layer: '4'}
+  title: {de: Verkehrsmedizin, en: Traffic medicine}
+- id: '4'
+  props: {layer: '1'}
+  title: {de: 'AGRARWISSENSCHAFTEN, VETERINÄRMEDIZIN', en: 'AGRICULTURAL SCIENCES,
+      VETERINARY MEDICINE'}
+- id: '401'
+  props: {layer: '2'}
+  title: {de: 'Land- und Forstwirtschaft, Fischerei', en: 'Agriculture and Forestry,
+      Fishery'}
+- id: '4011'
+  props: {layer: '3'}
+  title: {de: 'Ackerbau, Gartenbau', en: 'Cultivation of Land, Horticulture'}
+- id: '401101'
+  props: {layer: '4'}
+  title: {de: Ackerbau, en: Cultivation of land}
+- id: '401102'
+  props: {layer: '4'}
+  title: {de: Bewässerungswirtschaft, en: Irrigation management}
+- id: '401103'
+  props: {layer: '4'}
+  title: {de: Gartenbau, en: Horticulture}
+- id: '401104'
+  props: {layer: '4'}
+  title: {de: Gemüsebau, en: Vegetable growing}
+- id: '401105'
+  props: {layer: '4'}
+  title: {de: Getreidebau, en: Grain cultivation}
+- id: '401106'
+  props: {layer: '4'}
+  title: {de: Landschaftspflege, en: Landscape conservation}
+- id: '401107'
+  props: {layer: '4'}
+  title: {de: Landtechnik, en: Agricultural engineering}
+- id: '401108'
+  props: {layer: '4'}
+  title: {de: Obstbau, en: Fruit growing}
+- id: '401109'
+  props: {layer: '4'}
+  title: {de: Ökologischer Landbau, en: Organic farming}
+- id: '401110'
+  props: {layer: '4'}
+  title: {de: Pflanzenbau, en: Plant cultivation}
+- id: '401111'
+  props: {layer: '4'}
+  title: {de: Pflanzenernährung, en: Plant nutrition}
+- id: '401112'
+  props: {layer: '4'}
+  title: {de: Pflanzenschutz, en: Plant protection}
+- id: '401113'
+  props: {layer: '4'}
+  title: {de: Pflanzenzucht, en: Plant breeding}
+- id: '401114'
+  props: {layer: '4'}
+  title: {de: Saatzucht, en: Seed breeding}
+- id: '401115'
+  props: {layer: '4'}
+  title: {de: Samenzucht, en: Seed cultivation}
+- id: '401116'
+  props: {layer: '4'}
+  title: {de: Spezialkulturen, en: Special crops}
+- id: '401117'
+  props: {layer: '4'}
+  title: {de: Weinbau, en: Viticulture}
+- id: '401118'
+  props: {layer: '4'}
+  title: {de: Zierpflanzenbau, en: Cultivation of ornamental plants}
+- id: '401119'
+  props: {layer: '4'}
+  title: {de: Feldfutterbau, en: Field forage growing}
+- id: '4012'
+  props: {layer: '3'}
+  title: {de: Forst- und Holzwirtschaft, en: Forestry and Wood Industry}
+- id: '401201'
+  props: {layer: '4'}
+  title: {de: Forstentomologie, en: Forest entomology}
+- id: '401202'
+  props: {layer: '4'}
+  title: {de: Forstpathologie, en: Forest pathology}
+- id: '401203'
+  props: {layer: '4'}
+  title: {de: Forstschutz, en: Forest protection}
+- id: '401204'
+  props: {layer: '4'}
+  title: {de: Forsttechnik, en: Forest engineering}
+- id: '401205'
+  props: {layer: '4'}
+  title: {de: Forstwirtschaft, en: Forestry}
+- id: '401206'
+  props: {layer: '4'}
+  title: {de: Holzwirtschaft, en: Wood industry}
+- id: '401207'
+  props: {layer: '4'}
+  title: {de: Waldbau, en: Silviculture}
+- id: '401208'
+  props: {layer: '4'}
+  title: {de: Waldökologie, en: Forest ecology}
+- id: '401209'
+  props: {layer: '4'}
+  title: {de: Waldwachstum, en: Forest growth}
+- id: '4019'
+  props: {layer: '3'}
+  title: {de: 'Sonstige Land- und Forstwirtschaft, Fischerei', en: 'Agriculture and
+      Forestry, Fishery not elsewhere classified'}
+- id: '401901'
+  props: {layer: '4'}
+  title: {de: Bodenerosion, en: Soil erosion}
+- id: '401902'
+  props: {layer: '4'}
+  title: {de: Bodenkunde, en: Soil science}
+- id: '401903'
+  props: {layer: '4'}
+  title: {de: Fischerei, en: Fishery}
+- id: '401904'
+  props: {layer: '4'}
+  title: {de: Geschichte der Land- und Forstwirtschaft, en: History of agriculture
+      and forestry}
+- id: '401905'
+  props: {layer: '4'}
+  title: {de: Nachwachsende Rohstoffe, en: Renewable resources}
+- id: '401906'
+  props: {layer: '4'}
+  title: {de: Jagdwirtschaft, en: Game management}
+- id: '402'
+  props: {layer: '2'}
+  title: {de: 'Tierzucht, Tierproduktion', en: 'Animal Breeding, Animal Production'}
+- id: '4020'
+  props: {layer: '3'}
+  title: {de: 'Tierzucht, Tierproduktion', en: 'Animal Breeding, Animal Production'}
+- id: '402001'
+  props: {layer: '4'}
+  title: {de: Bienenkunde, en: Apiology}
+- id: '402002'
+  props: {layer: '4'}
+  title: {de: Fischkunde, en: Ichthyology}
+- id: '402003'
+  props: {layer: '4'}
+  title: {de: Fleischhygiene, en: Meat hygiene}
+- id: '402004'
+  props: {layer: '4'}
+  title: {de: Fleischproduktion, en: Meat production}
+- id: '402005'
+  props: {layer: '4'}
+  title: {de: Futtermittelanalyse, en: Feed analysis}
+- id: '402006'
+  props: {layer: '4'}
+  title: {de: Haustierzucht, en: Pet breeding}
+- id: '402007'
+  props: {layer: '4'}
+  title: {de: Imkerei, en: Apiculture}
+- id: '402008'
+  props: {layer: '4'}
+  title: {de: Künstliche Besamung, en: Artificial insemination}
+- id: '402009'
+  props: {layer: '4'}
+  title: {de: Lebensmitteluntersuchung, en: Food testing}
+- id: '402010'
+  props: {layer: '4'}
+  title: {de: Milchhygiene, en: Milk hygiene}
+- id: '402011'
+  props: {layer: '4'}
+  title: {de: Milchproduktion, en: Milk production}
+- id: '402012'
+  props: {layer: '4'}
+  title: {de: Nutztierethologie, en: Livestock ethology}
+- id: '402013'
+  props: {layer: '4'}
+  title: {de: Tierernährung, en: Animal nutrition}
+- id: '402014'
+  props: {layer: '4'}
+  title: {de: Tierhaltung, en: Animal husbandry}
+- id: '402015'
+  props: {layer: '4'}
+  title: {de: Tierproduktion, en: Animal production}
+- id: '402016'
+  props: {layer: '4'}
+  title: {de: Tierschutz, en: Animal welfare}
+- id: '402017'
+  props: {layer: '4'}
+  title: {de: Tierzucht, en: Animal breeding}
+- id: '402018'
+  props: {layer: '4'}
+  title: {de: Labortierkunde, en: Laboratory animal science}
+- id: '403'
+  props: {layer: '2'}
+  title: {de: Veterinärmedizin, en: Veterinary Medicine}
+- id: '4030'
+  props: {layer: '3'}
+  title: {de: Veterinärmedizin, en: Veterinary Medicine}
+- id: '403001'
+  props: {layer: '4'}
+  title: {de: Anästhesiologie (Veterinärmedizin), en: Veterinary anaesthesiology}
+- id: '403002'
+  props: {layer: '4'}
+  title: {de: Anatomie (Veterinärmedizin), en: Veterinary anatomy}
+- id: '403003'
+  props: {layer: '4'}
+  title: {de: Andrologie (Veterinärmedizin), en: Veterinary andrology}
+- id: '403004'
+  props: {layer: '4'}
+  title: {de: Augenheilkunde (Veterinärmedizin), en: Veterinary ophthalmology}
+- id: '403005'
+  props: {layer: '4'}
+  title: {de: Bakteriologie (Veterinärmedizin), en: Veterinary bacteriology}
+- id: '403006'
+  props: {layer: '4'}
+  title: {de: Bildgebende Diagnostik (Veterinärmedizin), en: Veterinary diagnostic
+      imaging}
+- id: '403007'
+  props: {layer: '4'}
+  title: {de: Chirurgie (Veterinärmedizin), en: Veterinary surgery}
+- id: '403008'
+  props: {layer: '4'}
+  title: {de: Diagnostik (Veterinärmedizin), en: Veterinary diagnostics}
+- id: '403009'
+  props: {layer: '4'}
+  title: {de: Embryologie (Veterinärmedizin), en: Veterinary embryology}
+- id: '403010'
+  props: {layer: '4'}
+  title: {de: Geburtshilfe (Veterinärmedizin), en: Veterinary obstetrics}
+- id: '403011'
+  props: {layer: '4'}
+  title: {de: Gerichtliche Veterinärmedizin, en: Forensic veterinary medicine}
+- id: '403012'
+  props: {layer: '4'}
+  title: {de: Geschichte der Veterinärmedizin, en: History of veterinary medicine}
+- id: '403013'
+  props: {layer: '4'}
+  title: {de: Gynäkologie (Veterinärmedizin), en: Veterinary gynaecology}
+- id: '403014'
+  props: {layer: '4'}
+  title: {de: Histologie (Veterinärmedizin), en: Veterinary histology}
+- id: '403015'
+  props: {layer: '4'}
+  title: {de: Hygiene (Veterinärmedizin), en: Veterinary hygiene}
+- id: '403016'
+  props: {layer: '4'}
+  title: {de: Immunologie (Veterinärmedizin), en: Veterinary immunology}
+- id: '403017'
+  props: {layer: '4'}
+  title: {de: Interne Medizin (Veterinärmedizin), en: Veterinary internal medicine}
+- id: '403018'
+  props: {layer: '4'}
+  title: {de: Labordiagnostik (Veterinärmedizin), en: Veterinary laboratory diagnostics}
+- id: '403019'
+  props: {layer: '4'}
+  title: {de: Medizinische Biochemie (Veterinärmedizin), en: Veterinary medical biochemistry}
+- id: '403020'
+  props: {layer: '4'}
+  title: {de: Medizinische Chemie (Veterinärmedizin), en: Veterinary medical chemistry}
+- id: '403021'
+  props: {layer: '4'}
+  title: {de: Neurologie (Veterinärmedizin), en: Veterinary neurology}
+- id: '403022'
+  props: {layer: '4'}
+  title: {de: Orthopädie (Veterinärmedizin), en: Veterinary orthopaedics}
+- id: '403023'
+  props: {layer: '4'}
+  title: {de: Parasitologie (Veterinärmedizin), en: Veterinary parasitology}
+- id: '403024'
+  props: {layer: '4'}
+  title: {de: Pathologie (Veterinärmedizin), en: Veterinary pathology}
+- id: '403025'
+  props: {layer: '4'}
+  title: {de: Pharmakologie (Veterinärmedizin), en: Veterinary pharmacology}
+- id: '403026'
+  props: {layer: '4'}
+  title: {de: Physiologie (Veterinärmedizin), en: Veterinary physiology}
+- id: '403027'
+  props: {layer: '4'}
+  title: {de: Phytotherapie (Veterinärmedizin), en: Veterinary phytotherapy}
+- id: '403028'
+  props: {layer: '4'}
+  title: {de: Tierernährung, en: Animal nutrition}
+- id: '403029'
+  props: {layer: '4'}
+  title: {de: Tierseuchenbekämpfung, en: Control of animal diseases}
+- id: '403030'
+  props: {layer: '4'}
+  title: {de: Toxikologie (Veterinärmedizin), en: Veterinary toxicology}
+- id: '403031'
+  props: {layer: '4'}
+  title: {de: Virologie (Veterinärmedizin), en: Veterinary virology}
+- id: '403032'
+  props: {layer: '4'}
+  title: {de: Zahnheilkunde (Veterinärmedizin), en: Veterinary dentistry}
+- id: '403033'
+  props: {layer: '4'}
+  title: {de: Regenerative Medizin (Veterinärmedizin), en: Veterinary regenerative
+      medicine}
+- id: '403034'
+  props: {layer: '4'}
+  title: {de: Schmerzmedizin (Veterinärmedizin), en: Veterinary pain medicine}
+- id: '403035'
+  props: {layer: '4'}
+  title: {de: Bestandsbetreuung, en: Herd health management}
+- id: '403036'
+  props: {layer: '4'}
+  title: {de: Intensivmedizin (Veterinärmedizin), en: Veterinary critical care medicine}
+- id: '404'
+  props: {layer: '2'}
+  title: {de: 'Agrarbiotechnologie, Lebensmittelbiotechnologie', en: 'Agricultural
+      Biotechnology, Food Biotechnology'}
+- id: '4040'
+  props: {layer: '3'}
+  title: {de: 'Agrarbiotechnologie, Lebensmittelbiotechnologie', en: 'Agricultural
+      Biotechnology, Food Biotechnology'}
+- id: '404001'
+  props: {layer: '4'}
+  title: {de: Agrarbiotechnologie, en: Agricultural biotechnology}
+- id: '404002'
+  props: {layer: '4'}
+  title: {de: Biopharming, en: Biopharming}
+- id: '404003'
+  props: {layer: '4'}
+  title: {de: Ethik in der Agrar- und Lebensmittelbiotechnologie, en: Agricultural
+      and food biotechnology related ethics}
+- id: '404004'
+  props: {layer: '4'}
+  title: {de: Fermentation, en: Fermentation}
+- id: '404005'
+  props: {layer: '4'}
+  title: {de: Gärungstechnologie, en: Fermentation technology}
+- id: '404006'
+  props: {layer: '4'}
+  title: {de: Gentechnik, en: Genetic engineering}
+- id: '404007'
+  props: {layer: '4'}
+  title: {de: Lebensmittelbiotechnologie, en: Food biotechnology}
+- id: '405'
+  props: {layer: '2'}
+  title: {de: Andere Agrarwissenschaften, en: Other Agricultural Sciences}
+- id: '4050'
+  props: {layer: '3'}
+  title: {de: Andere Agrarwissenschaften, en: Other Agricultural Sciences}
+- id: '405001'
+  props: {layer: '4'}
+  title: {de: Agrarökologie, en: Agroecology}
+- id: '405002'
+  props: {layer: '4'}
+  title: {de: Agrarökonomie, en: Agricultural economics}
+- id: '405003'
+  props: {layer: '4'}
+  title: {de: Agrarpolitik, en: Agricultural policy}
+- id: '405004'
+  props: {layer: '4'}
+  title: {de: Nachhaltige Landwirtschaft, en: Sustainable agriculture}
+- id: '405005'
+  props: {layer: '4'}
+  title: {de: Wildtierkunde, en: Wildlife science}
+- id: '405006'
+  props: {layer: '4'}
+  title: {de: Agrarsoziologie, en: Agricultural sociology}
+- id: '405007'
+  props: {layer: '4'}
+  title: {de: Wildtiermanagement, en: Wildlife management}
+- id: '5'
+  props: {layer: '1'}
+  title: {de: SOZIALWISSENSCHAFTEN, en: SOCIAL SCIENCES}
+- id: '501'
+  props: {layer: '2'}
+  title: {de: Psychologie, en: Psychology}
+- id: '5010'
+  props: {layer: '3'}
+  title: {de: Psychologie, en: Psychology}
+- id: '501001'
+  props: {layer: '4'}
+  title: {de: Allgemeine Psychologie, en: General psychology}
+- id: '501002'
+  props: {layer: '4'}
+  title: {de: Angewandte Psychologie, en: Applied psychology}
+- id: '501003'
+  props: {layer: '4'}
+  title: {de: Arbeitspsychologie, en: Occupational psychology}
+- id: '501004'
+  props: {layer: '4'}
+  title: {de: Differentielle Psychologie, en: Differential psychology}
+- id: '501005'
+  props: {layer: '4'}
+  title: {de: Entwicklungspsychologie, en: Developmental psychology}
+- id: '501006'
+  props: {layer: '4'}
+  title: {de: Experimentalpsychologie, en: Experimental psychology}
+- id: '501007'
+  props: {layer: '4'}
+  title: {de: Geschichte der Psychologie, en: History of psychology}
+- id: '501008'
+  props: {layer: '4'}
+  title: {de: Gruppendynamik, en: Group dynamics}
+- id: '501009'
+  props: {layer: '4'}
+  title: {de: Kinder- und Jugendpsychologie, en: Child and adolescent psychology}
+- id: '501010'
+  props: {layer: '4'}
+  title: {de: Klinische Psychologie, en: Clinical psychology}
+- id: '501011'
+  props: {layer: '4'}
+  title: {de: Kognitionspsychologie, en: Cognitive psychology}
+- id: '501012'
+  props: {layer: '4'}
+  title: {de: Medienpsychologie, en: Media psychology}
+- id: '501013'
+  props: {layer: '4'}
+  title: {de: Motivationspsychologie, en: Motivational psychology}
+- id: '501014'
+  props: {layer: '4'}
+  title: {de: Neuropsychologie, en: Neuropsychology}
+- id: '501015'
+  props: {layer: '4'}
+  title: {de: Organisationspsychologie, en: Organisational psychology}
+- id: '501016'
+  props: {layer: '4'}
+  title: {de: Pädagogische Psychologie, en: Educational psychology}
+- id: '501017'
+  props: {layer: '4'}
+  title: {de: Psychoanalyse, en: Psychoanalysis}
+- id: '501018'
+  props: {layer: '4'}
+  title: {de: Psychologische Diagnostik, en: Psychological diagnostics}
+- id: '501019'
+  props: {layer: '4'}
+  title: {de: Psychotherapie, en: Psychotherapy}
+- id: '501020'
+  props: {layer: '4'}
+  title: {de: Rechtspsychologie, en: Legal psychology}
+- id: '501021'
+  props: {layer: '4'}
+  title: {de: Sozialpsychologie, en: Social psychology}
+- id: '501022'
+  props: {layer: '4'}
+  title: {de: Suizidologie, en: Suicidology}
+- id: '501023'
+  props: {layer: '4'}
+  title: {de: Tiefenpsychologie, en: Depth psychology}
+- id: '501024'
+  props: {layer: '4'}
+  title: {de: Verhaltenstherapie, en: Behavioural therapy}
+- id: '501025'
+  props: {layer: '4'}
+  title: {de: Verkehrspsychologie, en: Traffic psychology}
+- id: '501026'
+  props: {layer: '4'}
+  title: {de: Wahrnehmungspsychologie, en: Psychology of perception}
+- id: '501027'
+  props: {layer: '4'}
+  title: {de: Musiktherapie, en: Music therapy}
+- id: '501028'
+  props: {layer: '4'}
+  title: {de: Psychosoziale Notfallversorgung (PSNV), en: Psychosocial support in
+      emergencies}
+- id: '501029'
+  props: {layer: '4'}
+  title: {de: Wirtschaftspsychologie, en: Economic psychology}
+- id: '501030'
+  props: {layer: '4'}
+  title: {de: Kognitionswissenschaft, en: Cognitive science}
+- id: '502'
+  props: {layer: '2'}
+  title: {de: Wirtschaftswissenschaften, en: Economics}
+- id: '5020'
+  props: {layer: '3'}
+  title: {de: Wirtschaftswissenschaften, en: Economics}
+- id: '502001'
+  props: {layer: '4'}
+  title: {de: Arbeitsmarktpolitik, en: Labour market policy}
+- id: '502002'
+  props: {layer: '4'}
+  title: {de: Arbeitsmarkttheorie, en: Labour economics}
+- id: '502003'
+  props: {layer: '4'}
+  title: {de: Außenhandel, en: Foreign trade}
+- id: '502004'
+  props: {layer: '4'}
+  title: {de: Bankbetriebslehre, en: Banking management}
+- id: '502005'
+  props: {layer: '4'}
+  title: {de: Bildungsökonomie, en: Economics of education}
+- id: '502006'
+  props: {layer: '4'}
+  title: {de: Controlling, en: Controlling}
+- id: '502007'
+  props: {layer: '4'}
+  title: {de: E-Commerce, en: E-commerce}
+- id: '502008'
+  props: {layer: '4'}
+  title: {de: Entwicklungsökonomie, en: Development economics}
+- id: '502009'
+  props: {layer: '4'}
+  title: {de: Finanzwirtschaft, en: Corporate finance}
+- id: '502010'
+  props: {layer: '4'}
+  title: {de: Finanzwissenschaft, en: Public finance}
+- id: '502011'
+  props: {layer: '4'}
+  title: {de: Genossenschaftswesen, en: Cooperative systems}
+- id: '502012'
+  props: {layer: '4'}
+  title: {de: Industriebetriebslehre, en: Industrial management}
+- id: '502013'
+  props: {layer: '4'}
+  title: {de: Industrieökonomik, en: Industrial economics}
+- id: '502014'
+  props: {layer: '4'}
+  title: {de: Innovationsforschung, en: Innovation research}
+- id: '502015'
+  props: {layer: '4'}
+  title: {de: Innovationsmanagement, en: Innovation management}
+- id: '502016'
+  props: {layer: '4'}
+  title: {de: KMU-Forschung, en: SME-research}
+- id: '502017'
+  props: {layer: '4'}
+  title: {de: Logistik, en: Logistics}
+- id: '502018'
+  props: {layer: '4'}
+  title: {de: Makroökonomie, en: Macroeconomics}
+- id: '502019'
+  props: {layer: '4'}
+  title: {de: Marketing, en: Marketing}
+- id: '502020'
+  props: {layer: '4'}
+  title: {de: Marktforschung, en: Market research}
+- id: '502021'
+  props: {layer: '4'}
+  title: {de: Mikroökonomie, en: Microeconomics}
+- id: '502022'
+  props: {layer: '4'}
+  title: {de: Nachhaltiges Wirtschaften, en: Sustainable economics}
+- id: '502023'
+  props: {layer: '4'}
+  title: {de: NPO-Forschung, en: NPO research}
+- id: '502024'
+  props: {layer: '4'}
+  title: {de: Öffentliche Wirtschaft, en: Public economy}
+- id: '502025'
+  props: {layer: '4'}
+  title: {de: Ökonometrie, en: Econometrics}
+- id: '502026'
+  props: {layer: '4'}
+  title: {de: Personalmanagement, en: Human resource management}
+- id: '502027'
+  props: {layer: '4'}
+  title: {de: Politische Ökonomie, en: Political economy}
+- id: '502028'
+  props: {layer: '4'}
+  title: {de: Produktionswirtschaft, en: Production management}
+- id: '502029'
+  props: {layer: '4'}
+  title: {de: Produktmanagement, en: Product management}
+- id: '502030'
+  props: {layer: '4'}
+  title: {de: Projektmanagement, en: Project management}
+- id: '502031'
+  props: {layer: '4'}
+  title: {de: Public Management, en: Public management}
+- id: '502032'
+  props: {layer: '4'}
+  title: {de: Qualitätsmanagement, en: Quality management}
+- id: '502033'
+  props: {layer: '4'}
+  title: {de: Rechnungswesen, en: Accounting}
+- id: '502034'
+  props: {layer: '4'}
+  title: {de: Regulierungsökonomik, en: Regulatory economics}
+- id: '502035'
+  props: {layer: '4'}
+  title: {de: Revisions- und Treuhandwesen, en: Auditing and trusts}
+- id: '502036'
+  props: {layer: '4'}
+  title: {de: Risikomanagement, en: Risk management}
+- id: '502037'
+  props: {layer: '4'}
+  title: {de: Standortplanung, en: Location planning}
+- id: '502038'
+  props: {layer: '4'}
+  title: {de: Steuerlehre, en: Taxation}
+- id: '502039'
+  props: {layer: '4'}
+  title: {de: Strukturpolitik, en: Structural policy}
+- id: '502040'
+  props: {layer: '4'}
+  title: {de: Tourismusforschung, en: Tourism research}
+- id: '502041'
+  props: {layer: '4'}
+  title: {de: Umweltmanagement, en: Environmental management}
+- id: '502042'
+  props: {layer: '4'}
+  title: {de: Umweltökonomie, en: Environmental economics}
+- id: '502043'
+  props: {layer: '4'}
+  title: {de: Unternehmensberatung, en: Business consultancy}
+- id: '502044'
+  props: {layer: '4'}
+  title: {de: Unternehmensführung, en: Business management}
+- id: '502045'
+  props: {layer: '4'}
+  title: {de: Verhaltensökonomie, en: Behavioural economics}
+- id: '502046'
+  props: {layer: '4'}
+  title: {de: Volkswirtschaftspolitik, en: Economic policy}
+- id: '502047'
+  props: {layer: '4'}
+  title: {de: Volkswirtschaftstheorie, en: Economic theory}
+- id: '502048'
+  props: {layer: '4'}
+  title: {de: Wirtschaftsethik, en: Business ethics}
+- id: '502049'
+  props: {layer: '4'}
+  title: {de: Wirtschaftsgeschichte, en: Economic history}
+- id: '502050'
+  props: {layer: '4'}
+  title: {de: Wirtschaftsinformatik, en: Business informatics}
+- id: '502051'
+  props: {layer: '4'}
+  title: {de: Wirtschaftsstatistik, en: Economic statistics}
+- id: '502052'
+  props: {layer: '4'}
+  title: {de: Betriebswirtschaftslehre, en: Business administration}
+- id: '502053'
+  props: {layer: '4'}
+  title: {de: Volkswirtschaftslehre, en: Economics}
+- id: '502054'
+  props: {layer: '4'}
+  title: {de: Entrepreneurship, en: Entrepreneurship}
+- id: '502055'
+  props: {layer: '4'}
+  title: {de: Verteilungsökonomie, en: Distribution economics}
+- id: '502056'
+  props: {layer: '4'}
+  title: {de: Wirtschaftsprüfung, en: Auditing}
+- id: '502057'
+  props: {layer: '4'}
+  title: {de: Experimentelle Ökonomie, en: Experimental economics}
+- id: '502058'
+  props: {layer: '4'}
+  title: {de: Digitale Transformation, en: Digital transformation}
+- id: '502059'
+  props: {layer: '4'}
+  title: {de: Kreislaufwirtschaft, en: Circular economy}
+- id: '503'
+  props: {layer: '2'}
+  title: {de: Erziehungswissenschaften, en: Educational Sciences}
+- id: '5030'
+  props: {layer: '3'}
+  title: {de: Erziehungswissenschaften, en: Educational Sciences}
+- id: '503001'
+  props: {layer: '4'}
+  title: {de: Allgemeine Pädagogik, en: General education}
+- id: '503002'
+  props: {layer: '4'}
+  title: {de: Angewandte Pädagogik, en: Applied education}
+- id: '503003'
+  props: {layer: '4'}
+  title: {de: Begabungsforschung, en: Talent research}
+- id: '503004'
+  props: {layer: '4'}
+  title: {de: Berufskunde, en: Vocational studies}
+- id: '503005'
+  props: {layer: '4'}
+  title: {de: Berufspädagogik, en: Vocational education}
+- id: '503006'
+  props: {layer: '4'}
+  title: {de: Bildungsforschung, en: Educational research}
+- id: '503007'
+  props: {layer: '4'}
+  title: {de: Didaktik, en: Didactics}
+- id: '503008'
+  props: {layer: '4'}
+  title: {de: E-Learning, en: E-learning}
+- id: '503009'
+  props: {layer: '4'}
+  title: {de: Erwachsenenbildung, en: Adult education}
+- id: '503010'
+  props: {layer: '4'}
+  title: {de: 'Fachdidaktik Agrarwissenschaften, Veterinärmedizin', en: 'Subject didactics
+      of agricultural sciences, veterinary medicine'}
+- id: '503011'
+  props: {layer: '4'}
+  title: {de: Fachdidaktik Geisteswissenschaften, en: Subject didactics of humanities}
+- id: '503012'
+  props: {layer: '4'}
+  title: {de: 'Fachdidaktik Humanmedizin, Gesundheitswissenschaften', en: Subject
+      didactics of human medicine and health sciences}
+- id: '503013'
+  props: {layer: '4'}
+  title: {de: Fachdidaktik Naturwissenschaften, en: Subject didactics of natural sciences}
+- id: '503014'
+  props: {layer: '4'}
+  title: {de: Fachdidaktik Sozialwissenschaften, en: Subject didactics of social sciences}
+- id: '503015'
+  props: {layer: '4'}
+  title: {de: Fachdidaktik Technische Wissenschaften, en: Subject didactics of technical
+      sciences}
+- id: '503016'
+  props: {layer: '4'}
+  title: {de: Freizeitpädagogik, en: Leisure education}
+- id: '503017'
+  props: {layer: '4'}
+  title: {de: Geschichte der Pädagogik, en: History of education}
+- id: '503018'
+  props: {layer: '4'}
+  title: {de: Hochschuldidaktik, en: University didactics}
+- id: '503019'
+  props: {layer: '4'}
+  title: {de: Kunstpädagogik, en: Art education}
+- id: '503020'
+  props: {layer: '4'}
+  title: {de: Medienpädagogik, en: Media education}
+- id: '503021'
+  props: {layer: '4'}
+  title: {de: Museumspädagogik, en: Museum education}
+- id: '503022'
+  props: {layer: '4'}
+  title: {de: Musikpädagogik, en: Music education}
+- id: '503023'
+  props: {layer: '4'}
+  title: {de: Qualifikationsforschung, en: Qualification research}
+- id: '503024'
+  props: {layer: '4'}
+  title: {de: Religionspädagogik, en: Religious education}
+- id: '503025'
+  props: {layer: '4'}
+  title: {de: Schulpädagogik, en: School pedagogy}
+- id: '503026'
+  props: {layer: '4'}
+  title: {de: Sonder- und Heilpädagogik, en: Orthopaedagogy}
+- id: '503027'
+  props: {layer: '4'}
+  title: {de: Sozialpädagogik, en: Social pedagogy}
+- id: '503028'
+  props: {layer: '4'}
+  title: {de: Sportpädagogik, en: Sport pedagogy}
+- id: '503029'
+  props: {layer: '4'}
+  title: {de: Sprachlehrforschung, en: Language teaching research}
+- id: '503030'
+  props: {layer: '4'}
+  title: {de: Wirtschaftspädagogik, en: Business education}
+- id: '503031'
+  props: {layer: '4'}
+  title: {de: Elementarpädagogik, en: Elementary pedagogy}
+- id: '503032'
+  props: {layer: '4'}
+  title: {de: Lehr- und Lernforschung, en: Teaching and learning research}
+- id: '503033'
+  props: {layer: '4'}
+  title: {de: Politische Bildung, en: Political education}
+- id: '503034'
+  props: {layer: '4'}
+  title: {de: Inklusive Pädagogik, en: Inclusive education}
+- id: '503035'
+  props: {layer: '4'}
+  title: {de: Sexualpädagogik, en: Sex education}
+- id: '503036'
+  props: {layer: '4'}
+  title: {de: Stimmforschung, en: Vocal research}
+- id: '504'
+  props: {layer: '2'}
+  title: {de: Soziologie, en: Sociology}
+- id: '5040'
+  props: {layer: '3'}
+  title: {de: Soziologie, en: Sociology}
+- id: '504001'
+  props: {layer: '4'}
+  title: {de: Allgemeine Soziologie, en: General sociology}
+- id: '504002'
+  props: {layer: '4'}
+  title: {de: Arbeitssoziologie, en: Sociology of work}
+- id: '504003'
+  props: {layer: '4'}
+  title: {de: Armut und soziale Ausgrenzung, en: Poverty and social exclusion}
+- id: '504004'
+  props: {layer: '4'}
+  title: {de: Bevölkerungsstatistik, en: Population statistics}
+- id: '504005'
+  props: {layer: '4'}
+  title: {de: Bildungssoziologie, en: Educational sociology}
+- id: '504006'
+  props: {layer: '4'}
+  title: {de: Demographie, en: Demography}
+- id: '504007'
+  props: {layer: '4'}
+  title: {de: Empirische Sozialforschung, en: Empirical social research}
+- id: '504008'
+  props: {layer: '4'}
+  title: {de: Ethnographie, en: Ethnography}
+- id: '504009'
+  props: {layer: '4'}
+  title: {de: Ethnologie, en: Ethnology}
+- id: '504010'
+  props: {layer: '4'}
+  title: {de: Europäische Ethnologie, en: European ethnology}
+- id: '504011'
+  props: {layer: '4'}
+  title: {de: Familienforschung, en: Genealogy}
+- id: '504012'
+  props: {layer: '4'}
+  title: {de: Freizeitforschung, en: Leisure research}
+- id: '504013'
+  props: {layer: '4'}
+  title: {de: Gender Mainstreaming, en: Gender mainstreaming}
+- id: '504014'
+  props: {layer: '4'}
+  title: {de: Gender Studies, en: Gender studies}
+- id: '504015'
+  props: {layer: '4'}
+  title: {de: Geschichte der Soziologie, en: History of sociology}
+- id: '504016'
+  props: {layer: '4'}
+  title: {de: Jugendsoziologie, en: Sociology of youth}
+- id: '504017'
+  props: {layer: '4'}
+  title: {de: Kulturanthropologie, en: Cultural anthropology}
+- id: '504018'
+  props: {layer: '4'}
+  title: {de: Kultursoziologie, en: Sociology of culture}
+- id: '504019'
+  props: {layer: '4'}
+  title: {de: Mediensoziologie, en: Media sociology}
+- id: '504020'
+  props: {layer: '4'}
+  title: {de: Medizinsoziologie, en: Medical sociology}
+- id: '504021'
+  props: {layer: '4'}
+  title: {de: Migrationsforschung, en: Migration research}
+- id: '504022'
+  props: {layer: '4'}
+  title: {de: Musiksoziologie, en: Music sociology}
+- id: '504023'
+  props: {layer: '4'}
+  title: {de: Politische Soziologie, en: Political sociology}
+- id: '504024'
+  props: {layer: '4'}
+  title: {de: Rechtssoziologie, en: Sociology of law}
+- id: '504025'
+  props: {layer: '4'}
+  title: {de: Religionssoziologie, en: Sociology of religion}
+- id: '504026'
+  props: {layer: '4'}
+  title: {de: Sozialgeschichte, en: Social history}
+- id: '504027'
+  props: {layer: '4'}
+  title: {de: Spezielle Soziologie, en: Special sociology}
+- id: '504028'
+  props: {layer: '4'}
+  title: {de: Techniksoziologie, en: Sociology of technology}
+- id: '504029'
+  props: {layer: '4'}
+  title: {de: Umweltsoziologie, en: Environmental sociology}
+- id: '504030'
+  props: {layer: '4'}
+  title: {de: Wirtschaftssoziologie, en: Economic sociology}
+- id: '504031'
+  props: {layer: '4'}
+  title: {de: Diversitätsforschung, en: Diversity research}
+- id: '505'
+  props: {layer: '2'}
+  title: {de: Rechtswissenschaften, en: Law}
+- id: '5050'
+  props: {layer: '3'}
+  title: {de: Rechtswissenschaften, en: Law}
+- id: '505001'
+  props: {layer: '4'}
+  title: {de: Arbeitsrecht, en: Labour law}
+- id: '505002'
+  props: {layer: '4'}
+  title: {de: Datenschutz, en: Data protection}
+- id: '505003'
+  props: {layer: '4'}
+  title: {de: Europarecht, en: European law}
+- id: '505004'
+  props: {layer: '4'}
+  title: {de: Finanzrecht, en: Financial law}
+- id: '505005'
+  props: {layer: '4'}
+  title: {de: Geistiges Eigentum, en: Intellectual property}
+- id: '505006'
+  props: {layer: '4'}
+  title: {de: Grundrechte, en: Fundamental rights}
+- id: '505007'
+  props: {layer: '4'}
+  title: {de: Insolvenzrecht, en: Insolvency law}
+- id: '505008'
+  props: {layer: '4'}
+  title: {de: Kriminologie, en: Criminology}
+- id: '505009'
+  props: {layer: '4'}
+  title: {de: Mediation, en: Mediation}
+- id: '505010'
+  props: {layer: '4'}
+  title: {de: Medizinrecht, en: Medical law}
+- id: '505011'
+  props: {layer: '4'}
+  title: {de: Menschenrechte, en: Human rights}
+- id: '505012'
+  props: {layer: '4'}
+  title: {de: Öffentliches Recht, en: Public law}
+- id: '505013'
+  props: {layer: '4'}
+  title: {de: Privatrecht, en: Private law}
+- id: '505014'
+  props: {layer: '4'}
+  title: {de: Rechtsgeschichte, en: Legal history}
+- id: '505015'
+  props: {layer: '4'}
+  title: {de: Rechtsinformatik, en: Legal informatics}
+- id: '505016'
+  props: {layer: '4'}
+  title: {de: Rechtstheorie, en: Legal theory}
+- id: '505017'
+  props: {layer: '4'}
+  title: {de: Rechtsvergleichung, en: Comparative law}
+- id: '505018'
+  props: {layer: '4'}
+  title: {de: Religionsrecht, en: Religious law}
+- id: '505019'
+  props: {layer: '4'}
+  title: {de: Römisches Recht, en: Roman law}
+- id: '505020'
+  props: {layer: '4'}
+  title: {de: Sozialrecht, en: Social law}
+- id: '505021'
+  props: {layer: '4'}
+  title: {de: Staatsrecht, en: Constitutional law}
+- id: '505022'
+  props: {layer: '4'}
+  title: {de: Steuerrecht, en: Tax law}
+- id: '505023'
+  props: {layer: '4'}
+  title: {de: Strafprozessrecht, en: Criminal procedural law}
+- id: '505024'
+  props: {layer: '4'}
+  title: {de: Strafrecht, en: Criminal law}
+- id: '505025'
+  props: {layer: '4'}
+  title: {de: Unternehmensrecht, en: Business law}
+- id: '505026'
+  props: {layer: '4'}
+  title: {de: Verfassungsrecht, en: Constitutional law}
+- id: '505027'
+  props: {layer: '4'}
+  title: {de: Verwaltungslehre, en: Administrative studies}
+- id: '505028'
+  props: {layer: '4'}
+  title: {de: Verwaltungsrecht, en: Administrative law}
+- id: '505029'
+  props: {layer: '4'}
+  title: {de: Völkerrecht, en: International law}
+- id: '505030'
+  props: {layer: '4'}
+  title: {de: Wirtschaftsrecht, en: Commercial law}
+- id: '505031'
+  props: {layer: '4'}
+  title: {de: Zivilrecht, en: Civil law}
+- id: '505032'
+  props: {layer: '4'}
+  title: {de: Zivilverfahrensrecht, en: Civil procedure law}
+- id: '505033'
+  props: {layer: '4'}
+  title: {de: Antidiskriminierungsrecht, en: Anti-discrimination law}
+- id: '505034'
+  props: {layer: '4'}
+  title: {de: Bank- und Kapitalmarktrecht, en: Banking and capital market law}
+- id: '505035'
+  props: {layer: '4'}
+  title: {de: Baurecht, en: Building law}
+- id: '505036'
+  props: {layer: '4'}
+  title: {de: Energierecht, en: Energy law}
+- id: '505037'
+  props: {layer: '4'}
+  title: {de: Familien- und Erbrecht, en: Family and inheritance law}
+- id: '505038'
+  props: {layer: '4'}
+  title: {de: Marken- und Patentrecht, en: Trademark and patent law}
+- id: '505039'
+  props: {layer: '4'}
+  title: {de: Medienrecht, en: Media law}
+- id: '505040'
+  props: {layer: '4'}
+  title: {de: Sportrecht, en: Sports law}
+- id: '505041'
+  props: {layer: '4'}
+  title: {de: Umweltrecht, en: Environmental law}
+- id: '505042'
+  props: {layer: '4'}
+  title: {de: Verkehrsrecht, en: Traffic law}
+- id: '505043'
+  props: {layer: '4'}
+  title: {de: Wettbewerbs- und Kartellrecht, en: Competition and antitrust law}
+- id: '505044'
+  props: {layer: '4'}
+  title: {de: Gesellschaftsrecht, en: Corporate law}
+- id: '505045'
+  props: {layer: '4'}
+  title: {de: Hochschulrecht, en: Higher education law}
+- id: '505046'
+  props: {layer: '4'}
+  title: {de: Luft- und Weltraumrecht, en: Air and space law}
+- id: '505047'
+  props: {layer: '4'}
+  title: {de: Allgemeines Verfahrensrecht, en: General procedural law}
+- id: '505048'
+  props: {layer: '4'}
+  title: {de: Sachenrecht, en: Property law}
+- id: '505049'
+  props: {layer: '4'}
+  title: {de: Schiedsverfahrensrecht, en: Arbitration law}
+- id: '505050'
+  props: {layer: '4'}
+  title: {de: Tierschutzrecht, en: Animal protection law}
+- id: '505051'
+  props: {layer: '4'}
+  title: {de: Rechtsethik, en: Legal ethics}
+- id: '505052'
+  props: {layer: '4'}
+  title: {de: Versicherungsrecht, en: Insurance law}
+- id: '505053'
+  props: {layer: '4'}
+  title: {de: Verwaltungsverfahrensrecht, en: Administrative procedural law}
+- id: '506'
+  props: {layer: '2'}
+  title: {de: Politikwissenschaften, en: Political Science}
+- id: '5060'
+  props: {layer: '3'}
+  title: {de: Politikwissenschaften, en: Political Science}
+- id: '506001'
+  props: {layer: '4'}
+  title: {de: Allgemeine Staatslehre, en: General theory of the state}
+- id: '506002'
+  props: {layer: '4'}
+  title: {de: E-Government, en: E-government}
+- id: '506003'
+  props: {layer: '4'}
+  title: {de: Entwicklungspolitik, en: Development policy}
+- id: '506004'
+  props: {layer: '4'}
+  title: {de: Europäische Integration, en: European integration}
+- id: '506005'
+  props: {layer: '4'}
+  title: {de: Forschungspolitik, en: Research policy}
+- id: '506006'
+  props: {layer: '4'}
+  title: {de: Friedensforschung, en: Peace studies}
+- id: '506007'
+  props: {layer: '4'}
+  title: {de: Internationale Beziehungen, en: International relations}
+- id: '506008'
+  props: {layer: '4'}
+  title: {de: Konfliktforschung, en: Conflict research}
+- id: '506009'
+  props: {layer: '4'}
+  title: {de: Organisationstheorie, en: Organisation theory}
+- id: '506010'
+  props: {layer: '4'}
+  title: {de: Politikfeldanalyse, en: Policy analysis}
+- id: '506011'
+  props: {layer: '4'}
+  title: {de: Politische Geschichte, en: Political history}
+- id: '506012'
+  props: {layer: '4'}
+  title: {de: Politische Systeme, en: Political systems}
+- id: '506013'
+  props: {layer: '4'}
+  title: {de: Politische Theorie, en: Political theory}
+- id: '506014'
+  props: {layer: '4'}
+  title: {de: Vergleichende Politikwissenschaft, en: Comparative politics}
+- id: '506015'
+  props: {layer: '4'}
+  title: {de: Asylpolitik, en: Asylum policy}
+- id: '506016'
+  props: {layer: '4'}
+  title: {de: Migrationspolitik, en: Migration policy}
+- id: '506017'
+  props: {layer: '4'}
+  title: {de: Wissenschafts- und Technologiepolitik, en: Science and technology policy}
+- id: '506018'
+  props: {layer: '4'}
+  title: {de: Terrorismusforschung, en: Terrorism research}
+- id: '507'
+  props: {layer: '2'}
+  title: {de: 'Humangeographie, Regionale Geographie, Raumplanung', en: 'Human Geography,
+      Regional Geography, Regional Planning'}
+- id: '5070'
+  props: {layer: '3'}
+  title: {de: 'Humangeographie, Regionale Geographie, Raumplanung', en: 'Human Geography,
+      Regional Geography, Regional Planning'}
+- id: '507001'
+  props: {layer: '4'}
+  title: {de: Angewandte Geographie, en: Applied geography}
+- id: '507002'
+  props: {layer: '4'}
+  title: {de: Bevölkerungsgeographie, en: Population geography}
+- id: '507003'
+  props: {layer: '4'}
+  title: {de: Geoinformatik, en: Geoinformatics}
+- id: '507004'
+  props: {layer: '4'}
+  title: {de: Geschichte der Geographie, en: History of geography}
+- id: '507005'
+  props: {layer: '4'}
+  title: {de: Kulturgeographie, en: Cultural geography}
+- id: '507006'
+  props: {layer: '4'}
+  title: {de: Kulturlandschaftsforschung, en: Cultural landscape research}
+- id: '507007'
+  props: {layer: '4'}
+  title: {de: Landesplanung, en: Land use planning}
+- id: '507008'
+  props: {layer: '4'}
+  title: {de: Landschaftsplanung, en: Landscape planning}
+- id: '507009'
+  props: {layer: '4'}
+  title: {de: Örtliche Raumplanung, en: Regional planning}
+- id: '507010'
+  props: {layer: '4'}
+  title: {de: Politische Geographie, en: Political geography}
+- id: '507011'
+  props: {layer: '4'}
+  title: {de: Raumforschung, en: Spatial research}
+- id: '507012'
+  props: {layer: '4'}
+  title: {de: Raumordnung, en: Spatial structure}
+- id: '507013'
+  props: {layer: '4'}
+  title: {de: Regionale Geographie, en: Regional geography}
+- id: '507014'
+  props: {layer: '4'}
+  title: {de: Regionalentwicklung, en: Regional development}
+- id: '507015'
+  props: {layer: '4'}
+  title: {de: Regionalforschung, en: Regional research}
+- id: '507016'
+  props: {layer: '4'}
+  title: {de: Regionalökonomie, en: Regional economy}
+- id: '507017'
+  props: {layer: '4'}
+  title: {de: Sozialgeographie, en: Social geography}
+- id: '507018'
+  props: {layer: '4'}
+  title: {de: 'Stadt-, Dorferneuerung', en: Urban and village renewal}
+- id: '507019'
+  props: {layer: '4'}
+  title: {de: Stadtentwicklungsplanung, en: Urban development planning}
+- id: '507020'
+  props: {layer: '4'}
+  title: {de: Stadtforschung, en: Urbanism}
+- id: '507021'
+  props: {layer: '4'}
+  title: {de: Stadtgeschichte, en: Urban history}
+- id: '507022'
+  props: {layer: '4'}
+  title: {de: Stadtplanung, en: Urban planning}
+- id: '507023'
+  props: {layer: '4'}
+  title: {de: Standortentwicklung, en: Location development}
+- id: '507024'
+  props: {layer: '4'}
+  title: {de: Umweltpolitik, en: Environmental policy}
+- id: '507025'
+  props: {layer: '4'}
+  title: {de: Verkehrsplanung, en: Transport planning}
+- id: '507026'
+  props: {layer: '4'}
+  title: {de: Wirtschaftsgeographie, en: Economic geography}
+- id: '507027'
+  props: {layer: '4'}
+  title: {de: Nachhaltige Stadtentwicklung, en: Sustainable urban development}
+- id: '507028'
+  props: {layer: '4'}
+  title: {de: Kartographie, en: Cartography}
+- id: '507029'
+  props: {layer: '4'}
+  title: {de: Stadtökologie, en: Urban ecology}
+- id: '508'
+  props: {layer: '2'}
+  title: {de: Medien- und Kommunikationswissenschaften, en: Media and Communication
+      Sciences}
+- id: '5080'
+  props: {layer: '3'}
+  title: {de: Medien- und Kommunikationswissenschaften, en: Media and Communication
+      Sciences}
+- id: '508001'
+  props: {layer: '4'}
+  title: {de: Archivwesen, en: Archive studies}
+- id: '508002'
+  props: {layer: '4'}
+  title: {de: Audiovisuelle Medien, en: Audiovisual media}
+- id: '508003'
+  props: {layer: '4'}
+  title: {de: Bibliothekswissenschaft, en: Library science}
+- id: '508004'
+  props: {layer: '4'}
+  title: {de: Interkulturelle Kommunikation, en: Intercultural communication}
+- id: '508005'
+  props: {layer: '4'}
+  title: {de: Journalistik, en: Journalism}
+- id: '508006'
+  props: {layer: '4'}
+  title: {de: Kommunikationstheorie, en: Communication theory}
+- id: '508007'
+  props: {layer: '4'}
+  title: {de: Kommunikationswissenschaft, en: Communication science}
+- id: '508008'
+  props: {layer: '4'}
+  title: {de: Medienanalyse, en: Media analysis}
+- id: '508009'
+  props: {layer: '4'}
+  title: {de: Medienforschung, en: Media research}
+- id: '508010'
+  props: {layer: '4'}
+  title: {de: Mediengeschichte, en: Media history}
+- id: '508011'
+  props: {layer: '4'}
+  title: {de: Medientheorie, en: Media theory}
+- id: '508012'
+  props: {layer: '4'}
+  title: {de: Medienwirkungsforschung, en: Media impact studies}
+- id: '508013'
+  props: {layer: '4'}
+  title: {de: Public Relations, en: Public relations}
+- id: '508014'
+  props: {layer: '4'}
+  title: {de: Publizistik, en: Journalism}
+- id: '508015'
+  props: {layer: '4'}
+  title: {de: Wirtschaftskommunikation, en: Business communication}
+- id: '508016'
+  props: {layer: '4'}
+  title: {de: Wissenschaftskommunikation, en: Science communication}
+- id: '508017'
+  props: {layer: '4'}
+  title: {de: Organisationskommunikation, en: Organisational communication}
+- id: '508018'
+  props: {layer: '4'}
+  title: {de: Rezeptionsforschung, en: Reception research}
+- id: '508019'
+  props: {layer: '4'}
+  title: {de: Medienethik, en: Media ethics}
+- id: '508020'
+  props: {layer: '4'}
+  title: {de: Politische Kommunikation, en: Political communication}
+- id: '508021'
+  props: {layer: '4'}
+  title: {de: Medienwissenschaft, en: Media studies}
+- id: '509'
+  props: {layer: '2'}
+  title: {de: Andere Sozialwissenschaften, en: Other Social Sciences}
+- id: '5090'
+  props: {layer: '3'}
+  title: {de: Andere Sozialwissenschaften, en: Other Social Sciences}
+- id: '509001'
+  props: {layer: '4'}
+  title: {de: Aktionsforschung, en: Action research}
+- id: '509002'
+  props: {layer: '4'}
+  title: {de: Disability Studies, en: Disability studies}
+- id: '509003'
+  props: {layer: '4'}
+  title: {de: Entwicklungszusammenarbeit, en: Development cooperation}
+- id: '509004'
+  props: {layer: '4'}
+  title: {de: Evaluationsforschung, en: Evaluation research}
+- id: '509005'
+  props: {layer: '4'}
+  title: {de: Gerontologie, en: Gerontology}
+- id: '509006'
+  props: {layer: '4'}
+  title: {de: Geschichte der Sozialwissenschaften, en: History of social sciences}
+- id: '509007'
+  props: {layer: '4'}
+  title: {de: Graffiti-Forschung, en: Graffiti research}
+- id: '509008'
+  props: {layer: '4'}
+  title: {de: 'Kinderforschung, Jugendforschung', en: 'Child research, youth research'}
+- id: '509009'
+  props: {layer: '4'}
+  title: {de: Militärstrategische Forschung, en: Military strategic research}
+- id: '509010'
+  props: {layer: '4'}
+  title: {de: Minderheitenforschung, en: Minority research}
+- id: '509011'
+  props: {layer: '4'}
+  title: {de: Organisationsentwicklung, en: Organisational development}
+- id: '509012'
+  props: {layer: '4'}
+  title: {de: Sozialpolitik, en: Social policy}
+- id: '509013'
+  props: {layer: '4'}
+  title: {de: Sozialstatistik, en: Social statistics}
+- id: '509014'
+  props: {layer: '4'}
+  title: {de: Spielforschung, en: Game research}
+- id: '509015'
+  props: {layer: '4'}
+  title: {de: Unfallforschung, en: Accident research}
+- id: '509016'
+  props: {layer: '4'}
+  title: {de: Verkehrswirtschaft, en: Transport economics}
+- id: '509017'
+  props: {layer: '4'}
+  title: {de: Wissenschaftsforschung, en: Social studies of science}
+- id: '509018'
+  props: {layer: '4'}
+  title: {de: Wissensmanagement, en: Knowledge management}
+- id: '509019'
+  props: {layer: '4'}
+  title: {de: Zukunftsforschung, en: Futurology}
+- id: '509020'
+  props: {layer: '4'}
+  title: {de: Militärethik, en: Military ethics}
+- id: '509021'
+  props: {layer: '4'}
+  title: {de: Militärwissenschaft, en: Military science}
+- id: '509022'
+  props: {layer: '4'}
+  title: {de: Polemologie, en: Polemology}
+- id: '509023'
+  props: {layer: '4'}
+  title: {de: Entwicklungsforschung, en: Development research}
+- id: '509024'
+  props: {layer: '4'}
+  title: {de: Sicherheitsforschung, en: Security research}
+- id: '509025'
+  props: {layer: '4'}
+  title: {de: Technikforschung, en: Technology studies}
+- id: '509026'
+  props: {layer: '4'}
+  title: {de: Digitalisierungsforschung, en: Digitalisation research}
+- id: '6'
+  props: {layer: '1'}
+  title: {de: GEISTESWISSENSCHAFTEN, en: HUMANITIES}
+- id: '601'
+  props: {layer: '2'}
+  title: {de: 'Geschichte, Archäologie', en: 'History, Archaeology'}
+- id: '6010'
+  props: {layer: '3'}
+  title: {de: 'Geschichte, Archäologie', en: 'History, Archaeology'}
+- id: '601001'
+  props: {layer: '4'}
+  title: {de: Alte Geschichte, en: Ancient history}
+- id: '601002'
+  props: {layer: '4'}
+  title: {de: Altertumskunde, en: Classical studies}
+- id: '601003'
+  props: {layer: '4'}
+  title: {de: Archäologie, en: Archaeology}
+- id: '601004'
+  props: {layer: '4'}
+  title: {de: Epigraphik, en: Epigraphy}
+- id: '601005'
+  props: {layer: '4'}
+  title: {de: Europäische Geschichte, en: European history}
+- id: '601006'
+  props: {layer: '4'}
+  title: {de: Frühgeschichte, en: Early history}
+- id: '601007'
+  props: {layer: '4'}
+  title: {de: Geschichtliche Landeskunde, en: Historical regional studies}
+- id: '601008'
+  props: {layer: '4'}
+  title: {de: Geschichtswissenschaft, en: Science of history}
+- id: '601009'
+  props: {layer: '4'}
+  title: {de: Historische Hilfswissenschaften, en: Historical auxiliary sciences}
+- id: '601010'
+  props: {layer: '4'}
+  title: {de: Klassische Archäologie, en: Classical archaeology}
+- id: '601011'
+  props: {layer: '4'}
+  title: {de: Kodikologie, en: Codicology}
+- id: '601012'
+  props: {layer: '4'}
+  title: {de: Mittelalterliche Geschichte, en: Medieval history}
+- id: '601013'
+  props: {layer: '4'}
+  title: {de: Museologie, en: Museology}
+- id: '601014'
+  props: {layer: '4'}
+  title: {de: Neuere Geschichte, en: Modern history}
+- id: '601015'
+  props: {layer: '4'}
+  title: {de: Numismatik, en: Numismatics}
+- id: '601016'
+  props: {layer: '4'}
+  title: {de: Österreichische Geschichte, en: Austrian history}
+- id: '601017'
+  props: {layer: '4'}
+  title: {de: Paläographie, en: Palaeography}
+- id: '601018'
+  props: {layer: '4'}
+  title: {de: Papyrologie, en: Papyrology}
+- id: '601019'
+  props: {layer: '4'}
+  title: {de: Quellenkunde, en: Source studies}
+- id: '601020'
+  props: {layer: '4'}
+  title: {de: Regionalgeschichte, en: Regional history}
+- id: '601021'
+  props: {layer: '4'}
+  title: {de: Urgeschichte, en: Prehistory}
+- id: '601022'
+  props: {layer: '4'}
+  title: {de: Zeitgeschichte, en: Contemporary history}
+- id: '601023'
+  props: {layer: '4'}
+  title: {de: Globalgeschichte, en: Global history}
+- id: '601024'
+  props: {layer: '4'}
+  title: {de: Archäologische Prospektion, en: Archaeological prospection}
+- id: '601025'
+  props: {layer: '4'}
+  title: {de: Experimentelle Archäologie, en: Experimental archaeology}
+- id: '601026'
+  props: {layer: '4'}
+  title: {de: Virtuelle Archäologie, en: Virtual archeology}
+- id: '601027'
+  props: {layer: '4'}
+  title: {de: Wüstungsforschung, en: Deserted settlement research}
+- id: '601028'
+  props: {layer: '4'}
+  title: {de: Geschlechtergeschichte, en: Gender history}
+- id: '601029'
+  props: {layer: '4'}
+  title: {de: Sozialgeschichte, en: Social history}
+- id: '602'
+  props: {layer: '2'}
+  title: {de: Sprach- und Literaturwissenschaften, en: Linguistics and Literature}
+- id: '6020'
+  props: {layer: '3'}
+  title: {de: Sprach- und Literaturwissenschaften, en: Linguistics and Literature}
+- id: '602001'
+  props: {layer: '4'}
+  title: {de: Afrikanistik, en: African studies}
+- id: '602002'
+  props: {layer: '4'}
+  title: {de: Ägyptologie, en: Egyptology}
+- id: '602003'
+  props: {layer: '4'}
+  title: {de: Allgemeine Literaturwissenschaft, en: General literature studies}
+- id: '602004'
+  props: {layer: '4'}
+  title: {de: Allgemeine Sprachwissenschaft, en: General linguistics}
+- id: '602005'
+  props: {layer: '4'}
+  title: {de: Amerikanistik, en: American studies}
+- id: '602006'
+  props: {layer: '4'}
+  title: {de: Angewandte Literaturwissenschaft, en: Applied literature studies}
+- id: '602007'
+  props: {layer: '4'}
+  title: {de: Angewandte Sprachwissenschaft, en: Applied linguistics}
+- id: '602008'
+  props: {layer: '4'}
+  title: {de: Anglistik, en: English studies}
+- id: '602009'
+  props: {layer: '4'}
+  title: {de: Arabistik, en: Arabic studies}
+- id: '602010'
+  props: {layer: '4'}
+  title: {de: Byzantinistik, en: Byzantine studies}
+- id: '602011'
+  props: {layer: '4'}
+  title: {de: Computerlinguistik, en: Computational linguistics}
+- id: '602012'
+  props: {layer: '4'}
+  title: {de: Finno-Ugristik, en: Finno-Ugrian studies}
+- id: '602013'
+  props: {layer: '4'}
+  title: {de: Gebärdensprachforschung, en: Sign language research}
+- id: '602014'
+  props: {layer: '4'}
+  title: {de: Germanistik, en: German studies}
+- id: '602015'
+  props: {layer: '4'}
+  title: {de: Gräzistik, en: Greek studies}
+- id: '602016'
+  props: {layer: '4'}
+  title: {de: Hermeneutik, en: Hermeneutics}
+- id: '602017'
+  props: {layer: '4'}
+  title: {de: Indogermanistik, en: Indo-European studies}
+- id: '602018'
+  props: {layer: '4'}
+  title: {de: Indologie, en: Indology}
+- id: '602019'
+  props: {layer: '4'}
+  title: {de: Iranistik, en: Iranian studies}
+- id: '602020'
+  props: {layer: '4'}
+  title: {de: Japanologie, en: Japanese studies}
+- id: '602021'
+  props: {layer: '4'}
+  title: {de: Jiddistik, en: Yiddish studies}
+- id: '602022'
+  props: {layer: '4'}
+  title: {de: Judaistik, en: Jewish studies}
+- id: '602023'
+  props: {layer: '4'}
+  title: {de: Keltologie, en: Celtic studies}
+- id: '602024'
+  props: {layer: '4'}
+  title: {de: Klassische Philologie, en: Classical philology}
+- id: '602025'
+  props: {layer: '4'}
+  title: {de: Klinische Linguistik, en: Clinical linguistics}
+- id: '602026'
+  props: {layer: '4'}
+  title: {de: Kognitive Linguistik, en: Cognitive linguistics}
+- id: '602027'
+  props: {layer: '4'}
+  title: {de: Koptologie, en: Coptic studies}
+- id: '602028'
+  props: {layer: '4'}
+  title: {de: Koreanistik, en: Korean studies}
+- id: '602029'
+  props: {layer: '4'}
+  title: {de: Latinistik, en: Latin studies}
+- id: '602030'
+  props: {layer: '4'}
+  title: {de: Lexikographie, en: Lexicography}
+- id: '602031'
+  props: {layer: '4'}
+  title: {de: Literaturgeschichte, en: History of literature}
+- id: '602032'
+  props: {layer: '4'}
+  title: {de: Mundartforschung, en: Dialectology}
+- id: '602033'
+  props: {layer: '4'}
+  title: {de: Namenforschung, en: Onomastics}
+- id: '602034'
+  props: {layer: '4'}
+  title: {de: Nederlandistik, en: Dutch studies}
+- id: '602035'
+  props: {layer: '4'}
+  title: {de: Neogräzistik, en: Modern Greek studies}
+- id: '602036'
+  props: {layer: '4'}
+  title: {de: Neurolinguistik, en: Neurolinguistics}
+- id: '602037'
+  props: {layer: '4'}
+  title: {de: Orientalistik, en: Oriental studies}
+- id: '602038'
+  props: {layer: '4'}
+  title: {de: Phonetik, en: Phonetics}
+- id: '602039'
+  props: {layer: '4'}
+  title: {de: Phonologie, en: Phonology}
+- id: '602040'
+  props: {layer: '4'}
+  title: {de: Psycholinguistik, en: Psycholinguistics}
+- id: '602041'
+  props: {layer: '4'}
+  title: {de: Rhetorik, en: Rhetoric}
+- id: '602042'
+  props: {layer: '4'}
+  title: {de: Romanistik, en: Romance studies}
+- id: '602043'
+  props: {layer: '4'}
+  title: {de: Semiotik, en: Semiotics}
+- id: '602044'
+  props: {layer: '4'}
+  title: {de: Semitistik, en: Semitic studies}
+- id: '602045'
+  props: {layer: '4'}
+  title: {de: Sinologie, en: Sinology}
+- id: '602046'
+  props: {layer: '4'}
+  title: {de: Skandinavistik, en: Scandinavian studies}
+- id: '602047'
+  props: {layer: '4'}
+  title: {de: Slawistik, en: Slavonic studies}
+- id: '602048'
+  props: {layer: '4'}
+  title: {de: Soziolinguistik, en: Sociolinguistics}
+- id: '602049'
+  props: {layer: '4'}
+  title: {de: Terminologielehre, en: Terminology science}
+- id: '602050'
+  props: {layer: '4'}
+  title: {de: Tibetologie, en: Tibetan studies}
+- id: '602051'
+  props: {layer: '4'}
+  title: {de: Translationswissenschaft, en: Translation studies}
+- id: '602052'
+  props: {layer: '4'}
+  title: {de: Turkologie, en: Turkish studies}
+- id: '602053'
+  props: {layer: '4'}
+  title: {de: Vergleichende Literaturwissenschaft, en: Comparative literature studies}
+- id: '602054'
+  props: {layer: '4'}
+  title: {de: Vergleichende Sprachwissenschaft, en: Comparative linguistics}
+- id: '602055'
+  props: {layer: '4'}
+  title: {de: Patholinguistik, en: Patholinguistics}
+- id: '602056'
+  props: {layer: '4'}
+  title: {de: Altorientalistik, en: Ancient Oriental studies}
+- id: '602057'
+  props: {layer: '4'}
+  title: {de: Historische Linguistik, en: Historical linguistics}
+- id: '602058'
+  props: {layer: '4'}
+  title: {de: Korpuslinguistik, en: Corpus linguistics}
+- id: '602059'
+  props: {layer: '4'}
+  title: {de: Schreibwissenschaft, en: Writing studies}
+- id: '603'
+  props: {layer: '2'}
+  title: {de: 'Philosophie, Ethik, Religion', en: 'Philosophy, Ethics, Religion'}
+- id: '6031'
+  props: {layer: '3'}
+  title: {de: 'Philosophie, Ethik', en: 'Philosophy, Ethics'}
+- id: '603101'
+  props: {layer: '4'}
+  title: {de: Ästhetik, en: Aesthetics}
+- id: '603102'
+  props: {layer: '4'}
+  title: {de: Erkenntnistheorie, en: Epistemology}
+- id: '603103'
+  props: {layer: '4'}
+  title: {de: Ethik, en: Ethics}
+- id: '603104'
+  props: {layer: '4'}
+  title: {de: Geschichte der Philosophie, en: History of philosophy}
+- id: '603105'
+  props: {layer: '4'}
+  title: {de: Geschichtsphilosophie, en: Philosophy of history}
+- id: '603106'
+  props: {layer: '4'}
+  title: {de: Hermeneutik, en: Hermeneutics}
+- id: '603107'
+  props: {layer: '4'}
+  title: {de: Ideologiekritik, en: Critique of ideology}
+- id: '603108'
+  props: {layer: '4'}
+  title: {de: Kulturphilosophie, en: Cultural philosophy}
+- id: '603109'
+  props: {layer: '4'}
+  title: {de: Logik, en: Logic}
+- id: '603110'
+  props: {layer: '4'}
+  title: {de: Metaphysik, en: Metaphysics}
+- id: '603111'
+  props: {layer: '4'}
+  title: {de: Naturphilosophie, en: Natural philosophy}
+- id: '603112'
+  props: {layer: '4'}
+  title: {de: Phänomenologie, en: Phenomenology}
+- id: '603113'
+  props: {layer: '4'}
+  title: {de: Philosophie, en: Philosophy}
+- id: '603114'
+  props: {layer: '4'}
+  title: {de: Philosophie des Geistes, en: Philosophy of mind}
+- id: '603115'
+  props: {layer: '4'}
+  title: {de: Philosophische Anthropologie, en: Philosophical anthropology}
+- id: '603116'
+  props: {layer: '4'}
+  title: {de: Politische Philosophie, en: Political philosophy}
+- id: '603117'
+  props: {layer: '4'}
+  title: {de: Rechtsphilosophie, en: Philosophy of law}
+- id: '603118'
+  props: {layer: '4'}
+  title: {de: Religionsphilosophie, en: Philosophy of religion}
+- id: '603119'
+  props: {layer: '4'}
+  title: {de: Sozialphilosophie, en: Social philosophy}
+- id: '603120'
+  props: {layer: '4'}
+  title: {de: Sprachphilosophie, en: Philosophy of language}
+- id: '603121'
+  props: {layer: '4'}
+  title: {de: Staatsphilosophie, en: Political philosophy}
+- id: '603122'
+  props: {layer: '4'}
+  title: {de: Technikphilosophie, en: Philosophy of technology}
+- id: '603123'
+  props: {layer: '4'}
+  title: {de: Wissenschaftsgeschichte, en: History of science}
+- id: '603124'
+  props: {layer: '4'}
+  title: {de: Wissenschaftstheorie, en: Theory of science}
+- id: '603125'
+  props: {layer: '4'}
+  title: {de: Metaethik, en: Metaethics}
+- id: '603126'
+  props: {layer: '4'}
+  title: {de: Interkulturelle Philosophie, en: Intercultural philosophy}
+- id: '6032'
+  props: {layer: '3'}
+  title: {de: Theologie, en: Theology}
+- id: '603201'
+  props: {layer: '4'}
+  title: {de: Alttestamentliche Bibelwissenschaft, en: Old Testament studies}
+- id: '603202'
+  props: {layer: '4'}
+  title: {de: Christliche Archäologie, en: Christian archaeology}
+- id: '603203'
+  props: {layer: '4'}
+  title: {de: Christliche Philosophie, en: Christian philosophy}
+- id: '603204'
+  props: {layer: '4'}
+  title: {de: Christliche Sozialethik, en: Christian social ethics}
+- id: '603205'
+  props: {layer: '4'}
+  title: {de: Dogmatische Theologie, en: Dogmatic theology}
+- id: '603206'
+  props: {layer: '4'}
+  title: {de: Fundamentaltheologie, en: Fundamental theology}
+- id: '603207'
+  props: {layer: '4'}
+  title: {de: Homiletik, en: Homiletics}
+- id: '603208'
+  props: {layer: '4'}
+  title: {de: Interkulturelle Theologie, en: Intercultural theology}
+- id: '603209'
+  props: {layer: '4'}
+  title: {de: Kanonisches Recht, en: Canon law}
+- id: '603210'
+  props: {layer: '4'}
+  title: {de: Katechetik, en: Catechetics}
+- id: '603211'
+  props: {layer: '4'}
+  title: {de: Kirchengeschichte, en: Church history}
+- id: '603212'
+  props: {layer: '4'}
+  title: {de: Liturgiewissenschaft, en: Liturgical studies}
+- id: '603213'
+  props: {layer: '4'}
+  title: {de: Moraltheologie, en: Moral theology}
+- id: '603214'
+  props: {layer: '4'}
+  title: {de: Neutestamentliche Bibelwissenschaft, en: New Testament studies}
+- id: '603215'
+  props: {layer: '4'}
+  title: {de: Ökumenische Theologie, en: Ecumenical theology}
+- id: '603216'
+  props: {layer: '4'}
+  title: {de: Pastoralpsychologie, en: Pastoral psychology}
+- id: '603217'
+  props: {layer: '4'}
+  title: {de: Pastoraltheologie, en: Pastoral theology}
+- id: '603218'
+  props: {layer: '4'}
+  title: {de: Patrologie, en: Patrology}
+- id: '603219'
+  props: {layer: '4'}
+  title: {de: Praktische Theologie, en: Practical theology}
+- id: '603220'
+  props: {layer: '4'}
+  title: {de: Seelsorge, en: Pastoral care}
+- id: '603221'
+  props: {layer: '4'}
+  title: {de: Spirituelle Theologie, en: Spiritual theology}
+- id: '603222'
+  props: {layer: '4'}
+  title: {de: Systematische Theologie, en: Systematic theology}
+- id: '603223'
+  props: {layer: '4'}
+  title: {de: Theologische Anthropologie, en: Theological anthropology}
+- id: '6039'
+  props: {layer: '3'}
+  title: {de: 'Sonstige Religion, Religionswissenschaften', en: 'Religion, Religious
+      Studies not elsewhere classified'}
+- id: '603901'
+  props: {layer: '4'}
+  title: {de: Atheismus, en: Atheism}
+- id: '603902'
+  props: {layer: '4'}
+  title: {de: Buddhismus, en: Buddhism}
+- id: '603903'
+  props: {layer: '4'}
+  title: {de: Exegese, en: Exegesis}
+- id: '603904'
+  props: {layer: '4'}
+  title: {de: Hinduismus, en: Hinduism}
+- id: '603905'
+  props: {layer: '4'}
+  title: {de: Islam, en: Islam}
+- id: '603906'
+  props: {layer: '4'}
+  title: {de: Jüdische Religion, en: Jewish religion}
+- id: '603907'
+  props: {layer: '4'}
+  title: {de: Kirchenrecht, en: Church law}
+- id: '603908'
+  props: {layer: '4'}
+  title: {de: Religionsgeschichte, en: History of religion}
+- id: '603909'
+  props: {layer: '4'}
+  title: {de: Religionswissenschaft, en: Religious studies}
+- id: '603910'
+  props: {layer: '4'}
+  title: {de: Religionspsychologie, en: Psychology of religion}
+- id: '604'
+  props: {layer: '2'}
+  title: {de: Kunstwissenschaften, en: Arts}
+- id: '6040'
+  props: {layer: '3'}
+  title: {de: Kunstwissenschaften, en: Arts}
+- id: '604001'
+  props: {layer: '4'}
+  title: {de: Angewandte Kunst, en: Applied arts}
+- id: '604002'
+  props: {layer: '4'}
+  title: {de: Architektonische Gestaltung, en: Architectural design}
+- id: '604003'
+  props: {layer: '4'}
+  title: {de: Aufführungspraxis, en: Performance practice}
+- id: '604004'
+  props: {layer: '4'}
+  title: {de: Bildende Kunst, en: Fine arts}
+- id: '604005'
+  props: {layer: '4'}
+  title: {de: Bühnengestaltung, en: Stage design}
+- id: '604006'
+  props: {layer: '4'}
+  title: {de: Darstellende Kunst, en: Performing arts}
+- id: '604007'
+  props: {layer: '4'}
+  title: {de: Denkmalpflege, en: Historic preservation}
+- id: '604008'
+  props: {layer: '4'}
+  title: {de: Design, en: Design}
+- id: '604009'
+  props: {layer: '4'}
+  title: {de: Ethnomusikologie, en: Ethnomusicology}
+- id: '604010'
+  props: {layer: '4'}
+  title: {de: Filmgestaltung, en: Film design}
+- id: '604011'
+  props: {layer: '4'}
+  title: {de: Filmwissenschaft, en: Film studies}
+- id: '604012'
+  props: {layer: '4'}
+  title: {de: Fotografie, en: Photography}
+- id: '604013'
+  props: {layer: '4'}
+  title: {de: Gartenkunst, en: Garden art}
+- id: '604014'
+  props: {layer: '4'}
+  title: {de: Gesang, en: Singing}
+- id: '604015'
+  props: {layer: '4'}
+  title: {de: Industrial Design, en: Industrial design}
+- id: '604016'
+  props: {layer: '4'}
+  title: {de: Jazzforschung, en: Jazz studies}
+- id: '604017'
+  props: {layer: '4'}
+  title: {de: Kirchenmusik, en: Church music}
+- id: '604018'
+  props: {layer: '4'}
+  title: {de: Konservierung und Restaurierung, en: 'Conservation, restoration'}
+- id: '604019'
+  props: {layer: '4'}
+  title: {de: Kunstgeschichte, en: Art history}
+- id: '604020'
+  props: {layer: '4'}
+  title: {de: Kunsttheorie, en: Art theory}
+- id: '604021'
+  props: {layer: '4'}
+  title: {de: Medienkunst, en: Media arts}
+- id: '604022'
+  props: {layer: '4'}
+  title: {de: Musikgeschichte, en: Music history}
+- id: '604023'
+  props: {layer: '4'}
+  title: {de: Musiktheorie, en: Music theory}
+- id: '604024'
+  props: {layer: '4'}
+  title: {de: Musikwissenschaft, en: Musicology}
+- id: '604025'
+  props: {layer: '4'}
+  title: {de: Popularmusikforschung, en: Popular music studies}
+- id: '604026'
+  props: {layer: '4'}
+  title: {de: Raumkunst, en: Spatial arts}
+- id: '604027'
+  props: {layer: '4'}
+  title: {de: Szenographie, en: Scenography}
+- id: '604028'
+  props: {layer: '4'}
+  title: {de: Tanzwissenschaft, en: Dance studies}
+- id: '604029'
+  props: {layer: '4'}
+  title: {de: Theaterwissenschaft, en: Theatre studies}
+- id: '604030'
+  props: {layer: '4'}
+  title: {de: Volksmusikforschung, en: Folk music research}
+- id: '604031'
+  props: {layer: '4'}
+  title: {de: Historische Technologie, en: Historical technology}
+- id: '604032'
+  props: {layer: '4'}
+  title: {de: Instrumentalstudien, en: Instrumental studies}
+- id: '604033'
+  props: {layer: '4'}
+  title: {de: Komposition, en: Composition}
+- id: '604034'
+  props: {layer: '4'}
+  title: {de: Musiktheater, en: Music theatre}
+- id: '604035'
+  props: {layer: '4'}
+  title: {de: Orgelforschung, en: Organ research}
+- id: '604036'
+  props: {layer: '4'}
+  title: {de: Provenienzforschung, en: Provenance research}
+- id: '604037'
+  props: {layer: '4'}
+  title: {de: Sammlungspflege, en: Collection care}
+- id: '604038'
+  props: {layer: '4'}
+  title: {de: Digitale Kunst, en: Digital arts}
+- id: '604039'
+  props: {layer: '4'}
+  title: {de: Computermusik, en: Computer music}
+- id: '604040'
+  props: {layer: '4'}
+  title: {de: Interpretationsforschung, en: Interpretation research}
+- id: '604041'
+  props: {layer: '4'}
+  title: {de: Modedesign, en: Fashion design}
+- id: '605'
+  props: {layer: '2'}
+  title: {de: Andere Geisteswissenschaften, en: Other Humanities}
+- id: '6050'
+  props: {layer: '3'}
+  title: {de: Andere Geisteswissenschaften, en: Other Humanities}
+- id: '605001'
+  props: {layer: '4'}
+  title: {de: Geschichte der Geisteswissenschaften, en: History of humanities}
+- id: '605002'
+  props: {layer: '4'}
+  title: {de: Kulturgeschichte, en: Cultural history}
+- id: '605003'
+  props: {layer: '4'}
+  title: {de: Kulturökonomie, en: Cultural economics}
+- id: '605004'
+  props: {layer: '4'}
+  title: {de: Kulturwissenschaft, en: Cultural studies}
+- id: '605005'
+  props: {layer: '4'}
+  title: {de: Publikumsforschung, en: Audience research}
+- id: '605006'
+  props: {layer: '4'}
+  title: {de: Kulturmanagement, en: Cultural management}
+- id: '605007'
+  props: {layer: '4'}
+  title: {de: Digital Humanities, en: Digital humanities}
+- id: '605008'
+  props: {layer: '4'}
+  title: {de: Kulturerbe, en: Cultural heritage}

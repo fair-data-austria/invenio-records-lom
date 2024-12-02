@@ -1,0 +1,137 @@
+# by invenio's VocabularyMetadataSchema, 'props' is of type dict[str, str]
+# hence 'props.common_file_extensions' cannot be a list[str]...
+- id: application/epub+zip
+  props:
+    common_file_extensions_str: .epub
+  title:
+    en: Electronic Publication
+- id: application/gzip
+  props:
+    common_file_extensions_str: .gz
+  title:
+    en: GZip Compressed Archive
+- id: application/json
+  props:
+    common_file_extensions_str: .json
+  title:
+    en: JSON format
+- id: application/msword
+  props:
+    common_file_extensions_str: .doc
+  title:
+    en: Microsoft Word
+- id: application/octet-stream
+  props:
+    common_file_extensions_str: .bin
+  title:
+    en: Other Binary
+- id: application/pdf
+  props:
+    common_file_extensions_str: .pdf
+  title:
+    en: Adobe Portable Document Format
+- id: application/vnd.ms-excel
+  props:
+    common_file_extensions_str: .xls
+  title:
+    en: Microsoft Excel
+- id: application/vnd.ms-powerpoint
+  props:
+    common_file_extensions_str: .ppt
+  title:
+    en: Microsoft PowerPoint
+- id: application/xml
+  props:
+    common_file_extensions_str: .xml
+  title:
+    en: XML
+- id: application/zip
+  props:
+    common_file_extensions_str: .zip
+  title:
+    en: ZIP Archive
+- id: audio/aac
+  props:
+    common_file_extensions_str: .aac
+  title:
+    en: AAC Audio
+- id: audio/midi
+  props:
+    common_file_extensions_str: .midi, .mid
+  title:
+    en: Musical Instrument Digital Interface
+- id: audio/mpeg
+  props:
+    common_file_extensions_str: .mp3
+  title:
+    en: MP3 Audio
+- id: audio/wav
+  props:
+    common_file_extensions_str: .wav
+  title:
+    en: Waveform Audio Format
+- id: image/bmp
+  props:
+    common_file_extensions_str: .bmp
+  title:
+    en: Windows OS/2 Bitmap Graphics
+- id: image/gif
+  props:
+    common_file_extensions_str: .gif
+  title:
+    en: Graphics Interchange Format
+- id: image/jpeg
+  props:
+    common_file_extensions_str: .jpg, .jpeg
+  title:
+    en: JPEG images
+- id: image/png
+  props:
+    common_file_extensions_str: .png
+  title:
+    en: Portable Network Graphics
+- id: image/svg+xml
+  props:
+    common_file_extensions_str: .svg
+  title:
+    en: Scalable Vector Graphics
+- id: image/tiff
+  props:
+    common_file_extensions_str: .tif, .tiff
+  title:
+    en: Tagged Image File Format
+- id: image/webp
+  props:
+    common_file_extensions_str: .webp
+  title:
+    en: WEBP Image
+- id: text/css
+  props:
+    common_file_extensions_str: .css
+  title:
+    en: Cascading Style Sheets
+- id: text/csv
+  props:
+    common_file_extensions_str: .csv
+  title:
+    en: Comma-separated values
+- id: text/html
+  props:
+    common_file_extensions_str: .html
+  title:
+    en: HyperText Markup Language
+- id: text/plain
+  props:
+    common_file_extensions_str: .txt
+  title:
+    en: Other Text, ASCII
+- id: video/mp4
+  props:
+    common_file_extensions_str: .mp4
+  title:
+    en: MP4 Video
+- id: video/x-msvideo
+  props:
+    common_file_extensions_str: .avi
+  title:
+    en: Audio Video Interleave
