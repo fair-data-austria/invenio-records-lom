@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2020-2024 Graz University of Technology.
+# Copyright (C) 2020-2025 Graz University of Technology.
 #
 # invenio-records-lom is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
@@ -41,7 +41,7 @@ def app_config(app_config: dict) -> dict:
     # Enable DOI minting...
     app_config["DATACITE_ENABLED"] = True
     app_config["DATACITE_USERNAME"] = "INVALID"
-    app_config["DATACITE_PASSWORD"] = "INVALID"  # noqa: S105
+    app_config["DATACITE_PASSWORD"] = "INVALID"
     app_config["DATACITE_PREFIX"] = "10.1234"
     # ...but fake it
 
@@ -87,7 +87,7 @@ def identity() -> None:
 
 
 @pytest.fixture
-def service(base_app: Flask, location: Location) -> LOMRecordService:  # noqa: ARG001
+def service(base_app: Flask, location: Location) -> LOMRecordService:
     """Service fixture."""
     return base_app.extensions["invenio-records-lom"].records_service
 

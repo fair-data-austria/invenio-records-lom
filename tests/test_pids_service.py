@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2022-2024 Graz University of Technology.
+# Copyright (C) 2022-2025 Graz University of Technology.
 #
 # invenio-records-lom is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
@@ -21,7 +21,7 @@ from invenio_records_lom.services.tasks import register_or_update_pid
 
 def test_resolve_pid(
     service: LOMRecordService,
-    db: SQLAlchemy,  # noqa: ARG001
+    db: SQLAlchemy,
     identity: Identity,
     full_lom_metadata: dict,
 ) -> None:
@@ -46,7 +46,7 @@ def test_resolve_nonexisting_pid(service: LOMRecordService, identity: Identity) 
 
 def test_reserve_pid(
     service: LOMRecordService,
-    db: SQLAlchemy,  # noqa: ARG001
+    db: SQLAlchemy,
     identity: Identity,
     full_lom_metadata: dict,
 ) -> None:
@@ -55,15 +55,15 @@ def test_reserve_pid(
     draft = service.pids.create(identity=identity, id_=draft.id, scheme="doi")
     doi = draft["pids"]["doi"]["identifier"]
 
-    provider = service.pids.pid_manager._get_provider("doi", "datacite")  # noqa: SLF001
+    provider = service.pids.pid_manager._get_provider("doi", "datacite")
     pid = provider.get(pid_value=doi)
 
     assert pid.status == PIDStatus.NEW
 
 
 def test_datacite_schema(
-    service: LOMRecordService,  # noqa: ARG001
-    db: SQLAlchemy,  # noqa: ARG001
+    service: LOMRecordService,
+    db: SQLAlchemy,
     full_lom_metadata: dict,
 ) -> None:
     """Dump a LOM-object with LOMSerializer."""
@@ -81,14 +81,14 @@ def test_datacite_schema(
 
 def test_register_pid(
     service: LOMRecordService,
-    db: SQLAlchemy,  # noqa: ARG001
+    db: SQLAlchemy,
     identity: Identity,
     full_lom_metadata: dict,
     mocker: MockerFixture,
 ) -> None:
     """Register a pid."""
 
-    def public_doi(self, metadata, url, doi) -> None:  # noqa: ANN001
+    def public_doi(self, metadata, url, doi) -> None:
         """Mock doi publication."""
 
     mocker.patch(
@@ -100,11 +100,11 @@ def test_register_pid(
     draft = service.pids.create(identity=identity, id_=draft.id, scheme="doi")
     doi = draft["pids"]["doi"]["identifier"]
 
-    provider = service.pids.pid_manager._get_provider("doi", "datacite")  # noqa: SLF001
+    provider = service.pids.pid_manager._get_provider("doi", "datacite")
     pid = provider.get(pid_value=doi)
 
     # pylint: disable-next=protected-access
-    record = service.record_cls.publish(draft._record)  # noqa: SLF001
+    record = service.record_cls.publish(draft._record)
     record.pids = {
         pid.pid_type: {
             "identifier": pid.pid_value,

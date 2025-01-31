@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2021-2024 Graz University of Technology.
+# Copyright (C) 2021-2025 Graz University of Technology.
 #
 # invenio-records-lom is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
@@ -58,8 +58,8 @@ def _get_session_commits(db: SQLAlchemy) -> set:
 
 
 def _pick_by_cls(
-    iterable,  # noqa: ANN001
-    cls,  # noqa: ANN001
+    iterable,
+    cls,
     *,
     assert_unique: bool = True,
 ) -> db.Model:
@@ -99,7 +99,7 @@ def test_create_draft(
     new_versions_state = _pick_by_cls(db_new_values, LOMVersionsState)
 
     new_pids = [new for new in db_new_values if isinstance(new, PersistentIdentifier)]
-    assert len(new_pids) == 2  # noqa: PLR2004
+    assert len(new_pids) == 2
     parent_pid = next(pid for pid in new_pids if pid.object_uuid == new_parent.id)
     draft_pid = next(pid for pid in new_pids if pid.object_uuid == new_draft.id)
 
@@ -161,7 +161,7 @@ def test_publish(
     new_record = _pick_by_cls(db_new_values, LOMRecordMetadata)
 
     new_pids = [obj for obj in db_new_values if isinstance(obj, PersistentIdentifier)]
-    assert len(new_pids) == 2  # noqa: PLR2004
+    assert len(new_pids) == 2
     parent_pid = next(pid for pid in new_pids if pid.object_uuid == new_parent.id)
     draft_pid = next(pid for pid in new_pids if pid.object_uuid == new_draft.id)
     record_pid = next(pid for pid in new_pids if pid.object_uuid == new_record.id)
