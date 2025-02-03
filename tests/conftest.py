@@ -43,6 +43,14 @@ def app_config(app_config: dict) -> dict:
     app_config["DATACITE_USERNAME"] = "INVALID"
     app_config["DATACITE_PASSWORD"] = "INVALID"
     app_config["DATACITE_PREFIX"] = "10.1234"
+    app_config["OAISERVER_ID_PREFIX"] = "oai:localhost"
+    app_config["RDM_FILES_DEFAULT_QUOTA_SIZE"] = 10**10
+    app_config["RDM_FILES_DEFAULT_MAX_FILE_SIZE"] = 10**10
+    app_config["RDM_FILES_REST_DEFAULT_QUOTA_SIZE"] = 10**10
+    app_config["RDM_FILES_REST_DEFAULT_MAX_FILE_SIZE"] = 10**10
+    app_config["FILES_REST_DEFAULT_QUOTA_SIZE"] = 10**10
+    app_config["FILES_REST_DEFAULT_MAX_FILE_SIZE"] = 10**10
+    app_config["JSONSCHEMAS_HOST"] = "not-used"
     # ...but fake it
 
     return app_config
