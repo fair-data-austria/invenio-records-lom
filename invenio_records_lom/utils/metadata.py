@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2022-2024 Graz University of Technology.
+# Copyright (C) 2022-2025 Graz University of Technology.
 #
 # invenio-records-lom is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
@@ -437,8 +437,7 @@ class LOMMetadata(BaseLOMMetadata):  # pylint: disable=too-many-public-methods
         """
         # if the full url was passed, remove base_url from it
         base_url = "https://w3id.org/kim/hcrt/"
-        if learningresourcetype.startswith(base_url):
-            learningresourcetype = learningresourcetype[len(base_url) :]
+        learningresourcetype = learningresourcetype.removeprefix(base_url)
 
         labels = self.learningresourcetype_labels[learningresourcetype]
         entry = [langstringify(label, lang=lang) for lang, label in labels.items()]
@@ -455,7 +454,7 @@ class LOMMetadata(BaseLOMMetadata):  # pylint: disable=too-many-public-methods
     def get_learning_resource_type(self, *, text_only: bool = False) -> str:
         """Get learning resource type."""
         try:
-            entry = self.record["educational.learningresourcetype.entry"]
+            entry = self.record["educational.learningresourcetype.0.entry"]
         except KeyError:
             return ""
 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2021 Graz University of Technology.
+# Copyright (C) 2021-2025 Graz University of Technology.
 #
 # invenio-records-lom is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
@@ -20,7 +20,7 @@ from .context import LOMPIDFieldContext
 from .providers import LOMDraftRecordIdProvider, LOMRecordIdProvider
 from .relations import PIDLOMRelation
 from .resolver import LOMResolver
-from .statistics import LomRecordStatisticsField
+from .stats import LomRecordStatisticsField
 
 __all__ = (
     "LOMDraftRecordIdProvider",

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2023-2024 Graz University of Technology.
+# Copyright (C) 2023-2025 Graz University of Technology.
 #
 # invenio-records-lom is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
@@ -143,7 +143,7 @@ class IdentifierSchema(ExcludeUnknownOrderedSchema):
 class AggregationLevelSchema(ExcludeUnknownOrderedSchema):
     """Schema for LOM-UIBK's `general.aggregationlevel`."""
 
-    source = fields.Field(
+    source = fields.Raw(
         required=True,
         validate=validate.Equal(LANGSTRING_LOM_V1),
         dump_default=LANGSTRING_LOM_V1,
@@ -184,7 +184,7 @@ class RoleSchema(ExcludeUnknownOrderedSchema):
     """Schema for LOM-UIBK's `lifecycle.contribute.role`."""
 
     # pylint: disable=duplicate-code
-    source = fields.Field(
+    source = fields.Raw(
         required=True,
         validate=validate.Equal(LANGSTRING_LOM_V1),
         dump_default=LANGSTRING_LOM_V1,
@@ -222,8 +222,8 @@ class LifecycleSchema(ExcludeUnknownOrderedSchema):
     """Schema for LOM-UIBK's `lifecycle` category."""
 
     datetime = fields.String()
-    version = fields.Field()
-    status = fields.Field()
+    version = fields.Raw()
+    status = fields.Raw()
     contribute = fields.List(fields.Nested(ContributeSchema()))
 
     @pre_dump
@@ -304,7 +304,7 @@ class LearningResourceTypeSchema(ExcludeUnknownOrderedSchema):
     """Schema for LOM-UIBK's `educational.learningresourcetype`."""
 
     # pylint: disable=duplicate-code
-    source = fields.Field(
+    source = fields.Raw(
         required=True,
         validate=validate.Equal(LANGSTRING_KIM_HCRT_SCHEME),
         dump_default=LANGSTRING_KIM_HCRT_SCHEME,
@@ -354,7 +354,7 @@ class PurposeSchema(ExcludeUnknownOrderedSchema):
     """Schema for LOM-UIBK's `classification.purpose`."""
 
     # pylint: disable=duplicate-code
-    source = fields.Field(
+    source = fields.Raw(
         required=True,
         validate=validate.Equal(LANGSTRING_LOM_V1),
         dump_default=LANGSTRING_LOM_V1,
@@ -373,12 +373,12 @@ class TaxonpathSchema(ExcludeUnknownOrderedSchema):
     """Schema for LOM-UIBK's `classification.taxonpath`."""
 
     # pylint: disable=duplicate-code
-    source = fields.Field(
+    source = fields.Raw(
         required=True,
         validate=validate.Equal(LANGSTRING_OEFOS),
         dump_default=LANGSTRING_OEFOS,
     )
-    taxon = fields.Field()
+    taxon = fields.Raw()
 
 
 class ClassificationSchema(ExcludeUnknownOrderedSchema):

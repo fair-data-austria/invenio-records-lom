@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2020-2024 Graz University of Technology.
+# Copyright (C) 2020-2025 Graz University of Technology.
 #
 # invenio-records-lom is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
@@ -54,17 +54,8 @@ class InvenioRecordsLOM:
         Override configuration variables with the values in this package.
         """
         for k in dir(config):
-            attr = getattr(config, k)
-            if k == "LOM_PERSISTENT_IDENTIFIER_PROVIDERS":
-                app.config.setdefault("LOM_PERSISTENT_IDENTIFIER_PROVIDERS", [])
-                app.config["LOM_PERSISTENT_IDENTIFIER_PROVIDERS"].extend(attr)
-
-            elif k == "LOM_PERSISTENT_IDENTIFIERS":
-                app.config.setdefault("LOM_PERSISTENT_IDENTIFIERS", {})
-                app.config["LOM_PERSISTENT_IDENTIFIERS"].update(attr)
-
             if k.startswith("LOM_"):
-                app.config.setdefault(k, attr)
+                app.config.setdefault(k, getattr(config, k))
 
     def init_services(self, app: Flask) -> None:
         """Initialize services."""

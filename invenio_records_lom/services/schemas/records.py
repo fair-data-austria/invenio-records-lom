@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2021-2024 Graz University of Technology.
+# Copyright (C) 2021-2025 Graz University of Technology.
 #
 # invenio-records-lom is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
@@ -25,7 +25,7 @@ from werkzeug.local import LocalProxy
 
 from .fields import ControlledVocabularyField
 from .metadata import MetadataSchema
-from .statistics import LomStatisticSchema
+from .stats import LomStatisticSchema
 
 
 def _validate_lom_scheme(scheme: str) -> None:

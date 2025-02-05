@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2023-2024 Graz University of Technology.
+# Copyright (C) 2023-2025 Graz University of Technology.
 #
 # invenio-records-lom is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
@@ -208,7 +208,7 @@ class GeneralSchema(Schema):
 class RoleSchema(Schema):
     """Schema for LOM's role-fields."""
 
-    source = fields.Field(
+    source = fields.Raw(
         required=True,
         validate=validate.Equal({"langstring": {"#text": "LOMv1.0", "lang": "x-none"}}),
     )
@@ -332,7 +332,7 @@ class TechnicalSchema(Schema):
 class LearningResourceTypeSchema(Schema):
     """Scheam for LOM's `educational.learningresourcetype`."""
 
-    source = fields.Field(
+    source = fields.Raw(
         required=True,
         validate=validate.Equal(
             {
@@ -362,7 +362,7 @@ class EducationalSchema(Schema):
 class CopyrightAndOtherSchema(Schema):
     """Schema for LOM's "rigths.copyrightandotherrestrictions"."""
 
-    source = fields.Field(
+    source = fields.Raw(
         required=True,
         validate=validate.Equal({"langstring": {"#text": "LOMv1.0", "lang": "x-none"}}),
     )
@@ -409,7 +409,7 @@ class TaxonSchema(Schema):
 class TaxonpathSchema(Schema):
     """Schema for LOM's `classification.taxonpath`-category."""
 
-    source = fields.Field(
+    source = fields.Raw(
         required=True,
         validate=validate.Equal(
             {
@@ -431,7 +431,7 @@ class TaxonpathSchema(Schema):
 class ClassificationSchema(Schema):
     """Schema for LOM's `classification`-category."""
 
-    purpose = fields.Field(
+    purpose = fields.Raw(
         required=True,
         validate=validate.Equal(
             {
@@ -457,7 +457,7 @@ class MetadataSchema(Schema):
         unknown = INCLUDE
 
     # passed by parent as to multiplex, removed by parent after load/dump
-    type = fields.Field(validate=validate.Equal("upload"))
+    type = fields.Raw(validate=validate.Equal("upload"))
 
     general = fields.Nested(GeneralSchema, required=True)
     lifecycle = fields.Nested(LifecycleSchema, required=True)

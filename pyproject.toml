@@ -21,3 +21,13 @@ ignore = [
   "TID252",
   "UP009",
 ]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = [
+  "ANN001",
+  "ARG001",
+  "PLR2004",
+  "S105",
+  "SLF001",
+
+]
